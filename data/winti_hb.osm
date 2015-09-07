@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<osm version="0.6" generator="CGImap 0.4.0 (2093 thorn-01.openstreetmap.org)">
+    <node lat="47.459698" lon="8.707948" id="25428975" user="mjulius" timestamp="2014-09-23T23:31:02Z" changeset="25635449" version="8" visible="true"/>
+    <node lat="47.462097" lon="8.707812" id="256156256" user="Nzara" timestamp="2013-08-25T19:55:24Z" changeset="17506311" version="7" visible="true"/>
+    <node lat="47.46143" lon="8.708" id="256156257" user="Nzara" timestamp="2013-08-25T19:55:24Z" changeset="17506311" version="6" visible="true"/>
+    <node lat="47.461082" lon="8.708046" id="256156259" user="Nzara" timestamp="2013-08-25T19:55:24Z" changeset="17506311" version="6" visible="true"/>
+    <node lat="47.46058" lon="8.708068" id="256156260" user="mjulius" timestamp="2014-09-23T23:31:02Z" changeset="25635449" version="7" visible="true"/>
+    <node lat="47.462452" lon="8.707676" id="25430777" user="Nzara" timestamp="2013-08-25T19:55:24Z" changeset="17506311" version="8" visible="true"/>
+    <node lat="47.46331" lon="8.707284" id="256156515" user="Nzara" timestamp="2013-08-25T19:55:24Z" changeset="17506311" version="6" visible="true"/>
+    <node lat="47.462906" lon="8.707474" id="256156516" user="Nzara" timestamp="2013-08-25T19:55:25Z" changeset="17506311" version="6" visible="true"/>
+    <node lat="47.459343" lon="8.707847" id="256156262" user="mjulius" timestamp="2014-09-23T23:31:02Z" changeset="25635449" version="7" visible="true"/>
+    <node lat="47.458973" lon="8.707731" id="256156263" user="mjulius" timestamp="2014-09-23T23:31:02Z" changeset="25635449" version="7" visible="true"/>
+    <node lat="47.46732" lon="8.706687" id="256156582" user="mjulius" timestamp="2014-09-23T23:31:02Z" changeset="25635449" version="7" visible="true"/>
+    <node lat="47.464695" lon="8.706882" id="256156584" user="Nzara" timestamp="2013-08-25T19:55:25Z" changeset="17506311" version="6" visible="true"/>
+    <node lat="47.464367" lon="8.706929" id="256156585" user="Nzara" timestamp="2013-08-25T19:55:25Z" changeset="17506311" version="6" visible="true"/>
+    <node lat="47.464027" lon="8.707016" id="256156586" user="Nzara" timestamp="2013-08-25T19:55:25Z" changeset="17506311" version="6" visible="true"/>
+    <node lat="47.46747" lon="8.7066765" id="436954320" user="mjulius" timestamp="2014-09-23T23:31:03Z" changeset="25635449" version="6" visible="true"/>
+    <node lat="47.455986" lon="8.706744" id="886972849" user="Nzara" timestamp="2013-08-25T19:05:47Z" changeset="17505453" version="4" visible="true"/>
+    <node lat="47.46211" lon="8.707862" id="886973235" user="Nzara" timestamp="2013-08-25T19:55:27Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.4637" lon="8.707182" id="1286018246" user="mdk" timestamp="2011-11-08T21:44:49Z" changeset="9777337" version="2" visible="true"/>
+    <node lat="47.463684" lon="8.70713" id="1286018257" user="Nzara" timestamp="2013-08-25T19:55:23Z" changeset="17506311" version="3" visible="true"/>
+    <node lat="47.461754" lon="8.707927" id="1324453101" user="Nzara" timestamp="2013-08-25T19:55:23Z" changeset="17506311" version="3" visible="true"/>
+    <node lat="47.45933" lon="8.707914" id="886972505" user="mjulius" timestamp="2014-09-23T23:31:03Z" changeset="25635449" version="5" visible="true"/>
+    <node lat="47.46437" lon="8.706985" id="886972548" user="Nzara" timestamp="2013-08-25T19:55:26Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.462914" lon="8.707525" id="886972657" user="Nzara" timestamp="2013-08-25T19:55:26Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.464695" lon="8.706932" id="886973000" user="Nzara" timestamp="2013-08-25T19:55:27Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.463333" lon="8.707325" id="886973141" user="Nzara" timestamp="2013-08-25T19:55:27Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.464027" lon="8.707068" id="886973575" user="Nzara" timestamp="2013-08-25T19:55:28Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.462475" lon="8.707721" id="886973680" user="Nzara" timestamp="2013-08-25T19:55:28Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.461765" lon="8.707985" id="1324454353" user="Nzara" timestamp="2013-08-25T19:55:23Z" changeset="17506311" version="2" visible="true"/>
+    <node lat="47.461437" lon="8.70806" id="886972664" user="Nzara" timestamp="2013-08-25T19:55:26Z" changeset="17506311" version="3" visible="true"/>
+    <node lat="47.461086" lon="8.708111" id="886973684" user="Nzara" timestamp="2013-08-25T19:55:28Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.458965" lon="8.707796" id="886972962" user="mjulius" timestamp="2014-09-23T23:31:03Z" changeset="25635449" version="5" visible="true"/>
+    <node lat="47.46057" lon="8.708136" id="886973243" user="mjulius" timestamp="2014-09-23T23:31:04Z" changeset="25635449" version="5" visible="true"/>
+    <node lat="47.45723" lon="8.707232" id="886973286" user="mjulius" timestamp="2014-09-23T23:31:04Z" changeset="25635449" version="5" visible="true"/>
+    <node lat="47.46812" lon="8.706703" id="886973330" user="mjulius" timestamp="2014-09-23T23:31:04Z" changeset="25635449" version="5" visible="true"/>
+    <node lat="47.467278" lon="8.706749" id="886973461" user="mjulius" timestamp="2014-09-23T23:31:04Z" changeset="25635449" version="5" visible="true"/>
+    <node lat="47.45969" lon="8.7080145" id="886973530" user="mjulius" timestamp="2014-09-23T23:31:04Z" changeset="25635449" version="5" visible="true"/>
+    <node lat="47.467426" lon="8.706734" id="886973873" user="mjulius" timestamp="2014-09-23T23:31:04Z" changeset="25635449" version="5" visible="true"/>
+    <node lat="47.46514" lon="8.706845" id="1495829768" user="mdk" timestamp="2014-03-06T22:15:17Z" changeset="20959771" version="2" visible="true"/>
+    <node lat="47.46514" lon="8.70691" id="1495829767" user="mjulius" timestamp="2014-09-23T23:31:01Z" changeset="25635449" version="3" visible="true"/>
+    <node lat="47.45915" lon="8.707857" id="3093311910" user="mjulius" timestamp="2014-09-23T23:30:47Z" changeset="25635449" version="1" visible="true"/>
+    <node lat="47.45916" lon="8.707791" id="3093311911" user="mjulius" timestamp="2014-09-23T23:30:47Z" changeset="25635449" version="1" visible="true"/>
+    <node lat="47.45951" lon="8.707968" id="3093311912" user="mjulius" timestamp="2014-09-23T23:30:47Z" changeset="25635449" version="1" visible="true"/>
+    <node lat="47.45952" lon="8.707902" id="3093311913" user="mjulius" timestamp="2014-09-23T23:30:47Z" changeset="25635449" version="1" visible="true"/>
+    <node lat="47.459908" lon="8.708061" id="3093311915" user="mjulius" timestamp="2014-09-23T23:30:47Z" changeset="25635449" version="1" visible="true"/>
+    <node lat="47.45991" lon="8.707994" id="3093311916" user="mjulius" timestamp="2014-09-23T23:30:47Z" changeset="25635449" version="1" visible="true"/>
+    <node lat="47.46013" lon="8.708097" id="3093311918" user="mjulius" timestamp="2014-09-23T23:30:47Z" changeset="25635449" version="1" visible="true"/>
+    <node lat="47.46013" lon="8.708033" id="3093311919" user="mjulius" timestamp="2014-09-23T23:30:47Z" changeset="25635449" version="1" visible="true"/>
+    <node lat="47.46035" lon="8.70812" id="3093311920" user="mjulius" timestamp="2014-09-23T23:30:47Z" changeset="25635449" version="1" visible="true"/>
+    <node lat="47.460354" lon="8.7080555" id="3093311921" user="mjulius" timestamp="2014-09-23T23:30:47Z" changeset="25635449" version="1" visible="true"/>
+    <node lat="47.460827" lon="8.708133" id="3093311926" user="mjulius" timestamp="2014-09-23T23:30:47Z" changeset="25635449" version="1" visible="true"/>
+    <node lat="47.46083" lon="8.708064" id="3093311927" user="mjulius" timestamp="2014-09-23T23:30:47Z" changeset="25635449" version="1" visible="true"/>
+    <way id="37405362" user="Nzara" timestamp="2013-08-25T19:55:13Z" changeset="17506311" version="8" visible="true">
+        <nd ref="436954320"/>
+        <nd ref="256156582"/>
+        <tag k="bridge" v="yes"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="layer" v="1"/>
+        <tag k="maxspeed" v="125"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="75137932" user="mjulius" timestamp="2014-09-23T23:31:00Z" changeset="25635449" version="8" visible="true">
+        <nd ref="886973461"/>
+        <nd ref="1495829767"/>
+        <nd ref="886973000"/>
+        <nd ref="886972548"/>
+        <nd ref="886973575"/>
+        <nd ref="1286018246"/>
+        <nd ref="886973141"/>
+        <nd ref="886972657"/>
+        <nd ref="886973680"/>
+        <nd ref="886973235"/>
+        <nd ref="1324454353"/>
+        <nd ref="886972664"/>
+        <nd ref="886973684"/>
+        <nd ref="3093311926"/>
+        <nd ref="886973243"/>
+        <nd ref="3093311920"/>
+        <nd ref="3093311918"/>
+        <nd ref="3093311915"/>
+        <nd ref="886973530"/>
+        <nd ref="3093311912"/>
+        <nd ref="886972505"/>
+        <nd ref="3093311910"/>
+        <nd ref="886972962"/>
+        <nd ref="886973286"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="125"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="75137854" user="Nzara" timestamp="2013-08-25T19:55:14Z" changeset="17506311" version="3" visible="true">
+        <nd ref="886973330"/>
+        <nd ref="886973873"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="125"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="75137960" user="Nzara" timestamp="2013-08-25T19:55:15Z" changeset="17506311" version="3" visible="true">
+        <nd ref="886973873"/>
+        <nd ref="886973461"/>
+        <tag k="bridge" v="yes"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="layer" v="1"/>
+        <tag k="maxspeed" v="125"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="136353509" user="mjulius" timestamp="2014-09-23T23:31:00Z" changeset="25635449" version="5" visible="true">
+        <nd ref="256156582"/>
+        <nd ref="1495829768"/>
+        <nd ref="256156584"/>
+        <nd ref="256156585"/>
+        <nd ref="256156586"/>
+        <nd ref="1286018257"/>
+        <nd ref="256156515"/>
+        <nd ref="256156516"/>
+        <nd ref="25430777"/>
+        <nd ref="256156256"/>
+        <nd ref="1324453101"/>
+        <nd ref="256156257"/>
+        <nd ref="256156259"/>
+        <nd ref="3093311927"/>
+        <nd ref="256156260"/>
+        <nd ref="3093311921"/>
+        <nd ref="3093311919"/>
+        <nd ref="3093311916"/>
+        <nd ref="25428975"/>
+        <nd ref="3093311913"/>
+        <nd ref="256156262"/>
+        <nd ref="3093311911"/>
+        <nd ref="256156263"/>
+        <nd ref="886972849"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="125"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+</osm>
