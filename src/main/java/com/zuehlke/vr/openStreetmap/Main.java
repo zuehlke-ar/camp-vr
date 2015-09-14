@@ -1,5 +1,6 @@
 package com.zuehlke.vr.openStreetmap;
 
+import com.zuehlke.vr.openStreetmap.json.TrackData;
 import net.opengis.kml.DocumentType;
 import net.opengis.kml.KmlType;
 import net.opengis.kml.PlacemarkType;
@@ -20,9 +21,10 @@ public class Main {
 
 
     public static void main(String[] args) throws IOException {
-        ExtendedOsm osm = new ExtendedOsm(new File("data/winti_big.osm"));
-        osm.removeNonRails();
-        osm.write(new File("data/winti_big_rails_only.osm"));
+        ExtendedOsm osm = new ExtendedOsm(new File("data/winti_big2.osm"));
+        osm.removeNonSBBRails();
+        osm.write(new File("data/winti_big2_rails_only.osm"));
+        osm.writeToJson(new File("data/winti_big2_rails_only.json"));
     }
 
     public static void main1(String[] args) throws IOException {

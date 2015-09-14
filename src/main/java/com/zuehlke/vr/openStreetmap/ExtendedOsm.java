@@ -1,6 +1,8 @@
 package com.zuehlke.vr.openStreetmap;
 
+import com.zuehlke.vr.openStreetmap.json.*;
 import generated.osm.*;
+import generated.osm.Node;
 
 import javax.xml.bind.JAXB;
 import java.io.File;
@@ -126,12 +128,30 @@ public class ExtendedOsm {
                 .isPresent();
     }
 
+    private static boolean hasRail(Way way) {
+        return way.getRest().stream()
+                .flatMap(instancesOf(Tag.class))
+                .filter(t -> "railway".equals(t.getK()) && "rail".equals(t.getV()))
+                .findAny()
+                .isPresent();
+    }
+
+    private static boolean isOperatedBySBB(Way way) {
+        return way.getRest().stream()
+                .flatMap(instancesOf(Tag.class))
+                .filter(t -> "operator".equals(t.getK()) && "SBB".equals(t.getV()))
+                .findAny()
+                .isPresent();
+    }
+
     private boolean isReferenced(Object o, List<BigInteger> ids) {
         return o instanceof Node && ids.contains(((Node) o).getId());
     }
 
-    public void removeNonRails() {
+    public void removeNonSBBRails() {
         filter(ways, ExtendedOsm::hasTracks);
+        filter(ways, ExtendedOsm::hasRail);
+        filter(ways, ExtendedOsm::isOperatedBySBB);
         removeUnreferencedNodes();
         relations.clear();
     }
@@ -161,9 +181,37 @@ public class ExtendedOsm {
         JAXB.marshal(osm, file);
     }
 
+    public void writeToJson(File file) throws IOException {
+        removeDuplicates();
+        TrackData json = new TrackData();
+
+        for (Node node : nodes) {
+            json.getNodes().add(new com.zuehlke.vr.openStreetmap.json.Node(node.getId().intValue(), node.getLat(), node.getLon()));
+        }
+
+        for (Way way : ways) {
+            BigInteger last = null;
+            for (BigInteger id : getRefs(way)) {
+                if (last != null) {
+                    json.getTracks().add(new Track(last.intValue(), id.intValue()));
+                }
+                last = id;
+            }
+        }
+
+        json.toFile(file);
+    }
+
 
     public Optional<Node> getNodeById(String id) {
         return getNodeById(new BigInteger(id));
+    }
+
+    public List<BigInteger> getRefs(Way way) {
+        return way.getRest().stream()
+                .flatMap(instancesOf(Nd.class))
+                .map(Nd::getRef)
+                .collect(toList());
     }
 
     public void addNode(long id, double lat, double lon) {
