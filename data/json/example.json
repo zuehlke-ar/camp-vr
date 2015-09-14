@@ -1,0 +1,98 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "lat": 42.563674,
+      "lon": 8.736453
+    },
+    {
+      "id": 1,
+      "lat": 42.563374,
+      "lon": 8.734453
+    },
+    {
+      "id": 2,
+      "lat": 42.563574,
+      "lon": 8.736483
+    },
+    {
+      "id": 3,
+      "lat": 42.563672,
+      "lon": 8.733453
+    }
+  ],
+  "tracks": [
+    {
+      "from": 0,
+      "to": 1
+    },
+    {
+      "from": 1,
+      "to": 2
+    },
+    {
+      "from": 2,
+      "to": 3
+    }
+  ],
+  "objects": [
+    {
+      "id": 4,
+      "ref": 0,
+      "type": "pylon",
+      "name": "name"
+    },
+    {
+      "id": 5,
+      "ref": 3,
+      "type": "switch",
+      "name": "Weiche XY"
+    }
+  ],
+  "run": [
+    {
+      "timestamp": 1348530985,
+      "refFrom": 0,
+      "refTo": 1,
+      "position": 0.1,
+      "measurements": [
+        {
+          "type": "railQuality",
+          "value": 98
+        },
+        {
+          "type": "vibrationLevel",
+          "value": 3
+        }
+      ],
+      "images": [
+        {
+          "type": "frontCamera",
+          "path": "photos/00001.png"
+        }
+      ]
+    },
+    {
+      "timestamp": 1348531985,
+      "refFrom": 0,
+      "refTo": 1,
+      "position": 0.4,
+      "measurements": [
+        {
+          "type": "railQuality",
+          "value": 67
+        },
+        {
+          "type": "vibrationLevel",
+          "value": 20
+        }
+      ],
+      "images": [
+        {
+          "type": "frontCamera",
+          "path": "photos/00002.png"
+        }
+      ]
+    }
+  ]
+}

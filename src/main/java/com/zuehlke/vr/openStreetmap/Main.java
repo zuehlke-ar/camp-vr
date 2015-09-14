@@ -18,9 +18,18 @@ import java.util.List;
 
 public class Main {
 
-    public static void main(String[] args) throws IOException {
 
-        KmlType kml = JAXB.unmarshal(new File("C:\\Users\\user\\IdeaProjects\\openStreetmapImport\\data\\Winterthur - Hardbruecke.kml"), KmlType.class);
+    public static void main(String[] args) throws IOException {
+        ExtendedOsm osm = new ExtendedOsm(new File("data/winti_big.osm"));
+        osm.removeNonRails();
+        osm.write(new File("data/winti_big_rails_only.osm"));
+    }
+
+    public static void main1(String[] args) throws IOException {
+
+        System.out.println(new File(".").getAbsolutePath());
+
+        KmlType kml = JAXB.unmarshal(new File("data/Winterthur - Hardbruecke.kml"), KmlType.class);
 
         DocumentType doc = (DocumentType) kml.getAbstractFeatureGroup().getValue();
         PlacemarkType placemark = (PlacemarkType) doc.getAbstractFeatureGroup().get(1).getValue();
@@ -31,14 +40,14 @@ public class Main {
             addDataPoints(track, dataPoints);
         }
 
-        File osmFile = new File("data\\winti_hb_original.osm");
+        File osmFile = new File("data/winti_hb_original.osm");
 //        ExtendedOsm osm = new ExtendedOsm(8.707025, 47.4664648879, 0.001);
 //        osm.clean();
 //        osm.write(osmFile);
 
         ExtendedOsm osm = new ExtendedOsm(osmFile);
 
-        File osmFile2 = new File("data\\winti_big2.osm");
+        File osmFile2 = new File("data/winti_big2.osm");
 
         System.out.println(dataPoints.size());
 
@@ -48,12 +57,12 @@ public class Main {
         for (int i = 0; i < dataPoints.size(); i++) {
             DataPoint d = dataPoints.get(i);
 //            osm.addNode(i, d.getLatitude(), d.getLongitude());
-            double dist =haversine(lastLatitude,lastLongitude,d.getLatitude(),d.getLongitude());
+            double dist = haversine(lastLatitude, lastLongitude, d.getLatitude(), d.getLongitude());
 
             if (dist > 1) {
                 System.out.println("index: " + i + " " + dist);
-                ExtendedOsm localOsm = new ExtendedOsm(d.getLongitude(), d.getLatitude(), 0.0015);
-                osm.append(localOsm);
+//                ExtendedOsm localOsm = new ExtendedOsm(d.getLongitude(), d.getLatitude(), 0.0015);
+//                osm.append(localOsm);
 //                localOsm.write(new File("data\\temp" + i + ".osm"));
                 lastLongitude = d.getLongitude();
                 lastLatitude = d.getLatitude();
@@ -74,8 +83,7 @@ public class Main {
                 Math.cos(Math.toRadians(lat1)) * Math.cos(Math.toRadians(lat2))
                         * Math.sin(dLon / 2) * Math.sin(dLon / 2);
         double c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-        double d = r * c;
-        return d;
+        return r * c;
     }
 
     private static void addDataPoints(TrackType track, List<DataPoint> dataPoints) {

@@ -13,6 +13,7 @@ import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.function.Function;
 import java.util.function.Predicate;
+import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.toList;
 import static java.util.stream.Collectors.toSet;
@@ -77,35 +78,26 @@ public class ExtendedOsm {
         }
     }
 
-    public void clean() {
-        List<Object> filtered = osm.getBoundOrUserOrPreferences().stream()
-                .filter(o -> o instanceof Node || isRailRelated(o))
-                .collect(toList());
-
-        final List<BigInteger> referencedIds = filtered.stream()
-                .filter(o -> o instanceof Way)
-                .flatMap(o -> ((Way) o).getRest().stream())
-                .filter(o -> o instanceof Nd)
-                .map(o -> ((Nd) o).getRef())
-                .distinct()
-                .collect(toList());
-
-        filtered = filtered.stream()
-                .filter(o -> o instanceof Way || isReferenced(o, referencedIds))
-                .collect(toList());
-
-        osm.getBoundOrUserOrPreferences().clear();
-        osm.getBoundOrUserOrPreferences().addAll(filtered);
-    }
-
-    public void removeDoubles() {
-        List<Object> filtered = osm.getBoundOrUserOrPreferences().stream()
-                .filter(o -> o instanceof Node || isRailRelated(o))
-                .collect(toList());
-
-        osm.getBoundOrUserOrPreferences().clear();
-        osm.getBoundOrUserOrPreferences().addAll(filtered);
-    }
+//    public void clean() {
+//        List<Object> filtered = osm.getBoundOrUserOrPreferences().stream()
+//                .filter(o -> o instanceof Node || isRailRelated(o))
+//                .collect(toList());
+//
+//        final List<BigInteger> referencedIds = filtered.stream()
+//                .filter(o -> o instanceof Way)
+//                .flatMap(o -> ((Way) o).getRest().stream())
+//                .filter(o -> o instanceof Nd)
+//                .map(o -> ((Nd) o).getRef())
+//                .distinct()
+//                .collect(toList());
+//
+//        filtered = filtered.stream()
+//                .filter(o -> o instanceof Way || isReferenced(o, referencedIds))
+//                .collect(toList());
+//
+//        osm.getBoundOrUserOrPreferences().clear();
+//        osm.getBoundOrUserOrPreferences().addAll(filtered);
+//    }
 
     public static <T> Predicate<T> distinctByKey(Function<? super T, Object> keyExtractor) {
         Map<Object, Boolean> seen = new ConcurrentHashMap<>();
@@ -118,27 +110,39 @@ public class ExtendedOsm {
         list.addAll(filtered);
     }
 
-    private boolean isRailRelated(Object o) {
-        if (o instanceof Way) {
-            for (Object rest : ((Way) o).getRest()) {
-                if (rest instanceof Tag) {
-                    Tag tag = (Tag) rest;
-                    if (tag.getK().equals("railway")) {
-                        return true;
-                    }
-                }
-            }
-        }
-        return false;
+    private static boolean isRailRelated(Way way) {
+        return way.getRest().stream()
+                .flatMap(instancesOf(Tag.class))
+                .filter(t -> "railway".equals(t.getK()))
+                .findAny()
+                .isPresent();
+    }
+
+    private static boolean hasTracks(Way way) {
+        return way.getRest().stream()
+                .flatMap(instancesOf(Tag.class))
+                .filter(t -> "tracks".equals(t.getK()))
+                .findAny()
+                .isPresent();
     }
 
     private boolean isReferenced(Object o, List<BigInteger> ids) {
         return o instanceof Node && ids.contains(((Node) o).getId());
     }
 
+    public void removeNonRails() {
+        filter(ways, ExtendedOsm::hasTracks);
+        removeUnreferencedNodes();
+        relations.clear();
+    }
+
     public void removeUnreferencedNodes() {
-        Set<BigInteger> referencedIds = ways.stream().map(Way::getId).collect(toSet());
-        referencedIds.addAll(relations.stream().map(Relation::getId).collect(toSet()));
+        Set<BigInteger> referencedIds =
+                ways.stream()
+                        .flatMap(w -> w.getRest().stream())
+                        .flatMap(instancesOf(Nd.class))
+                        .map(Nd::getRef)
+                        .collect(toSet());
         filter(nodes, n -> referencedIds.contains(n.getId()));
     }
 
@@ -186,5 +190,11 @@ public class ExtendedOsm {
                 .filter(n -> n.getId().equals(id))
                 .findFirst();
         return node;
+    }
+
+    public static <E> Function<Object, Stream<E>> instancesOf(Class<E> cls) {
+        return o -> cls.isInstance(o)
+                ? Stream.of(cls.cast(o))
+                : Stream.empty();
     }
 }
