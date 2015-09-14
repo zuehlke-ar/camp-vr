@@ -1,0 +1,60 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "lat": 1,
+      "lon": 1
+    },
+    {
+      "id": 1,
+      "lat": 5,
+      "lon": 5
+    }
+  ],
+  "tracks": [
+    {
+      "fromRef": 0,
+      "toRef": 1
+    }
+  ],
+  "run": {
+    "name": "name",
+    "timestamp": 0,
+    "points": [
+      {
+        "timestamp": 0,
+        "fromRef": 0,
+        "toRef": 1,
+        "position": 0.0,
+        "measurements": {
+          "trackQuality": 100.0,
+          "speed": 20.3
+        },
+        "photos": [
+          {
+            "path": "data/img/photo0.png",
+            "height": 1.0,
+            "direction": 0.0
+          }
+        ]
+      },
+      {
+        "timestamp": 1000,
+        "fromRef": 0,
+        "toRef": 1,
+        "position": 0.9,
+        "measurements": {
+          "trackQuality": 85.4,
+          "speed": 19.4
+        },
+        "photos": [
+          {
+            "path": "data/img/photo1.png",
+            "height": 1.0,
+            "direction": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}
