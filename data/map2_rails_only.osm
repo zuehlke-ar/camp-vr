@@ -1,0 +1,3391 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<osm version="0.6" generator="JOSM">
+    <node lat="47.477936" lon="8.706268" id="25428307" user="Nzara" timestamp="2013-08-25T19:55:24Z" changeset="17506311" version="9" visible="true"/>
+    <node lat="47.47089" lon="8.706428" id="25428609" user="mjulius" timestamp="2014-09-23T23:31:02Z" changeset="25635449" version="12" visible="true"/>
+    <node lat="47.480713" lon="8.707894" id="25428963" user="Nzara" timestamp="2013-08-25T19:55:24Z" changeset="17506311" version="9" visible="true"/>
+    <node lat="47.459698" lon="8.707948" id="25428975" user="mjulius" timestamp="2014-09-23T23:31:02Z" changeset="25635449" version="8" visible="true"/>
+    <node lat="47.47627" lon="8.7060375" id="25429029" user="Nzara" timestamp="2013-08-25T19:55:24Z" changeset="17506311" version="10" visible="true"/>
+    <node lat="47.46988" lon="8.706493" id="25429674" user="Nzara" timestamp="2013-08-25T19:55:24Z" changeset="17506311" version="15" visible="true"/>
+    <node lat="47.462452" lon="8.707676" id="25430777" user="Nzara" timestamp="2013-08-25T19:55:24Z" changeset="17506311" version="8" visible="true"/>
+    <node lat="47.481037" lon="8.708168" id="25475631" user="mdk" timestamp="2013-08-26T00:29:19Z" changeset="17508929" version="16" visible="true"/>
+    <node lat="47.496784" lon="8.695541" id="25499343" user="mjulius" timestamp="2014-09-18T21:47:09Z" changeset="25530789" version="3" visible="true"/>
+    <node lat="47.495995" lon="8.696724" id="25499347" user="fnord" timestamp="2007-01-28T15:38:40Z" changeset="204023" version="1" visible="true"/>
+    <node lat="47.493782" lon="8.700211" id="25499382" user="mjulius" timestamp="2014-09-18T21:47:09Z" changeset="25530789" version="6" visible="true"/>
+    <node lat="47.492523" lon="8.701951" id="25499523" user="mdk" timestamp="2013-08-27T00:16:35Z" changeset="17527633" version="4" visible="true"/>
+    <node lat="47.49141" lon="8.703301" id="25499525" user="ueliw0" timestamp="2011-06-19T11:55:58Z" changeset="8483164" version="3" visible="true"/>
+    <node lat="47.490543" lon="8.704323" id="25499534" user="ueliw0" timestamp="2011-06-19T11:55:58Z" changeset="8483164" version="4" visible="true"/>
+    <node lat="47.489662" lon="8.70594" id="25499535" user="ueliw0" timestamp="2011-06-19T11:55:58Z" changeset="8483164" version="7" visible="true"/>
+    <node lat="47.4895" lon="8.706667" id="25500129" user="ueliw0" timestamp="2011-06-19T11:55:58Z" changeset="8483164" version="6" visible="true"/>
+    <node lat="47.489456" lon="8.707678" id="25500131" user="Nzara" timestamp="2013-08-25T12:35:00Z" changeset="17498630" version="7" visible="true"/>
+    <node lat="47.489716" lon="8.710185" id="25500154" user="Nzara" timestamp="2013-08-25T12:35:00Z" changeset="17498630" version="9" visible="true">
+        <tag k="public_transport" v="stop_position"/>
+        <tag k="railway" v="stop"/>
+        <tag k="train" v="yes"/>
+    </node>
+    <node lat="47.490112" lon="8.713364" id="25500240" user="Nzara" timestamp="2013-08-25T12:35:00Z" changeset="17498630" version="7" visible="true"/>
+    <node lat="47.490387" lon="8.714507" id="25500242" user="Nzara" timestamp="2013-08-25T12:35:00Z" changeset="17498630" version="7" visible="true"/>
+    <node lat="47.501" lon="8.724321" id="34489423" user="mdk" timestamp="2011-01-10T01:22:50Z" changeset="6922586" version="4" visible="true">
+        <tag k="railway" v="buffer_stop"/>
+    </node>
+    <node lat="47.50258" lon="8.725512" id="34489424" user="Nzara" timestamp="2013-08-26T13:24:19Z" changeset="17517221" version="3" visible="true"/>
+    <node lat="47.502174" lon="8.724858" id="34489729" user="mdk" timestamp="2011-01-10T01:21:42Z" changeset="6922586" version="3" visible="true"/>
+    <node lat="47.498585" lon="8.722104" id="34489731" user="Nzara" timestamp="2013-08-26T12:38:16Z" changeset="17516346" version="6" visible="true"/>
+    <node lat="47.502083" lon="8.724653" id="34489801" user="Nzara" timestamp="2013-08-26T13:24:19Z" changeset="17517221" version="8" visible="true"/>
+    <node lat="47.501385" lon="8.723982" id="34489802" user="Nzara" timestamp="2013-08-26T14:35:16Z" changeset="17518616" version="7" visible="true"/>
+    <node lat="47.499237" lon="8.722387" id="34489803" user="Nzara" timestamp="2013-08-26T12:38:16Z" changeset="17516346" version="6" visible="true"/>
+    <node lat="47.5024" lon="8.725211" id="34490074" user="mdk" timestamp="2011-01-10T01:23:05Z" changeset="6922586" version="7" visible="true"/>
+    <node lat="47.5004" lon="8.723634" id="34490075" user="mdk" timestamp="2015-05-30T14:40:29Z" changeset="31585619" version="10" visible="true">
+        <tag k="name" v="Winterthur"/>
+        <tag k="name:de" v="Winterthur"/>
+        <tag k="name:fr" v="Winterthour"/>
+        <tag k="public_transport" v="stop_position"/>
+        <tag k="train" v="yes"/>
+    </node>
+    <node lat="47.50234" lon="8.724846" id="34490085" user="Nzara" timestamp="2013-08-26T13:24:19Z" changeset="17517221" version="7" visible="true"/>
+    <node lat="47.498817" lon="8.722097" id="34490087" user="mdk" timestamp="2011-01-10T01:22:13Z" changeset="6922586" version="9" visible="true"/>
+    <node lat="47.46818" lon="8.706629" id="97819597" user="mjulius" timestamp="2014-09-23T23:31:04Z" changeset="25635449" version="9" visible="true"/>
+    <node lat="47.488167" lon="8.714275" id="102271320" user="Nzara" timestamp="2013-08-25T19:55:23Z" changeset="17506311" version="7" visible="true"/>
+    <node lat="47.48841" lon="8.714508" id="102271322" user="Nzara" timestamp="2013-08-25T19:55:23Z" changeset="17506311" version="6" visible="true"/>
+    <node lat="47.488914" lon="8.715072" id="102271323" user="Nzara" timestamp="2013-08-25T19:55:23Z" changeset="17506311" version="7" visible="true"/>
+    <node lat="47.489304" lon="8.715787" id="102271324" user="Nzara" timestamp="2013-08-25T19:55:23Z" changeset="17506311" version="7" visible="true"/>
+    <node lat="47.4954" lon="8.720765" id="102271334" user="Nzara" timestamp="2013-08-26T12:38:14Z" changeset="17516346" version="8" visible="true">
+        <tag k="railway" v="switch"/>
+    </node>
+    <node lat="47.496246" lon="8.721281" id="102271337" user="Nzara" timestamp="2013-08-26T12:38:14Z" changeset="17516346" version="7" visible="true">
+        <tag k="railway" v="buffer_stop"/>
+    </node>
+    <node lat="47.4951" lon="8.720538" id="102271692" user="Nzara" timestamp="2013-08-26T12:38:14Z" changeset="17516346" version="6" visible="true"/>
+    <node lat="47.496975" lon="8.721089" id="102271907" user="Nzara" timestamp="2013-08-26T12:38:14Z" changeset="17516346" version="5" visible="true"/>
+    <node lat="47.496647" lon="8.720836" id="102271908" user="mdk" timestamp="2013-08-26T22:27:13Z" changeset="17526834" version="6" visible="true"/>
+    <node lat="47.487434" lon="8.713781" id="240969611" user="mdk" timestamp="2013-08-27T00:16:24Z" changeset="17527633" version="9" visible="true"/>
+    <node lat="47.489456" lon="8.707144" id="243857461" user="ueliw0" timestamp="2011-06-19T11:55:56Z" changeset="8483164" version="8" visible="true">
+        <tag k="railway" v="level_crossing"/>
+    </node>
+    <node lat="47.479534" lon="8.707004" id="245070557" user="Nzara" timestamp="2013-08-25T19:55:24Z" changeset="17506311" version="7" visible="true"/>
+    <node lat="47.472897" lon="8.706338" id="245070647" user="mjulius" timestamp="2014-09-23T23:31:02Z" changeset="25635449" version="7" visible="true"/>
+    <node lat="47.476265" lon="8.706084" id="245070648" user="Nzara" timestamp="2013-08-25T19:55:24Z" changeset="17506311" version="6" visible="true"/>
+    <node lat="47.489574" lon="8.706254" id="246540643" user="ueliw0" timestamp="2011-06-19T11:55:57Z" changeset="8483164" version="5" visible="true"/>
+    <node lat="47.48978" lon="8.705598" id="246540644" user="ueliw0" timestamp="2011-06-19T11:55:57Z" changeset="8483164" version="6" visible="true"/>
+    <node lat="47.462097" lon="8.707812" id="256156256" user="Nzara" timestamp="2013-08-25T19:55:24Z" changeset="17506311" version="7" visible="true"/>
+    <node lat="47.46143" lon="8.708" id="256156257" user="Nzara" timestamp="2013-08-25T19:55:24Z" changeset="17506311" version="6" visible="true"/>
+    <node lat="47.461082" lon="8.708046" id="256156259" user="Nzara" timestamp="2013-08-25T19:55:24Z" changeset="17506311" version="6" visible="true"/>
+    <node lat="47.46058" lon="8.708068" id="256156260" user="mjulius" timestamp="2014-09-23T23:31:02Z" changeset="25635449" version="7" visible="true"/>
+    <node lat="47.459343" lon="8.707847" id="256156262" user="mjulius" timestamp="2014-09-23T23:31:02Z" changeset="25635449" version="7" visible="true"/>
+    <node lat="47.458973" lon="8.707731" id="256156263" user="mjulius" timestamp="2014-09-23T23:31:02Z" changeset="25635449" version="7" visible="true"/>
+    <node lat="47.46331" lon="8.707284" id="256156515" user="Nzara" timestamp="2013-08-25T19:55:24Z" changeset="17506311" version="6" visible="true"/>
+    <node lat="47.462906" lon="8.707474" id="256156516" user="Nzara" timestamp="2013-08-25T19:55:25Z" changeset="17506311" version="6" visible="true"/>
+    <node lat="47.46732" lon="8.706687" id="256156582" user="mjulius" timestamp="2014-09-23T23:31:02Z" changeset="25635449" version="7" visible="true"/>
+    <node lat="47.464695" lon="8.706882" id="256156584" user="Nzara" timestamp="2013-08-25T19:55:25Z" changeset="17506311" version="6" visible="true"/>
+    <node lat="47.464367" lon="8.706929" id="256156585" user="Nzara" timestamp="2013-08-25T19:55:25Z" changeset="17506311" version="6" visible="true"/>
+    <node lat="47.464027" lon="8.707016" id="256156586" user="Nzara" timestamp="2013-08-25T19:55:25Z" changeset="17506311" version="6" visible="true"/>
+    <node lat="47.47557" lon="8.706072" id="256156881" user="Nzara" timestamp="2013-08-25T19:55:25Z" changeset="17506311" version="7" visible="true"/>
+    <node lat="47.476692" lon="8.706049" id="256156913" user="Nzara" timestamp="2013-08-25T19:55:25Z" changeset="17506311" version="7" visible="true"/>
+    <node lat="47.480305" lon="8.707566" id="256156999" user="Nzara" timestamp="2013-08-25T19:55:25Z" changeset="17506311" version="7" visible="true"/>
+    <node lat="47.479908" lon="8.707266" id="256157000" user="Nzara" timestamp="2013-08-25T19:55:25Z" changeset="17506311" version="6" visible="true"/>
+    <node lat="47.47915" lon="8.706772" id="256157001" user="Nzara" timestamp="2013-08-25T19:55:25Z" changeset="17506311" version="6" visible="true"/>
+    <node lat="47.47875" lon="8.7065735" id="256157002" user="Nzara" timestamp="2013-08-25T19:55:25Z" changeset="17506311" version="6" visible="true"/>
+    <node lat="47.478348" lon="8.706407" id="256157003" user="Nzara" timestamp="2013-08-25T19:55:25Z" changeset="17506311" version="6" visible="true"/>
+    <node lat="47.484924" lon="8.711295" id="256157049" user="Nzara" timestamp="2013-08-25T19:55:25Z" changeset="17506311" version="5" visible="true"/>
+    <node lat="47.490887" lon="8.716049" id="256157183" user="Nzara" timestamp="2013-08-25T12:35:00Z" changeset="17498630" version="7" visible="true"/>
+    <node lat="47.490063" lon="8.715361" id="256157184" user="Nzara" timestamp="2013-08-25T19:55:25Z" changeset="17506311" version="7" visible="true"/>
+    <node lat="47.488758" lon="8.714231" id="256157185" user="Nzara" timestamp="2013-08-25T12:35:00Z" changeset="17498630" version="5" visible="true"/>
+    <node lat="47.48737" lon="8.713124" id="256157186" user="Nzara" timestamp="2013-08-25T19:55:25Z" changeset="17506311" version="7" visible="true"/>
+    <node lat="47.49179" lon="8.716689" id="256157335" user="Nzara" timestamp="2013-08-25T12:35:00Z" changeset="17498630" version="11" visible="true"/>
+    <node lat="47.491043" lon="8.71584" id="256157336" user="Nzara" timestamp="2013-08-25T12:35:00Z" changeset="17498630" version="6" visible="true"/>
+    <node lat="47.490646" lon="8.715116" id="256157337" user="Nzara" timestamp="2013-08-25T12:35:00Z" changeset="17498630" version="7" visible="true"/>
+    <node lat="47.490463" lon="8.714711" id="256157338" user="Nzara" timestamp="2013-08-25T12:35:01Z" changeset="17498630" version="6" visible="true"/>
+    <node lat="47.498528" lon="8.722328" id="256157884" user="Nzara" timestamp="2013-08-26T12:38:16Z" changeset="17516346" version="5" visible="true">
+        <tag k="railway" v="buffer_stop"/>
+    </node>
+    <node lat="47.501377" lon="8.723764" id="256624345" user="mdk" timestamp="2011-01-10T01:24:09Z" changeset="6922586" version="4" visible="true"/>
+    <node lat="47.499825" lon="8.722559" id="256624347" user="mdk" timestamp="2011-01-10T01:23:20Z" changeset="6922586" version="4" visible="true"/>
+    <node lat="47.499382" lon="8.722316" id="256624372" user="Nzara" timestamp="2013-08-26T14:35:16Z" changeset="17518616" version="6" visible="true"/>
+    <node lat="47.49972" lon="8.722837" id="256624408" user="mdk" timestamp="2011-01-10T01:21:42Z" changeset="6922586" version="4" visible="true"/>
+    <node lat="47.49711" lon="8.695155" id="257387068" user="ueliw0" timestamp="2011-06-19T11:55:58Z" changeset="8483164" version="2" visible="true"/>
+    <node lat="47.49001" lon="8.705093" id="257387181" user="_kendell" timestamp="2009-01-24T15:21:25Z" changeset="832103" version="2" visible="true"/>
+    <node lat="47.49023" lon="8.704733" id="257387182" user="_kendell" timestamp="2009-01-24T15:21:25Z" changeset="832103" version="2" visible="true"/>
+    <node lat="47.493176" lon="8.70108" id="257387183" user="mjulius" timestamp="2014-09-18T21:47:09Z" changeset="25530789" version="5" visible="true"/>
+    <node lat="47.49647" lon="8.695978" id="257387184" user="pi1" timestamp="2008-04-13T16:37:59Z" changeset="136285" version="1" visible="true"/>
+    <node lat="47.490208" lon="8.713869" id="257387349" user="Nzara" timestamp="2013-08-25T12:35:01Z" changeset="17498630" version="6" visible="true"/>
+    <node lat="47.48951" lon="8.708506" id="257387351" user="Nzara" timestamp="2013-08-25T12:35:01Z" changeset="17498630" version="5" visible="true"/>
+    <node lat="47.48945" lon="8.707407" id="257387352" user="Nzara" timestamp="2013-08-25T12:35:01Z" changeset="17498630" version="6" visible="true"/>
+    <node lat="47.484478" lon="8.7108965" id="316190986" user="mdk" timestamp="2013-08-26T00:29:19Z" changeset="17508929" version="7" visible="true"/>
+    <node lat="47.4847" lon="8.711079" id="316190987" user="mdk" timestamp="2013-08-26T00:29:19Z" changeset="17508929" version="7" visible="true"/>
+    <node lat="47.490944" lon="8.703858" id="319810146" user="_kendell" timestamp="2009-01-24T15:21:25Z" changeset="832103" version="2" visible="true"/>
+    <node lat="47.49797" lon="8.721551" id="332102801" user="Nzara" timestamp="2013-08-26T12:38:16Z" changeset="17516346" version="4" visible="true"/>
+    <node lat="47.498104" lon="8.721656" id="332102802" user="Nzara" timestamp="2013-08-26T12:38:16Z" changeset="17516346" version="8" visible="true"/>
+    <node lat="47.488785" lon="8.714179" id="334262625" user="Nzara" timestamp="2013-08-25T12:35:01Z" changeset="17498630" version="7" visible="true"/>
+    <node lat="47.48773" lon="8.71333" id="334262633" user="Nzara" timestamp="2013-08-25T19:55:25Z" changeset="17506311" version="8" visible="true"/>
+    <node lat="47.484745" lon="8.710938" id="334262643" user="mdk" timestamp="2013-08-26T00:29:19Z" changeset="17508929" version="7" visible="true"/>
+    <node lat="47.484516" lon="8.710761" id="334262644" user="mdk" timestamp="2013-08-26T00:29:19Z" changeset="17508929" version="7" visible="true"/>
+    <node lat="47.48074" lon="8.707966" action="modify" id="334262653" user="Nzara" timestamp="2013-08-25T19:55:25Z" changeset="17506311" version="5" visible="true"/>
+    <node lat="47.480312" lon="8.707857" action="modify" id="334262656" user="Nzara" timestamp="2013-08-25T19:55:25Z" changeset="17506311" version="7" visible="true"/>
+    <node lat="47.47987" lon="8.707745" action="modify" id="334262658" user="Nzara" timestamp="2013-08-25T19:55:25Z" changeset="17506311" version="6" visible="true"/>
+    <node lat="47.479477" lon="8.707644" action="modify" id="334262661" user="Nzara" timestamp="2013-08-25T19:55:25Z" changeset="17506311" version="6" visible="true"/>
+    <node lat="47.479076" lon="8.707542" action="modify" id="334262664" user="Nzara" timestamp="2013-08-25T19:55:25Z" changeset="17506311" version="6" visible="true"/>
+    <node lat="47.478657" lon="8.707436" action="modify" id="334262667" user="Nzara" timestamp="2013-08-25T19:55:25Z" changeset="17506311" version="7" visible="true"/>
+    <node lat="47.478245" lon="8.707331" action="modify" id="334262670" user="Nzara" timestamp="2013-08-25T19:55:25Z" changeset="17506311" version="6" visible="true"/>
+    <node lat="47.477825" lon="8.707224" action="modify" id="334262672" user="Nzara" timestamp="2013-08-25T19:55:25Z" changeset="17506311" version="6" visible="true"/>
+    <node lat="47.477287" lon="8.707087" action="modify" id="334262701" user="Nzara" timestamp="2013-08-25T19:55:25Z" changeset="17506311" version="6" visible="true"/>
+    <node lat="47.476593" lon="8.706909" action="modify" id="334262706" user="Nzara" timestamp="2013-08-25T19:55:25Z" changeset="17506311" version="6" visible="true"/>
+    <node lat="47.476173" lon="8.706801" action="modify" id="334262710" user="Nzara" timestamp="2013-08-25T19:55:25Z" changeset="17506311" version="6" visible="true"/>
+    <node lat="47.47574" lon="8.706691" action="modify" id="334262712" user="Nzara" timestamp="2013-08-25T19:55:25Z" changeset="17506311" version="6" visible="true"/>
+    <node lat="47.47525" lon="8.706566" action="modify" id="334262713" user="Nzara" timestamp="2013-08-25T19:55:25Z" changeset="17506311" version="6" visible="true"/>
+    <node lat="47.474857" lon="8.706467" action="modify" id="334262716" user="Nzara" timestamp="2013-08-25T19:55:25Z" changeset="17506311" version="7" visible="true"/>
+    <node lat="47.473824" lon="8.7062025" id="334262718" user="Nzara" timestamp="2013-08-25T19:55:25Z" changeset="17506311" version="8" visible="true"/>
+    <node lat="47.50052" lon="8.723301" id="361193792" user="mdk" timestamp="2015-05-30T14:40:29Z" changeset="31585619" version="9" visible="true">
+        <tag k="name" v="Winterthur"/>
+        <tag k="name:de" v="Winterthur"/>
+        <tag k="name:fr" v="Winterthour"/>
+        <tag k="public_transport" v="stop_position"/>
+        <tag k="train" v="yes"/>
+    </node>
+    <node lat="47.46747" lon="8.7066765" id="436954320" user="mjulius" timestamp="2014-09-23T23:31:03Z" changeset="25635449" version="6" visible="true"/>
+    <node lat="47.494263" lon="8.699481" id="521895839" user="mjulius" timestamp="2014-09-18T21:47:10Z" changeset="25530789" version="7" visible="true"/>
+    <node lat="47.492306" lon="8.702213" id="521896026" user="mdk" timestamp="2013-08-27T00:16:41Z" changeset="17527633" version="5" visible="true"/>
+    <node lat="47.472534" lon="8.706301" id="597879250" user="mjulius" timestamp="2014-09-23T23:31:03Z" changeset="25635449" version="6" visible="true"/>
+    <node lat="47.472637" lon="8.706295" id="597879255" user="mjulius" timestamp="2014-09-23T23:31:03Z" changeset="25635449" version="6" visible="true"/>
+    <node lat="47.48112" lon="8.708063" id="597879277" user="mdk" timestamp="2013-08-26T00:29:23Z" changeset="17508929" version="5" visible="true"/>
+    <node lat="47.4817" lon="8.708503" id="597879285" user="Nzara" timestamp="2013-08-25T19:55:26Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.477398" lon="8.70614" id="623014173" user="Nzara" timestamp="2013-08-25T19:55:26Z" changeset="17506311" version="7" visible="true"/>
+    <node lat="47.476692" lon="8.706096" id="623014175" user="Nzara" timestamp="2013-08-25T19:55:26Z" changeset="17506311" version="5" visible="true"/>
+    <node lat="47.49598" lon="8.71896" id="639300826" user="mdk" timestamp="2010-12-31T16:46:34Z" changeset="6821682" version="2" visible="true">
+        <tag k="railway" v="buffer_stop"/>
+    </node>
+    <node lat="47.495815" lon="8.719237" id="639300829" user="Nzara" timestamp="2013-08-26T12:38:16Z" changeset="17516346" version="3" visible="true"/>
+    <node lat="47.49579" lon="8.719295" id="639300830" user="Nzara" timestamp="2013-08-26T12:38:16Z" changeset="17516346" version="3" visible="true"/>
+    <node lat="47.495983" lon="8.719126" id="639300831" user="Nzara" timestamp="2013-08-26T12:38:16Z" changeset="17516346" version="3" visible="true"/>
+    <node lat="47.495914" lon="8.719083" id="639300832" user="Nzara" timestamp="2013-08-26T12:38:16Z" changeset="17516346" version="3" visible="true"/>
+    <node lat="47.495872" lon="8.719128" id="639300833" user="Nzara" timestamp="2013-08-26T12:38:16Z" changeset="17516346" version="3" visible="true"/>
+    <node lat="47.495846" lon="8.719179" id="639300834" user="Nzara" timestamp="2013-08-26T12:38:16Z" changeset="17516346" version="3" visible="true"/>
+    <node lat="47.496178" lon="8.719525" id="639300837" user="Nzara" timestamp="2013-08-26T12:38:17Z" changeset="17516346" version="3" visible="true"/>
+    <node lat="47.496265" lon="8.719661" id="639300839" user="Nzara" timestamp="2013-08-26T12:38:17Z" changeset="17516346" version="3" visible="true"/>
+    <node lat="47.496174" lon="8.719533" id="639300840" user="Nzara" timestamp="2013-08-26T12:38:17Z" changeset="17516346" version="3" visible="true"/>
+    <node lat="47.49625" lon="8.719684" id="639300841" user="Nzara" timestamp="2013-08-26T12:38:17Z" changeset="17516346" version="3" visible="true"/>
+    <node lat="47.496166" lon="8.71954" id="639300844" user="Nzara" timestamp="2013-08-26T12:38:17Z" changeset="17516346" version="3" visible="true"/>
+    <node lat="47.496162" lon="8.719548" id="639300845" user="Nzara" timestamp="2013-08-26T12:38:17Z" changeset="17516346" version="3" visible="true"/>
+    <node lat="47.49616" lon="8.719555" id="639300846" user="Nzara" timestamp="2013-08-26T12:38:17Z" changeset="17516346" version="3" visible="true"/>
+    <node lat="47.496155" lon="8.719566" id="639300847" user="Nzara" timestamp="2013-08-26T12:38:17Z" changeset="17516346" version="3" visible="true"/>
+    <node lat="47.496098" lon="8.719706" id="639300850" user="Nzara" timestamp="2013-08-26T12:38:17Z" changeset="17516346" version="3" visible="true">
+        <tag k="railway" v="buffer_stop"/>
+    </node>
+    <node lat="47.496117" lon="8.719785" id="639300851" user="Nzara" timestamp="2013-08-26T12:38:17Z" changeset="17516346" version="3" visible="true">
+        <tag k="railway" v="buffer_stop"/>
+    </node>
+    <node lat="47.496098" lon="8.719833" id="639300852" user="Nzara" timestamp="2013-08-26T12:38:17Z" changeset="17516346" version="3" visible="true">
+        <tag k="railway" v="buffer_stop"/>
+    </node>
+    <node lat="47.496513" lon="8.719919" id="639300853" user="Nzara" timestamp="2013-08-26T12:38:17Z" changeset="17516346" version="3" visible="true"/>
+    <node lat="47.496506" lon="8.720083" id="639300854" user="Nzara" timestamp="2013-08-26T12:38:17Z" changeset="17516346" version="4" visible="true"/>
+    <node lat="47.49681" lon="8.720276" id="639300855" user="Nzara" timestamp="2013-08-26T12:38:17Z" changeset="17516346" version="3" visible="true"/>
+    <node lat="47.496696" lon="8.720311" id="639300857" user="Nzara" timestamp="2013-08-26T12:38:17Z" changeset="17516346" version="3" visible="true"/>
+    <node lat="47.497128" lon="8.720693" id="639300858" user="Nzara" timestamp="2013-08-26T12:38:17Z" changeset="17516346" version="3" visible="true"/>
+    <node lat="47.496872" lon="8.720514" id="639300859" user="Nzara" timestamp="2013-08-26T12:38:17Z" changeset="17516346" version="4" visible="true"/>
+    <node lat="47.497528" lon="8.7212" id="639300860" user="Nzara" timestamp="2013-08-26T12:38:17Z" changeset="17516346" version="3" visible="true"/>
+    <node lat="47.489433" lon="8.706921" id="874803143" user="Nzara" timestamp="2013-08-25T12:35:01Z" changeset="17498630" version="4" visible="true"/>
+    <node lat="47.489388" lon="8.7158575" id="886972483" user="Nzara" timestamp="2013-08-25T19:55:26Z" changeset="17506311" version="3" visible="true"/>
+    <node lat="47.45933" lon="8.707914" id="886972505" user="mjulius" timestamp="2014-09-23T23:31:03Z" changeset="25635449" version="5" visible="true"/>
+    <node lat="47.491596" lon="8.717038" id="886972509" user="Nzara" timestamp="2013-08-25T19:55:26Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.4907" lon="8.716115" id="886972527" user="Nzara" timestamp="2013-08-25T12:35:01Z" changeset="17498630" version="5" visible="true"/>
+    <node lat="47.49631" lon="8.720546" id="886972541" user="Nzara" timestamp="2013-08-26T12:38:17Z" changeset="17516346" version="5" visible="true"/>
+    <node lat="47.48969" lon="8.71587" id="886972545" user="Nzara" timestamp="2013-08-25T20:00:31Z" changeset="17506451" version="3" visible="true"/>
+    <node lat="47.46437" lon="8.706985" id="886972548" user="Nzara" timestamp="2013-08-25T19:55:26Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.493454" lon="8.718988" id="886972592" user="Nzara" timestamp="2013-08-25T19:55:26Z" changeset="17506311" version="6" visible="true">
+        <tag k="railway" v="switch"/>
+    </node>
+    <node lat="47.490917" lon="8.71599" id="886972611" user="Nzara" timestamp="2013-08-25T19:55:26Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.489326" lon="8.715441" id="886972619" user="Nzara" timestamp="2013-08-25T19:55:26Z" changeset="17506311" version="3" visible="true">
+        <tag k="railway" v="buffer_stop"/>
+    </node>
+    <node lat="47.47298" lon="8.706268" id="886972626" user="mjulius" timestamp="2014-09-23T23:31:03Z" changeset="25635449" version="5" visible="true"/>
+    <node lat="47.49272" lon="8.718311" id="886972628" user="Nzara" timestamp="2013-08-25T19:55:26Z" changeset="17506311" version="5" visible="true"/>
+    <node lat="47.472534" lon="8.706331" id="886972642" user="mjulius" timestamp="2014-09-23T23:31:03Z" changeset="25635449" version="5" visible="true"/>
+    <node lat="47.495525" lon="8.720095" id="886972645" user="Nzara" timestamp="2013-08-26T12:38:17Z" changeset="17516346" version="5" visible="true"/>
+    <node lat="47.462914" lon="8.707525" id="886972657" user="Nzara" timestamp="2013-08-25T19:55:26Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.48916" lon="8.715412" id="886972661" user="Nzara" timestamp="2013-08-25T19:55:26Z" changeset="17506311" version="3" visible="true"/>
+    <node lat="47.461437" lon="8.70806" id="886972664" user="Nzara" timestamp="2013-08-25T19:55:26Z" changeset="17506311" version="3" visible="true"/>
+    <node lat="47.490913" lon="8.716445" id="886972665" user="Nzara" timestamp="2013-08-25T19:55:26Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.490334" lon="8.715808" id="886972667" user="Nzara" timestamp="2013-08-25T19:55:26Z" changeset="17506311" version="5" visible="true"/>
+    <node lat="47.49132" lon="8.716229" id="886972676" user="Nzara" timestamp="2013-08-25T12:35:01Z" changeset="17498630" version="2" visible="true"/>
+    <node lat="47.477398" lon="8.706185" id="886972684" user="Nzara" timestamp="2013-08-25T19:55:26Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.4861" lon="8.71231" id="886972742" user="Nzara" timestamp="2013-08-25T19:55:26Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.470894" lon="8.7064905" id="886972744" user="mjulius" timestamp="2014-09-23T23:31:03Z" changeset="25635449" version="4" visible="true"/>
+    <node lat="47.489407" lon="8.715314" id="886972762" user="mdk" timestamp="2011-11-10T01:36:40Z" changeset="9786127" version="2" visible="true">
+        <tag k="railway" v="buffer_stop"/>
+    </node>
+    <node lat="47.479137" lon="8.706824" id="886972776" user="Nzara" timestamp="2013-08-25T19:55:26Z" changeset="17506311" version="3" visible="true"/>
+    <node lat="47.491657" lon="8.717193" id="886972777" user="Nzara" timestamp="2013-08-25T19:55:26Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.49194" lon="8.716893" id="886972793" user="mdk" timestamp="2011-11-10T01:36:40Z" changeset="9786127" version="2" visible="true"/>
+    <node lat="47.492462" lon="8.718036" id="886972805" user="Nzara" timestamp="2013-08-25T19:55:26Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.48569" lon="8.71204" id="886972834" user="Nzara" timestamp="2013-08-25T19:55:26Z" changeset="17506311" version="3" visible="true">
+        <tag k="railway" v="buffer_stop"/>
+    </node>
+    <node lat="47.48726" lon="8.713587" id="886972836" user="Nzara" timestamp="2013-08-25T19:55:26Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.480286" lon="8.707608" id="886972843" user="Nzara" timestamp="2013-08-25T19:55:26Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.455986" lon="8.706744" id="886972849" user="Nzara" timestamp="2013-08-25T19:05:47Z" changeset="17505453" version="4" visible="true"/>
+    <node lat="47.48922" lon="8.714676" id="886972877" user="Nzara" timestamp="2013-08-25T19:55:26Z" changeset="17506311" version="3" visible="true"/>
+    <node lat="47.484463" lon="8.710943" id="886972911" user="mdk" timestamp="2013-08-26T00:29:26Z" changeset="17508929" version="5" visible="true"/>
+    <node lat="47.49261" lon="8.717476" id="886972912" user="Nzara" timestamp="2013-08-25T19:55:27Z" changeset="17506311" version="3" visible="true"/>
+    <node lat="47.489437" lon="8.7157545" id="886972938" user="Nzara" timestamp="2013-08-25T20:00:31Z" changeset="17506451" version="3" visible="true"/>
+    <node lat="47.489227" lon="8.715602" id="886972953" user="Nzara" timestamp="2013-08-25T19:55:27Z" changeset="17506311" version="3" visible="true"/>
+    <node lat="47.458965" lon="8.707796" id="886972962" user="mjulius" timestamp="2014-09-23T23:31:03Z" changeset="25635449" version="5" visible="true"/>
+    <node lat="47.492134" lon="8.717605" id="886972981" user="Nzara" timestamp="2013-08-25T19:55:27Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.489372" lon="8.715603" id="886972991" user="Nzara" timestamp="2013-08-25T19:55:27Z" changeset="17506311" version="3" visible="true"/>
+    <node lat="47.464695" lon="8.706932" id="886973000" user="Nzara" timestamp="2013-08-25T19:55:27Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.491375" lon="8.716182" id="886973008" user="Nzara" timestamp="2013-08-25T12:35:01Z" changeset="17498630" version="2" visible="true"/>
+    <node lat="47.488148" lon="8.713991" id="886973032" user="Nzara" timestamp="2013-08-25T19:55:27Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.48974" lon="8.716317" id="886973041" user="Nzara" timestamp="2013-08-25T19:55:27Z" changeset="17506311" version="3" visible="true"/>
+    <node lat="47.489174" lon="8.715253" id="886973046" user="Nzara" timestamp="2013-08-25T19:55:27Z" changeset="17506311" version="4" visible="true">
+        <tag k="railway" v="buffer_stop"/>
+    </node>
+    <node lat="47.486332" lon="8.712681" id="886973067" user="Nzara" timestamp="2013-08-25T19:55:27Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.471485" lon="8.706446" id="886973073" user="mjulius" timestamp="2014-09-23T23:31:04Z" changeset="25635449" version="5" visible="true"/>
+    <node lat="47.48947" lon="8.716044" id="886973076" user="Nzara" timestamp="2013-08-25T19:55:27Z" changeset="17506311" version="3" visible="true"/>
+    <node lat="47.47793" lon="8.706314" id="886973081" user="Nzara" timestamp="2013-08-25T19:55:27Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.472637" lon="8.70632" id="886973101" user="mjulius" timestamp="2014-09-23T23:31:04Z" changeset="25635449" version="5" visible="true"/>
+    <node lat="47.472534" lon="8.706387" id="886973104" user="mjulius" timestamp="2014-09-23T23:31:04Z" changeset="25635449" version="4" visible="true"/>
+    <node lat="47.489822" lon="8.716046" id="886973113" user="Nzara" timestamp="2013-08-25T20:00:31Z" changeset="17506451" version="3" visible="true"/>
+    <node lat="47.463333" lon="8.707325" id="886973141" user="Nzara" timestamp="2013-08-25T19:55:27Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.492752" lon="8.71825" id="886973142" user="Nzara" timestamp="2013-08-25T19:55:27Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.491932" lon="8.717476" id="886973179" user="Nzara" timestamp="2013-08-25T19:55:27Z" changeset="17506311" version="3" visible="true"/>
+    <node lat="47.489906" lon="8.715472" id="886973221" user="Nzara" timestamp="2013-08-25T19:55:27Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.48729" lon="8.713314" id="886973233" user="Nzara" timestamp="2013-08-25T19:55:27Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.46211" lon="8.707862" id="886973235" user="Nzara" timestamp="2013-08-25T19:55:27Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.46057" lon="8.708136" id="886973243" user="mjulius" timestamp="2014-09-23T23:31:04Z" changeset="25635449" version="5" visible="true"/>
+    <node lat="47.489117" lon="8.715412" id="886973254" user="Nzara" timestamp="2013-08-25T19:55:27Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.48347" lon="8.710163" id="886973264" user="mdk" timestamp="2013-08-26T00:29:26Z" changeset="17508929" version="5" visible="true"/>
+    <node lat="47.48663" lon="8.712934" id="886973274" user="Nzara" timestamp="2013-08-25T19:55:27Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.49133" lon="8.716763" id="886973276" user="Nzara" timestamp="2013-08-25T19:55:27Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.490047" lon="8.715408" id="886973278" user="Nzara" timestamp="2013-08-25T19:55:27Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.45723" lon="8.707232" id="886973286" user="mjulius" timestamp="2014-09-23T23:31:04Z" changeset="25635449" version="5" visible="true"/>
+    <node lat="47.493027" lon="8.717871" id="886973311" user="Nzara" timestamp="2013-08-25T19:55:27Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.489864" lon="8.71615" id="886973327" user="Nzara" timestamp="2013-08-26T12:38:17Z" changeset="17516346" version="4" visible="true"/>
+    <node lat="47.46812" lon="8.706703" id="886973330" user="mjulius" timestamp="2014-09-23T23:31:04Z" changeset="25635449" version="5" visible="true"/>
+    <node lat="47.489124" lon="8.715145" id="886973335" user="Nzara" timestamp="2013-08-25T19:55:27Z" changeset="17506311" version="4" visible="true">
+        <tag k="railway" v="buffer_stop"/>
+    </node>
+    <node lat="47.492996" lon="8.718575" id="886973343" user="Nzara" timestamp="2013-08-25T19:55:27Z" changeset="17506311" version="7" visible="true">
+        <tag k="railway" v="switch"/>
+    </node>
+    <node lat="47.484684" lon="8.711117" id="886973353" user="mdk" timestamp="2013-08-26T00:29:26Z" changeset="17508929" version="4" visible="true"/>
+    <node lat="47.478333" lon="8.706455" id="886973356" user="Nzara" timestamp="2013-08-25T19:55:27Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.489735" lon="8.716182" id="886973369" user="Nzara" timestamp="2013-08-26T12:38:17Z" changeset="17516346" version="4" visible="true"/>
+    <node lat="47.492195" lon="8.717751" id="886973378" user="Nzara" timestamp="2013-08-25T19:55:27Z" changeset="17506311" version="3" visible="true"/>
+    <node lat="47.48557" lon="8.712184" id="886973388" user="Nzara" timestamp="2013-08-25T19:55:27Z" changeset="17506311" version="3" visible="true">
+        <tag k="railway" v="buffer_stop"/>
+    </node>
+    <node lat="47.481003" lon="8.7082205" id="886973390" user="mdk" timestamp="2013-08-26T00:29:26Z" changeset="17508929" version="5" visible="true"/>
+    <node lat="47.493675" lon="8.719113" id="886973394" user="Nzara" timestamp="2013-08-25T19:55:27Z" changeset="17506311" version="5" visible="true">
+        <tag k="railway" v="switch"/>
+    </node>
+    <node lat="47.479515" lon="8.707058" id="886973416" user="Nzara" timestamp="2013-08-25T19:55:27Z" changeset="17506311" version="3" visible="true"/>
+    <node lat="47.490864" lon="8.716091" id="886973421" user="Nzara" timestamp="2013-08-25T12:35:01Z" changeset="17498630" version="4" visible="true"/>
+    <node lat="47.48069" lon="8.70793" id="886973435" user="Nzara" timestamp="2013-08-25T19:55:28Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.4917" lon="8.7164955" id="886973451" user="Nzara" timestamp="2013-08-25T12:35:01Z" changeset="17498630" version="3" visible="true"/>
+    <node lat="47.489746" lon="8.716117" id="886973454" user="Nzara" timestamp="2013-08-25T20:00:31Z" changeset="17506451" version="3" visible="true"/>
+    <node lat="47.467278" lon="8.706749" id="886973461" user="mjulius" timestamp="2014-09-23T23:31:04Z" changeset="25635449" version="5" visible="true"/>
+    <node lat="47.49218" lon="8.716937" id="886973481" user="mdk" timestamp="2011-11-10T01:36:42Z" changeset="9786127" version="2" visible="true"/>
+    <node lat="47.491375" lon="8.716896" id="886973482" user="Nzara" timestamp="2013-08-25T19:55:28Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.488735" lon="8.714277" id="886973485" user="Nzara" timestamp="2013-08-25T12:35:01Z" changeset="17498630" version="4" visible="true"/>
+    <node lat="47.489727" lon="8.716246" id="886973518" user="Nzara" timestamp="2013-08-26T12:38:18Z" changeset="17516346" version="4" visible="true"/>
+    <node lat="47.45969" lon="8.7080145" id="886973530" user="mjulius" timestamp="2014-09-23T23:31:04Z" changeset="25635449" version="5" visible="true"/>
+    <node lat="47.47264" lon="8.706375" id="886973548" user="mjulius" timestamp="2014-09-23T23:31:04Z" changeset="25635449" version="4" visible="true"/>
+    <node lat="47.464027" lon="8.707068" id="886973575" user="Nzara" timestamp="2013-08-25T19:55:28Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.49235" lon="8.717213" id="886973587" user="Nzara" timestamp="2013-08-25T19:55:28Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.48584" lon="8.71247" id="886973591" user="Nzara" timestamp="2013-08-25T19:55:28Z" changeset="17506311" version="3" visible="true"/>
+    <node lat="47.489693" lon="8.715812" id="886973606" user="Nzara" timestamp="2013-08-26T12:38:18Z" changeset="17516346" version="5" visible="true"/>
+    <node lat="47.462475" lon="8.707721" id="886973680" user="Nzara" timestamp="2013-08-25T19:55:28Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.49141" lon="8.716526" id="886973683" user="Nzara" timestamp="2013-08-25T12:35:01Z" changeset="17498630" version="4" visible="true"/>
+    <node lat="47.461086" lon="8.708111" id="886973684" user="Nzara" timestamp="2013-08-25T19:55:28Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.475574" lon="8.706124" id="886973686" user="Nzara" timestamp="2013-08-25T19:55:28Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.491863" lon="8.717316" id="886973750" user="Nzara" timestamp="2013-08-25T19:55:28Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.469887" lon="8.706554" id="886973755" user="mjulius" timestamp="2014-09-23T23:31:04Z" changeset="25635449" version="6" visible="true"/>
+    <node lat="47.48964" lon="8.715419" id="886973762" user="Nzara" timestamp="2013-08-25T20:00:32Z" changeset="17506451" version="3" visible="true">
+        <tag k="railway" v="buffer_stop"/>
+    </node>
+    <node lat="47.47874" lon="8.706622" id="886973771" user="Nzara" timestamp="2013-08-25T19:55:28Z" changeset="17506311" version="3" visible="true"/>
+    <node lat="47.489445" lon="8.715887" id="886973776" user="Nzara" timestamp="2013-08-25T19:55:28Z" changeset="17506311" version="3" visible="true"/>
+    <node lat="47.481583" lon="8.708663" id="886973793" user="mdk" timestamp="2013-08-26T00:29:26Z" changeset="17508929" version="5" visible="true"/>
+    <node lat="47.487354" lon="8.713173" id="886973803" user="Nzara" timestamp="2013-08-25T12:35:01Z" changeset="17498630" version="4" visible="true"/>
+    <node lat="47.49107" lon="8.716486" id="886973813" user="Nzara" timestamp="2013-08-25T12:35:01Z" changeset="17498630" version="4" visible="true"/>
+    <node lat="47.479893" lon="8.707305" id="886973816" user="Nzara" timestamp="2013-08-25T19:55:28Z" changeset="17506311" version="3" visible="true"/>
+    <node lat="47.492733" lon="8.718168" id="886973828" user="Nzara" timestamp="2013-08-25T20:00:32Z" changeset="17506451" version="5" visible="true">
+        <tag k="railway" v="buffer_stop"/>
+    </node>
+    <node lat="47.48924" lon="8.714634" id="886973858" user="Nzara" timestamp="2013-08-25T19:55:28Z" changeset="17506311" version="2" visible="true"/>
+    <node lat="47.489376" lon="8.715714" id="886973862" user="Nzara" timestamp="2013-08-25T20:00:32Z" changeset="17506451" version="3" visible="true"/>
+    <node lat="47.486034" lon="8.712649" id="886973871" user="Nzara" timestamp="2013-08-25T19:55:28Z" changeset="17506311" version="3" visible="true"/>
+    <node lat="47.467426" lon="8.706734" id="886973873" user="mjulius" timestamp="2014-09-23T23:31:04Z" changeset="25635449" version="5" visible="true"/>
+    <node lat="47.49189" lon="8.716777" id="886973897" user="Nzara" timestamp="2013-08-25T12:35:01Z" changeset="17498630" version="3" visible="true"/>
+    <node lat="47.49233" lon="8.718388" id="896349746" user="Nzara" timestamp="2013-08-25T19:55:28Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.49511" lon="8.72047" id="904631344" user="mdk" timestamp="2011-11-10T01:36:43Z" changeset="9786127" version="2" visible="true"/>
+    <node lat="47.49313" lon="8.718608" id="904631351" user="mdk" timestamp="2011-11-10T01:36:43Z" changeset="9786127" version="2" visible="true"/>
+    <node lat="47.49285" lon="8.718647" id="904631362" user="Nzara" timestamp="2013-08-25T19:55:28Z" changeset="17506311" version="6" visible="true">
+        <tag k="railway" v="switch"/>
+    </node>
+    <node lat="47.494526" lon="8.71981" id="904631363" user="mdk" timestamp="2011-11-10T01:36:43Z" changeset="9786127" version="2" visible="true">
+        <tag k="railway" v="level_crossing"/>
+    </node>
+    <node lat="47.496433" lon="8.720779" id="904631380" user="mdk" timestamp="2013-08-26T22:27:24Z" changeset="17526834" version="4" visible="true"/>
+    <node lat="47.494167" lon="8.719597" id="904631383" user="Nzara" timestamp="2013-08-26T12:38:18Z" changeset="17516346" version="5" visible="true">
+        <tag k="railway" v="switch"/>
+    </node>
+    <node lat="47.49314" lon="8.719032" id="904631386" user="Nzara" timestamp="2013-08-25T19:55:28Z" changeset="17506311" version="4" visible="true">
+        <tag k="railway" v="buffer_stop"/>
+    </node>
+    <node lat="47.49855" lon="8.722265" id="904631402" user="Nzara" timestamp="2013-08-26T12:38:18Z" changeset="17516346" version="3" visible="true">
+        <tag k="railway" v="buffer_stop"/>
+    </node>
+    <node lat="47.496674" lon="8.720455" id="904631410" user="Nzara" timestamp="2013-08-26T12:38:18Z" changeset="17516346" version="3" visible="true"/>
+    <node lat="47.498127" lon="8.72174" id="904631429" user="Nzara" timestamp="2013-08-26T12:38:18Z" changeset="17516346" version="3" visible="true"/>
+    <node lat="47.495266" lon="8.720026" id="904631440" user="Nzara" timestamp="2013-08-26T12:38:18Z" changeset="17516346" version="2" visible="true"/>
+    <node lat="47.496117" lon="8.720433" id="904631452" user="Nzara" timestamp="2013-08-26T12:38:18Z" changeset="17516346" version="3" visible="true"/>
+    <node lat="47.4969" lon="8.720889" id="904631456" user="Nzara" timestamp="2013-08-26T12:38:18Z" changeset="17516346" version="4" visible="true"/>
+    <node lat="47.49863" lon="8.722201" id="904631460" user="Nzara" timestamp="2013-08-26T12:38:18Z" changeset="17516346" version="4" visible="true"/>
+    <node lat="47.495228" lon="8.719925" id="904631472" user="Nzara" timestamp="2013-08-26T12:38:18Z" changeset="17516346" version="5" visible="true">
+        <tag k="railway" v="switch"/>
+    </node>
+    <node lat="47.497524" lon="8.721263" id="904631481" user="Nzara" timestamp="2013-08-26T12:38:18Z" changeset="17516346" version="3" visible="true"/>
+    <node lat="47.492058" lon="8.718173" id="904631492" user="Nzara" timestamp="2013-08-25T19:55:28Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.49544" lon="8.719493" id="904631503" user="hansemann1234" timestamp="2014-08-09T20:16:53Z" changeset="24641540" version="4" visible="true">
+        <tag k="railway" v="buffer_stop"/>
+    </node>
+    <node lat="47.498184" lon="8.7217865" id="904631505" user="Nzara" timestamp="2013-08-26T12:38:18Z" changeset="17516346" version="3" visible="true"/>
+    <node lat="47.497368" lon="8.721262" id="904631506" user="Nzara" timestamp="2013-08-26T12:38:18Z" changeset="17516346" version="3" visible="true"/>
+    <node lat="47.494617" lon="8.719573" id="904631508" user="Nzara" timestamp="2013-08-25T19:55:28Z" changeset="17506311" version="4" visible="true">
+        <tag k="railway" v="switch"/>
+    </node>
+    <node lat="47.493813" lon="8.719224" id="904631522" user="Nzara" timestamp="2013-08-25T19:55:29Z" changeset="17506311" version="4" visible="true">
+        <tag k="railway" v="switch"/>
+    </node>
+    <node lat="47.493492" lon="8.718976" id="904631537" user="Nzara" timestamp="2013-08-25T19:55:29Z" changeset="17506311" version="5" visible="true">
+        <tag k="railway" v="switch"/>
+    </node>
+    <node lat="47.49583" lon="8.720271" id="904631548" user="Nzara" timestamp="2013-08-26T12:38:18Z" changeset="17516346" version="3" visible="true"/>
+    <node lat="47.49685" lon="8.721111" id="904631550" user="mdk" timestamp="2013-09-02T05:22:33Z" changeset="17629717" version="5" visible="true"/>
+    <node lat="47.49721" lon="8.720947" id="904631555" user="Nzara" timestamp="2013-08-26T12:38:18Z" changeset="17516346" version="3" visible="true"/>
+    <node lat="47.495754" lon="8.720368" id="904631557" user="Nzara" timestamp="2013-08-26T12:38:18Z" changeset="17516346" version="2" visible="true"/>
+    <node lat="47.494923" lon="8.719753" id="904631562" user="Nzara" timestamp="2013-08-26T12:38:18Z" changeset="17516346" version="5" visible="true">
+        <tag k="railway" v="switch"/>
+    </node>
+    <node lat="47.499363" lon="8.722387" id="904631564" user="mdk" timestamp="2011-01-10T01:24:08Z" changeset="6922586" version="3" visible="true"/>
+    <node lat="47.493153" lon="8.718816" id="904631568" user="Nzara" timestamp="2013-08-25T19:55:29Z" changeset="17506311" version="5" visible="true">
+        <tag k="railway" v="switch"/>
+    </node>
+    <node lat="47.493973" lon="8.719284" id="904631574" user="Nzara" timestamp="2013-08-26T12:38:18Z" changeset="17516346" version="5" visible="true">
+        <tag k="railway" v="switch"/>
+    </node>
+    <node lat="47.49474" lon="8.720232" id="904631579" user="Nzara" timestamp="2013-08-26T12:38:18Z" changeset="17516346" version="4" visible="true">
+        <tag k="railway" v="switch"/>
+    </node>
+    <node lat="47.49244" lon="8.718407" id="904631589" user="Nzara" timestamp="2013-08-25T19:55:29Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.4957" lon="8.720868" id="904631597" user="Nzara" timestamp="2013-08-26T12:38:18Z" changeset="17516346" version="2" visible="true">
+        <tag k="railway" v="buffer_stop"/>
+    </node>
+    <node lat="47.496895" lon="8.720962" id="904631614" user="Nzara" timestamp="2013-08-26T12:38:18Z" changeset="17516346" version="3" visible="true"/>
+    <node lat="47.493748" lon="8.71951" id="904631629" user="Nzara" timestamp="2013-08-26T12:38:18Z" changeset="17516346" version="3" visible="true">
+        <tag k="railway" v="buffer_stop"/>
+    </node>
+    <node lat="47.497208" lon="8.721069" id="904631631" user="Nzara" timestamp="2013-08-26T12:38:18Z" changeset="17516346" version="4" visible="true"/>
+    <node lat="47.49412" lon="8.719272" id="904631638" user="Nzara" timestamp="2013-08-26T12:38:18Z" changeset="17516346" version="4" visible="true"/>
+    <node lat="47.494545" lon="8.7197485" id="904631640" user="mdk" timestamp="2011-11-10T01:36:44Z" changeset="9786127" version="2" visible="true">
+        <tag k="railway" v="level_crossing"/>
+    </node>
+    <node lat="47.49859" lon="8.7220335" id="904631643" user="Nzara" timestamp="2013-08-26T12:38:18Z" changeset="17516346" version="3" visible="true"/>
+    <node lat="47.489437" lon="8.70714" id="925542937" user="ueliw0" timestamp="2011-06-19T11:56:04Z" changeset="8483164" version="3" visible="true">
+        <tag k="railway" v="level_crossing"/>
+    </node>
+    <node lat="47.50196" lon="8.724448" id="928663495" user="Nzara" timestamp="2013-08-26T13:24:19Z" changeset="17517221" version="3" visible="true"/>
+    <node lat="47.502663" lon="8.725421" id="928663496" user="mdk" timestamp="2011-01-10T01:21:42Z" changeset="6922586" version="3" visible="true"/>
+    <node lat="47.49978" lon="8.722661" id="928663498" user="Nzara" timestamp="2013-08-26T12:38:18Z" changeset="17516346" version="3" visible="true"/>
+    <node lat="47.501728" lon="8.7242775" id="928663530" user="mdk" timestamp="2011-01-10T01:23:59Z" changeset="6922586" version="2" visible="true"/>
+    <node lat="47.489494" lon="8.708705" id="928663533" user="Nzara" timestamp="2013-08-25T12:35:01Z" changeset="17498630" version="4" visible="true"/>
+    <node lat="47.501347" lon="8.724191" id="928663546" user="Nzara" timestamp="2013-08-26T14:35:17Z" changeset="17518616" version="3" visible="true"/>
+    <node lat="47.501724" lon="8.724109" id="928663570" user="mdk" timestamp="2011-01-10T01:24:08Z" changeset="6922586" version="2" visible="true"/>
+    <node lat="47.490074" lon="8.713364" id="928663579" user="Nzara" timestamp="2013-08-25T12:35:02Z" changeset="17498630" version="3" visible="true"/>
+    <node lat="47.490116" lon="8.712762" id="928663592" user="Nzara" timestamp="2013-08-25T12:35:02Z" changeset="17498630" version="5" visible="true">
+        <tag k="railway" v="buffer_stop"/>
+    </node>
+    <node lat="47.50215" lon="8.724915" id="928663602" user="Nzara" timestamp="2013-08-26T13:24:19Z" changeset="17517221" version="3" visible="true"/>
+    <node lat="47.501965" lon="8.725149" id="928663615" user="Nzara" timestamp="2013-08-26T13:24:19Z" changeset="17517221" version="3" visible="true"/>
+    <node lat="47.500984" lon="8.724372" id="928663625" user="mdk" timestamp="2011-01-10T01:24:12Z" changeset="6922586" version="2" visible="true">
+        <tag k="railway" v="buffer_stop"/>
+    </node>
+    <node lat="47.48951" lon="8.707296" id="928663643" user="Nzara" timestamp="2013-08-25T12:35:02Z" changeset="17498630" version="4" visible="true">
+        <tag k="railway" v="buffer_stop"/>
+    </node>
+    <node lat="47.502113" lon="8.725189" id="928663647" user="mdk" timestamp="2011-01-10T01:23:52Z" changeset="6922586" version="2" visible="true"/>
+    <node lat="47.489838" lon="8.710508" id="928663710" user="Nzara" timestamp="2013-08-25T12:35:02Z" changeset="17498630" version="3" visible="true"/>
+    <node lat="47.50298" lon="8.725297" id="928663712" user="Nzara" timestamp="2013-08-26T13:24:19Z" changeset="17517221" version="3" visible="true">
+        <tag k="railway" v="buffer_stop"/>
+    </node>
+    <node lat="47.50278" lon="8.725151" id="928663725" user="Nzara" timestamp="2013-08-26T13:24:19Z" changeset="17517221" version="3" visible="true"/>
+    <node lat="47.502266" lon="8.725182" id="928663733" user="Nzara" timestamp="2013-08-26T14:35:17Z" changeset="17518616" version="4" visible="true"/>
+    <node lat="47.501747" lon="8.724229" id="928663747" user="mdk" timestamp="2011-01-10T01:21:33Z" changeset="6922586" version="2" visible="true"/>
+    <node lat="47.502106" lon="8.724981" id="928663749" user="Nzara" timestamp="2013-08-26T13:24:19Z" changeset="17517221" version="3" visible="true"/>
+    <node lat="47.499702" lon="8.722882" id="928663756" user="Nzara" timestamp="2013-08-26T12:38:18Z" changeset="17516346" version="3" visible="true"/>
+    <node lat="47.50228" lon="8.724954" id="928663767" user="Nzara" timestamp="2013-08-26T13:24:19Z" changeset="17517221" version="3" visible="true"/>
+    <node lat="47.502697" lon="8.725378" id="928663771" user="Nzara" timestamp="2013-08-26T13:24:20Z" changeset="17517221" version="4" visible="true"/>
+    <node lat="47.49002" lon="8.712327" id="928663781" user="Nzara" timestamp="2013-08-25T12:35:02Z" changeset="17498630" version="4" visible="true"/>
+    <node lat="47.501945" lon="8.724346" id="928663796" user="Nzara" timestamp="2013-08-26T13:24:20Z" changeset="17517221" version="3" visible="true"/>
+    <node lat="47.48943" lon="8.708014" id="928663803" user="ueliw0" timestamp="2011-06-19T11:56:05Z" changeset="8483164" version="3" visible="true"/>
+    <node lat="47.489544" lon="8.708417" id="928663804" user="Nzara" timestamp="2013-08-25T12:35:02Z" changeset="17498630" version="4" visible="true"/>
+    <node lat="47.50228" lon="8.724715" id="928663812" user="Nzara" timestamp="2013-08-26T13:24:20Z" changeset="17517221" version="4" visible="true"/>
+    <node lat="47.48954" lon="8.708025" id="928663816" user="ueliw0" timestamp="2011-06-19T11:56:05Z" changeset="8483164" version="3" visible="true"/>
+    <node lat="47.501404" lon="8.723931" id="928663830" user="Nzara" timestamp="2013-08-26T14:35:18Z" changeset="17518616" version="3" visible="true"/>
+    <node lat="47.502502" lon="8.724929" id="928663849" user="mdk" timestamp="2011-01-09T01:40:46Z" changeset="6911232" version="2" visible="true"/>
+    <node lat="47.489895" lon="8.711301" id="928663859" user="Nzara" timestamp="2013-08-25T12:35:02Z" changeset="17498630" version="3" visible="true"/>
+    <node lat="47.489517" lon="8.707689" id="928663878" user="Nzara" timestamp="2013-08-25T12:35:02Z" changeset="17498630" version="4" visible="true"/>
+    <node lat="47.49019" lon="8.71389" id="928663908" user="Nzara" timestamp="2013-08-25T12:35:02Z" changeset="17498630" version="4" visible="true"/>
+    <node lat="47.50242" lon="8.72515" id="928663910" user="Nzara" timestamp="2013-08-26T13:24:20Z" changeset="17517221" version="3" visible="true"/>
+    <node lat="47.490078" lon="8.713138" id="928663915" user="Nzara" timestamp="2013-08-25T12:35:02Z" changeset="17498630" version="4" visible="true"/>
+    <node lat="47.489574" lon="8.708309" id="928663918" user="Nzara" timestamp="2013-08-25T12:35:02Z" changeset="17498630" version="4" visible="true"/>
+    <node lat="47.50137" lon="8.724145" id="928663940" user="Nzara" timestamp="2013-08-26T14:35:18Z" changeset="17518616" version="3" visible="true"/>
+    <node lat="47.485638" lon="8.711894" id="954658946" user="Nzara" timestamp="2013-08-25T19:55:29Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.496216" lon="8.719234" id="1075524706" user="Nzara" timestamp="2013-08-26T12:38:14Z" changeset="17516346" version="2" visible="true"/>
+    <node lat="47.496307" lon="8.719798" id="1075524723" user="Nzara" timestamp="2013-08-26T12:38:14Z" changeset="17516346" version="2" visible="true"/>
+    <node lat="47.49976" lon="8.722714" id="1095706540" user="Nzara" timestamp="2013-08-26T12:38:15Z" changeset="17516346" version="2" visible="true"/>
+    <node lat="47.49669" lon="8.720657" id="1095706582" user="mdk" timestamp="2011-01-10T01:21:11Z" changeset="6922586" version="1" visible="true"/>
+    <node lat="47.4637" lon="8.707182" id="1286018246" user="mdk" timestamp="2011-11-08T21:44:49Z" changeset="9777337" version="2" visible="true"/>
+    <node lat="47.463684" lon="8.70713" id="1286018257" user="Nzara" timestamp="2013-08-25T19:55:23Z" changeset="17506311" version="3" visible="true"/>
+    <node lat="47.491062" lon="8.715821" id="1286028103" user="Nzara" timestamp="2013-08-25T12:34:59Z" changeset="17498630" version="2" visible="true"/>
+    <node lat="47.495975" lon="8.720885" id="1286028104" user="Nzara" timestamp="2013-08-26T12:38:15Z" changeset="17516346" version="3" visible="true">
+        <tag k="railway" v="buffer_stop"/>
+    </node>
+    <node lat="47.495934" lon="8.720784" id="1286028106" user="Nzara" timestamp="2013-08-26T12:38:15Z" changeset="17516346" version="3" visible="true">
+        <tag k="railway" v="buffer_stop"/>
+    </node>
+    <node lat="47.495003" lon="8.720508" id="1286569334" user="Nzara" timestamp="2013-08-26T12:38:15Z" changeset="17516346" version="3" visible="true"/>
+    <node lat="47.486416" lon="8.712477" id="1286569339" user="Nzara" timestamp="2013-08-25T12:34:59Z" changeset="17498630" version="3" visible="true"/>
+    <node lat="47.487946" lon="8.7141285" id="1286569343" user="Nzara" timestamp="2013-08-25T19:55:23Z" changeset="17506311" version="4" visible="true"/>
+    <node lat="47.487705" lon="8.713991" id="1286569351" user="Nzara" timestamp="2013-08-25T19:55:23Z" changeset="17506311" version="3" visible="true"/>
+    <node lat="47.48643" lon="8.712435" id="1286569355" user="Nzara" timestamp="2013-08-25T12:34:59Z" changeset="17498630" version="3" visible="true"/>
+    <node lat="47.500538" lon="8.723248" id="1286602630" user="mdk" timestamp="2015-05-30T14:40:29Z" changeset="31585619" version="4" visible="true">
+        <tag k="name" v="Winterthur"/>
+        <tag k="name:de" v="Winterthur"/>
+        <tag k="name:fr" v="Winterthour"/>
+        <tag k="public_transport" v="stop_position"/>
+        <tag k="train" v="yes"/>
+    </node>
+    <node lat="47.50058" lon="8.723134" id="1286602638" user="mdk" timestamp="2015-05-30T14:40:29Z" changeset="31585619" version="4" visible="true">
+        <tag k="name" v="Winterthur"/>
+        <tag k="name:de" v="Winterthur"/>
+        <tag k="name:fr" v="Winterthour"/>
+        <tag k="public_transport" v="stop_position"/>
+        <tag k="train" v="yes"/>
+    </node>
+    <node lat="47.50105" lon="8.72436" id="1286602683" user="mdk" timestamp="2015-05-30T14:40:30Z" changeset="31585619" version="4" visible="true">
+        <tag k="name" v="Winterthur"/>
+        <tag k="name:de" v="Winterthur"/>
+        <tag k="name:fr" v="Winterthour"/>
+        <tag k="public_transport" v="stop_position"/>
+        <tag k="train" v="yes"/>
+    </node>
+    <node lat="47.50103" lon="8.724408" id="1286602699" user="mdk" timestamp="2015-05-30T14:40:29Z" changeset="31585619" version="4" visible="true">
+        <tag k="name" v="Winterthur"/>
+        <tag k="name:de" v="Winterthur"/>
+        <tag k="name:fr" v="Winterthour"/>
+        <tag k="public_transport" v="stop_position"/>
+        <tag k="train" v="yes"/>
+    </node>
+    <node lat="47.500385" lon="8.7236805" id="1286602728" user="mdk" timestamp="2015-05-30T14:40:29Z" changeset="31585619" version="4" visible="true">
+        <tag k="name" v="Winterthur"/>
+        <tag k="name:de" v="Winterthur"/>
+        <tag k="name:fr" v="Winterthour"/>
+        <tag k="public_transport" v="stop_position"/>
+        <tag k="train" v="yes"/>
+    </node>
+    <node lat="47.500458" lon="8.723479" id="1286602745" user="mdk" timestamp="2015-05-30T14:40:29Z" changeset="31585619" version="4" visible="true">
+        <tag k="name" v="Winterthur"/>
+        <tag k="name:de" v="Winterthur"/>
+        <tag k="name:fr" v="Winterthour"/>
+        <tag k="public_transport" v="stop_position"/>
+        <tag k="train" v="yes"/>
+    </node>
+    <node lat="47.500473" lon="8.723431" id="1286602778" user="mdk" timestamp="2015-05-30T14:40:29Z" changeset="31585619" version="4" visible="true">
+        <tag k="name" v="Winterthur"/>
+        <tag k="name:de" v="Winterthur"/>
+        <tag k="name:fr" v="Winterthour"/>
+        <tag k="public_transport" v="stop_position"/>
+        <tag k="train" v="yes"/>
+    </node>
+    <node lat="47.486187" lon="8.712538" id="1317986104" user="Nzara" timestamp="2013-08-25T19:55:23Z" changeset="17506311" version="2" visible="true"/>
+    <node lat="47.47148" lon="8.706375" id="1317988624" user="Nzara" timestamp="2013-08-25T19:55:23Z" changeset="17506311" version="2" visible="true"/>
+    <node lat="47.461754" lon="8.707927" id="1324453101" user="Nzara" timestamp="2013-08-25T19:55:23Z" changeset="17506311" version="3" visible="true"/>
+    <node lat="47.461765" lon="8.707985" id="1324454353" user="Nzara" timestamp="2013-08-25T19:55:23Z" changeset="17506311" version="2" visible="true"/>
+    <node lat="47.489437" lon="8.707631" id="1330697094" user="Nzara" timestamp="2013-08-25T12:34:59Z" changeset="17498630" version="2" visible="true"/>
+    <node lat="47.48945" lon="8.708286" id="1330697095" user="Nzara" timestamp="2013-08-25T12:34:59Z" changeset="17498630" version="2" visible="true"/>
+    <node lat="47.489475" lon="8.706904" id="1330697096" user="ueliw0" timestamp="2011-06-19T11:55:37Z" changeset="8483164" version="1" visible="true"/>
+    <node lat="47.48947" lon="8.708035" id="1330697097" user="Nzara" timestamp="2013-08-25T12:34:59Z" changeset="17498630" version="2" visible="true"/>
+    <node lat="47.489513" lon="8.707497" id="1330697098" user="Nzara" timestamp="2013-08-25T12:34:59Z" changeset="17498630" version="2" visible="true"/>
+    <node lat="47.489536" lon="8.706454" id="1330697100" user="ueliw0" timestamp="2011-06-19T11:55:37Z" changeset="8483164" version="1" visible="true"/>
+    <node lat="47.489502" lon="8.708138" id="1330697102" user="Nzara" timestamp="2013-08-25T12:34:59Z" changeset="17498630" version="2" visible="true"/>
+    <node lat="47.489674" lon="8.710198" id="1330697109" user="Nzara" timestamp="2013-08-25T12:34:59Z" changeset="17498630" version="3" visible="true">
+        <tag k="public_transport" v="stop_position"/>
+        <tag k="railway" v="stop"/>
+        <tag k="train" v="yes"/>
+    </node>
+    <node lat="47.489758" lon="8.710169" id="1330697110" user="Nzara" timestamp="2013-08-25T12:34:59Z" changeset="17498630" version="3" visible="true">
+        <tag k="public_transport" v="stop_position"/>
+        <tag k="railway" v="stop"/>
+        <tag k="train" v="yes"/>
+    </node>
+    <node lat="47.48989" lon="8.705337" id="1330697111" user="ueliw0" timestamp="2011-06-19T11:55:37Z" changeset="8483164" version="1" visible="true"/>
+    <node lat="47.489975" lon="8.712669" id="1330697112" user="Nzara" timestamp="2013-08-25T12:34:59Z" changeset="17498630" version="2" visible="true"/>
+    <node lat="47.490044" lon="8.712639" id="1330697113" user="Nzara" timestamp="2013-08-25T12:35:00Z" changeset="17498630" version="2" visible="true"/>
+    <node lat="47.490116" lon="8.704907" id="1330697114" user="ueliw0" timestamp="2011-06-19T11:55:37Z" changeset="8483164" version="1" visible="true"/>
+    <node lat="47.490124" lon="8.713619" id="1330697116" user="Nzara" timestamp="2013-08-25T12:35:00Z" changeset="17498630" version="2" visible="true"/>
+    <node lat="47.490383" lon="8.704518" id="1330697118" user="ueliw0" timestamp="2011-06-19T11:55:37Z" changeset="8483164" version="1" visible="true"/>
+    <node lat="47.48964" lon="8.709564" id="1483901659" user="Nzara" timestamp="2013-08-25T12:35:00Z" changeset="17498630" version="2" visible="true">
+        <tag k="railway" v="crossing"/>
+    </node>
+    <node lat="47.48968" lon="8.7099" id="1483901681" user="Nzara" timestamp="2013-08-25T12:35:00Z" changeset="17498630" version="2" visible="true">
+        <tag k="railway" v="crossing"/>
+    </node>
+    <node lat="47.48968" lon="8.709554" id="1483901683" user="Nzara" timestamp="2013-08-25T12:35:00Z" changeset="17498630" version="2" visible="true">
+        <tag k="railway" v="crossing"/>
+    </node>
+    <node lat="47.489723" lon="8.709889" id="1483901699" user="Nzara" timestamp="2013-08-25T12:35:00Z" changeset="17498630" version="2" visible="true">
+        <tag k="railway" v="crossing"/>
+    </node>
+    <node lat="47.48972" lon="8.709544" id="1483901701" user="mdk" timestamp="2011-10-28T18:50:27Z" changeset="9679173" version="1" visible="true">
+        <tag k="railway" v="crossing"/>
+    </node>
+    <node lat="47.48976" lon="8.709879" id="1483901714" user="mdk" timestamp="2011-10-28T18:50:28Z" changeset="9679173" version="1" visible="true">
+        <tag k="railway" v="crossing"/>
+    </node>
+    <node lat="47.46514" lon="8.70691" id="1495829767" user="mjulius" timestamp="2014-09-23T23:31:01Z" changeset="25635449" version="3" visible="true"/>
+    <node lat="47.46514" lon="8.706845" id="1495829768" user="mdk" timestamp="2014-03-06T22:15:17Z" changeset="20959771" version="2" visible="true"/>
+    <node lat="47.488728" lon="8.714842" id="1496804317" user="Nzara" timestamp="2013-08-25T19:55:23Z" changeset="17506311" version="2" visible="true"/>
+    <node lat="47.495983" lon="8.7211" id="1701725464" user="Nzara" timestamp="2013-08-26T12:38:15Z" changeset="17516346" version="2" visible="true"/>
+    <node lat="47.48277" lon="8.709535" id="2065742690" user="mdk" timestamp="2013-08-26T00:29:17Z" changeset="17508929" version="3" visible="true"/>
+    <node lat="47.48664" lon="8.712787" id="2065742721" user="Nzara" timestamp="2013-08-25T19:55:24Z" changeset="17506311" version="2" visible="true"/>
+    <node lat="47.486534" lon="8.713053" id="2065742722" user="Nzara" timestamp="2013-08-25T19:55:24Z" changeset="17506311" version="2" visible="true"/>
+    <node lat="47.48856" lon="8.714578" id="2065742799" user="Nzara" timestamp="2013-08-25T19:55:24Z" changeset="17506311" version="2" visible="true"/>
+    <node lat="47.488663" lon="8.714439" id="2065742810" user="Nzara" timestamp="2013-08-25T19:55:24Z" changeset="17506311" version="2" visible="true"/>
+    <node lat="47.48938" lon="8.715531" id="2065742817" user="Nzara" timestamp="2013-08-25T19:55:24Z" changeset="17506311" version="2" visible="true">
+        <tag k="railway" v="buffer_stop"/>
+    </node>
+    <node lat="47.48918" lon="8.714893" id="2065742822" user="Nzara" timestamp="2013-08-25T19:55:24Z" changeset="17506311" version="2" visible="true"/>
+    <node lat="47.49431" lon="8.719395" id="2423264347" user="Nzara" timestamp="2013-08-25T19:55:24Z" changeset="17506311" version="2" visible="true"/>
+    <node lat="47.489475" lon="8.707941" id="2431014041" user="Nzara" timestamp="2013-08-25T12:34:44Z" changeset="17498630" version="1" visible="true"/>
+    <node lat="47.48986" lon="8.710783" id="2431014048" user="Nzara" timestamp="2013-08-25T12:34:44Z" changeset="17498630" version="1" visible="true"/>
+    <node lat="47.489872" lon="8.711034" id="2431014049" user="Nzara" timestamp="2013-08-25T12:34:44Z" changeset="17498630" version="1" visible="true"/>
+    <node lat="47.490276" lon="8.714193" id="2431014050" user="Nzara" timestamp="2013-08-25T12:34:44Z" changeset="17498630" version="1" visible="true"/>
+    <node lat="47.490284" lon="8.714181" id="2431014051" user="Nzara" timestamp="2013-08-25T12:34:44Z" changeset="17498630" version="1" visible="true"/>
+    <node lat="47.490833" lon="8.71549" id="2431014052" user="Nzara" timestamp="2013-08-25T12:34:44Z" changeset="17498630" version="1" visible="true"/>
+    <node lat="47.490837" lon="8.715485" id="2431014053" user="Nzara" timestamp="2013-08-25T12:34:44Z" changeset="17498630" version="1" visible="true"/>
+    <node lat="47.491035" lon="8.716607" id="2431014054" user="Nzara" timestamp="2013-08-25T12:34:44Z" changeset="17498630" version="1" visible="true"/>
+    <node lat="47.491165" lon="8.716678" id="2431014055" user="Nzara" timestamp="2013-08-25T19:55:24Z" changeset="17506311" version="2" visible="true"/>
+    <node lat="47.491318" lon="8.716636" id="2431014056" user="Nzara" timestamp="2013-08-25T12:34:44Z" changeset="17498630" version="1" visible="true"/>
+    <node lat="47.491364" lon="8.7167425" id="2431014057" user="Nzara" timestamp="2013-08-25T12:34:44Z" changeset="17498630" version="1" visible="true"/>
+    <node lat="47.491516" lon="8.716455" id="2431014058" user="Nzara" timestamp="2013-08-25T12:34:44Z" changeset="17498630" version="1" visible="true"/>
+    <node lat="47.49164" lon="8.716697" id="2431014059" user="Nzara" timestamp="2013-08-25T12:34:44Z" changeset="17498630" version="1" visible="true"/>
+    <node lat="47.492115" lon="8.716978" id="2431014060" user="Nzara" timestamp="2013-08-25T12:34:44Z" changeset="17498630" version="1" visible="true"/>
+    <node lat="47.492195" lon="8.717018" id="2431014061" user="Nzara" timestamp="2013-08-25T12:34:44Z" changeset="17498630" version="1" visible="true"/>
+    <node lat="47.49239" lon="8.717162" id="2431014062" user="Nzara" timestamp="2013-08-25T12:34:44Z" changeset="17498630" version="1" visible="true"/>
+    <node lat="47.492622" lon="8.717319" id="2431014063" user="Nzara" timestamp="2013-08-25T19:55:24Z" changeset="17506311" version="2" visible="true"/>
+    <node lat="47.492916" lon="8.717536" id="2431014064" user="Nzara" timestamp="2013-08-25T12:34:44Z" changeset="17498630" version="1" visible="true"/>
+    <node lat="47.471935" lon="8.706384" id="2431474402" user="Nzara" timestamp="2013-08-25T19:54:19Z" changeset="17506311" version="1" visible="true"/>
+    <node lat="47.4816" lon="8.708621" id="2431474403" user="mdk" timestamp="2013-08-26T00:29:18Z" changeset="17508929" version="2" visible="true"/>
+    <node lat="47.48584" lon="8.712187" id="2431474405" user="Nzara" timestamp="2013-08-25T19:54:19Z" changeset="17506311" version="1" visible="true"/>
+    <node lat="47.486446" lon="8.712768" id="2431474406" user="Nzara" timestamp="2013-08-25T19:54:19Z" changeset="17506311" version="1" visible="true"/>
+    <node lat="47.486553" lon="8.712851" id="2431474407" user="Nzara" timestamp="2013-08-25T19:54:19Z" changeset="17506311" version="1" visible="true"/>
+    <node lat="47.48682" lon="8.713255" id="2431474408" user="Nzara" timestamp="2013-08-25T19:54:19Z" changeset="17506311" version="1" visible="true"/>
+    <node lat="47.48704" lon="8.713399" id="2431474409" user="Nzara" timestamp="2013-08-25T19:54:19Z" changeset="17506311" version="1" visible="true"/>
+    <node lat="47.488815" lon="8.714757" id="2431474410" user="Nzara" timestamp="2013-08-25T19:54:19Z" changeset="17506311" version="1" visible="true"/>
+    <node lat="47.48911" lon="8.71533" id="2431474411" user="Nzara" timestamp="2013-08-25T19:54:19Z" changeset="17506311" version="1" visible="true"/>
+    <node lat="47.489548" lon="8.71607" id="2431474412" user="Nzara" timestamp="2013-08-25T19:54:19Z" changeset="17506311" version="1" visible="true"/>
+    <node lat="47.48958" lon="8.716037" id="2431474413" user="Nzara" timestamp="2013-08-25T19:54:19Z" changeset="17506311" version="1" visible="true"/>
+    <node lat="47.489635" lon="8.715283" id="2431474414" user="Nzara" timestamp="2013-08-25T19:54:19Z" changeset="17506311" version="1" visible="true"/>
+    <node lat="47.49138" lon="8.716954" id="2431474415" user="Nzara" timestamp="2013-08-25T19:54:19Z" changeset="17506311" version="1" visible="true"/>
+    <node lat="47.49164" lon="8.717023" id="2431474416" user="Nzara" timestamp="2013-08-25T19:54:19Z" changeset="17506311" version="1" visible="true"/>
+    <node lat="47.491737" lon="8.717301" id="2431474417" user="Nzara" timestamp="2013-08-25T19:54:19Z" changeset="17506311" version="1" visible="true"/>
+    <node lat="47.4919" lon="8.717302" id="2431474418" user="Nzara" timestamp="2013-08-25T19:54:19Z" changeset="17506311" version="1" visible="true"/>
+    <node lat="47.49199" lon="8.717573" id="2431474419" user="Nzara" timestamp="2013-08-25T19:54:19Z" changeset="17506311" version="1" visible="true"/>
+    <node lat="47.49215" lon="8.717569" id="2431474420" user="Nzara" timestamp="2013-08-25T19:54:19Z" changeset="17506311" version="1" visible="true"/>
+    <node lat="47.492264" lon="8.717854" id="2431474421" user="Nzara" timestamp="2013-08-25T19:54:19Z" changeset="17506311" version="1" visible="true"/>
+    <node lat="47.49232" lon="8.717776" id="2431474422" user="Nzara" timestamp="2013-08-25T19:54:19Z" changeset="17506311" version="1" visible="true"/>
+    <node lat="47.49253" lon="8.718141" id="2431474423" user="Nzara" timestamp="2013-08-25T19:54:19Z" changeset="17506311" version="1" visible="true"/>
+    <node lat="47.492554" lon="8.717374" id="2431474424" user="Nzara" timestamp="2013-08-25T19:54:19Z" changeset="17506311" version="1" visible="true"/>
+    <node lat="47.49268" lon="8.718521" id="2431474425" user="Nzara" timestamp="2013-08-25T19:54:19Z" changeset="17506311" version="1" visible="true"/>
+    <node lat="47.492832" lon="8.717704" id="2431474426" user="Nzara" timestamp="2013-08-26T12:38:15Z" changeset="17516346" version="2" visible="true"/>
+    <node lat="47.492832" lon="8.717585" id="2431474427" user="Nzara" timestamp="2013-08-26T12:38:16Z" changeset="17516346" version="2" visible="true"/>
+    <node lat="47.49299" lon="8.718701" id="2431474428" user="Nzara" timestamp="2013-08-25T19:54:19Z" changeset="17506311" version="1" visible="true"/>
+    <node lat="47.493122" lon="8.717763" id="2431474429" user="Nzara" timestamp="2013-08-25T19:54:19Z" changeset="17506311" version="1" visible="true"/>
+    <node lat="47.493256" lon="8.718852" id="2431474430" user="Nzara" timestamp="2013-08-25T19:54:19Z" changeset="17506311" version="1" visible="true"/>
+    <node lat="47.493294" lon="8.718791" id="2431474431" user="Nzara" timestamp="2013-08-25T19:54:19Z" changeset="17506311" version="1" visible="true"/>
+    <node lat="47.493378" lon="8.717953" id="2431474432" user="Nzara" timestamp="2013-08-25T19:54:19Z" changeset="17506311" version="1" visible="true"/>
+    <node lat="47.494" lon="8.719402" id="2431474433" user="Nzara" timestamp="2013-08-26T12:38:16Z" changeset="17516346" version="2" visible="true"/>
+    <node lat="47.49431" lon="8.719356" id="2431474434" user="Nzara" timestamp="2013-08-25T19:54:19Z" changeset="17506311" version="1" visible="true"/>
+    <node lat="47.494457" lon="8.719909" id="2431474435" user="Nzara" timestamp="2013-08-25T19:54:19Z" changeset="17506311" version="1" visible="true"/>
+    <node lat="47.489395" lon="8.715691" id="2431480629" user="Nzara" timestamp="2013-08-25T20:00:29Z" changeset="17506451" version="1" visible="true"/>
+    <node lat="47.489525" lon="8.715905" id="2431480630" user="Nzara" timestamp="2013-08-25T20:00:29Z" changeset="17506451" version="1" visible="true"/>
+    <node lat="47.489597" lon="8.716182" id="2431480631" user="Nzara" timestamp="2013-08-25T20:00:29Z" changeset="17506451" version="1" visible="true"/>
+    <node lat="47.48964" lon="8.715951" id="2431480632" user="Nzara" timestamp="2013-08-25T20:00:29Z" changeset="17506451" version="1" visible="true"/>
+    <node lat="47.492847" lon="8.718442" id="2432272456" user="Nzara" timestamp="2013-08-26T12:36:50Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.494434" lon="8.719934" id="2432272462" user="Nzara" timestamp="2013-08-26T12:36:51Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.49458" lon="8.719497" id="2432272464" user="Nzara" timestamp="2013-08-26T12:36:51Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.495014" lon="8.719778" id="2432272466" user="Nzara" timestamp="2013-08-26T12:36:51Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.495308" lon="8.719945" id="2432272469" user="Nzara" timestamp="2013-08-26T12:36:51Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.495346" lon="8.720439" id="2432272471" user="Nzara" timestamp="2013-08-26T12:36:51Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.495354" lon="8.720376" id="2432272474" user="Nzara" timestamp="2013-08-26T12:36:51Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.495426" lon="8.720137" id="2432272476" user="Nzara" timestamp="2013-08-26T12:36:51Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.49547" lon="8.720733" id="2432272478" user="Nzara" timestamp="2013-08-26T12:36:51Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.49556" lon="8.720076" id="2432272480" user="Nzara" timestamp="2013-08-26T12:36:51Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.495907" lon="8.720289" id="2432272482" user="Nzara" timestamp="2013-08-26T12:36:51Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.49591" lon="8.719394" id="2432272484" user="Nzara" timestamp="2013-08-26T12:36:51Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.49593" lon="8.71935" id="2432272487" user="Nzara" timestamp="2013-08-26T12:36:51Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.495937" lon="8.719415" id="2432272489" user="Nzara" timestamp="2013-08-26T12:36:51Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.495953" lon="8.719312" id="2432272491" user="Nzara" timestamp="2013-08-26T12:36:51Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.49597" lon="8.719334" id="2432272493" user="Nzara" timestamp="2013-08-26T12:36:51Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.495975" lon="8.719277" id="2432272495" user="Nzara" timestamp="2013-08-26T12:36:51Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.49599" lon="8.719302" id="2432272497" user="Nzara" timestamp="2013-08-26T12:36:51Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.49599" lon="8.719411" id="2432272499" user="Nzara" timestamp="2013-08-26T12:36:51Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.496" lon="8.719242" id="2432272501" user="Nzara" timestamp="2013-08-26T12:36:51Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.496025" lon="8.7192135" id="2432272503" user="Nzara" timestamp="2013-08-26T12:36:51Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.496044" lon="8.719327" id="2432272505" user="Nzara" timestamp="2013-08-26T12:36:51Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.49606" lon="8.718978" id="2432272507" user="Nzara" timestamp="2013-08-26T12:36:51Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.49609" lon="8.719434" id="2432272510" user="Nzara" timestamp="2013-08-26T12:36:51Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.4961" lon="8.719481" id="2432272512" user="Nzara" timestamp="2013-08-26T12:36:51Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.496204" lon="8.720632" id="2432272518" user="mdk" timestamp="2013-08-26T22:27:16Z" changeset="17526834" version="2" visible="true"/>
+    <node lat="47.496227" lon="8.719808" id="2432272520" user="Nzara" timestamp="2013-08-26T12:36:51Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.49632" lon="8.719948" id="2432272526" user="Nzara" timestamp="2013-08-26T12:36:51Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.496357" lon="8.719581" id="2432272528" user="Nzara" timestamp="2013-08-26T12:36:51Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.49638" lon="8.719948" id="2432272530" user="Nzara" timestamp="2013-08-26T12:36:51Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.496387" lon="8.7199335" id="2432272532" user="Nzara" timestamp="2013-08-26T12:36:51Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.496426" lon="8.720092" id="2432272534" user="Nzara" timestamp="2013-08-26T12:36:51Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.496475" lon="8.7206135" id="2432272536" user="Nzara" timestamp="2013-08-26T12:36:51Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.49655" lon="8.720157" id="2432272538" user="Nzara" timestamp="2013-08-26T12:36:51Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.49666" lon="8.720292" id="2432272540" user="Nzara" timestamp="2013-08-26T12:36:51Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.496666" lon="8.720071" id="2432272542" user="Nzara" timestamp="2013-08-26T12:36:51Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.496754" lon="8.720804" id="2432272544" user="Nzara" timestamp="2013-08-26T12:36:51Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.497044" lon="8.72107" id="2432272546" user="Nzara" timestamp="2013-08-26T12:36:51Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.49706" lon="8.720812" id="2432272548" user="Nzara" timestamp="2013-08-26T12:36:51Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.497086" lon="8.72077" id="2432272550" user="Nzara" timestamp="2013-08-26T12:36:52Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.49717" lon="8.721121" id="2432272552" user="Nzara" timestamp="2013-08-26T12:36:52Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.497227" lon="8.720848" id="2432272554" user="Nzara" timestamp="2013-08-26T12:36:52Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.49729" lon="8.72099" id="2432272557" user="Nzara" timestamp="2013-08-26T12:36:52Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.497387" lon="8.72121" id="2432272559" user="Nzara" timestamp="2013-08-26T12:36:52Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.4974" lon="8.721072" id="2432272561" user="Nzara" timestamp="2013-08-26T12:36:52Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.49758" lon="8.721241" id="2432272563" user="Nzara" timestamp="2013-08-26T12:36:52Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.497612" lon="8.72138" id="2432272566" user="Nzara" timestamp="2013-08-26T12:36:52Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.497772" lon="8.721409" id="2432272568" user="Nzara" timestamp="2013-08-26T12:36:52Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.497776" lon="8.721584" id="2432272570" user="Nzara" timestamp="2013-08-26T12:36:52Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.497902" lon="8.721574" id="2432272572" user="Nzara" timestamp="2013-08-26T12:36:52Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.498287" lon="8.721948" id="2432272574" user="Nzara" timestamp="2013-08-26T12:36:52Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.498367" lon="8.7219095" id="2432272576" user="Nzara" timestamp="2013-08-26T12:36:52Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.49839" lon="8.721945" id="2432272578" user="Nzara" timestamp="2013-08-26T12:36:52Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.498417" lon="8.721865" id="2432272580" user="Nzara" timestamp="2013-08-26T12:36:52Z" changeset="17516346" version="1" visible="true"/>
+    <node lat="47.50221" lon="8.725308" id="2432320801" user="Nzara" timestamp="2013-08-26T13:23:33Z" changeset="17517221" version="1" visible="true"/>
+    <node lat="47.473095" lon="8.706263" id="2549287452" user="mjulius" timestamp="2014-09-23T23:31:02Z" changeset="25635449" version="2" visible="true"/>
+    <node lat="47.47389" lon="8.706251" id="2549287453" user="Luke173" timestamp="2013-11-24T18:24:48Z" changeset="19096246" version="1" visible="true"/>
+    <node lat="47.49285" lon="8.701518" id="3085310217" user="mjulius" timestamp="2014-09-18T21:46:34Z" changeset="25530789" version="1" visible="true"/>
+    <node lat="47.493477" lon="8.700649" id="3085310218" user="mjulius" timestamp="2014-09-18T21:46:34Z" changeset="25530789" version="1" visible="true"/>
+    <node lat="47.49623" lon="8.696344" id="3085310437" user="mjulius" timestamp="2014-09-18T21:46:35Z" changeset="25530789" version="1" visible="true"/>
+    <node lat="47.496628" lon="8.695756" id="3085310443" user="mjulius" timestamp="2014-09-18T21:46:35Z" changeset="25530789" version="1" visible="true"/>
+    <node lat="47.49695" lon="8.695341" id="3085310448" user="mjulius" timestamp="2014-09-18T21:46:35Z" changeset="25530789" version="1" visible="true"/>
+    <node lat="47.45915" lon="8.707857" id="3093311910" user="mjulius" timestamp="2014-09-23T23:30:47Z" changeset="25635449" version="1" visible="true"/>
+    <node lat="47.45916" lon="8.707791" id="3093311911" user="mjulius" timestamp="2014-09-23T23:30:47Z" changeset="25635449" version="1" visible="true"/>
+    <node lat="47.45951" lon="8.707968" id="3093311912" user="mjulius" timestamp="2014-09-23T23:30:47Z" changeset="25635449" version="1" visible="true"/>
+    <node lat="47.45952" lon="8.707902" id="3093311913" user="mjulius" timestamp="2014-09-23T23:30:47Z" changeset="25635449" version="1" visible="true"/>
+    <node lat="47.459908" lon="8.708061" id="3093311915" user="mjulius" timestamp="2014-09-23T23:30:47Z" changeset="25635449" version="1" visible="true"/>
+    <node lat="47.45991" lon="8.707994" id="3093311916" user="mjulius" timestamp="2014-09-23T23:30:47Z" changeset="25635449" version="1" visible="true"/>
+    <node lat="47.46013" lon="8.708097" id="3093311918" user="mjulius" timestamp="2014-09-23T23:30:47Z" changeset="25635449" version="1" visible="true"/>
+    <node lat="47.46013" lon="8.708033" id="3093311919" user="mjulius" timestamp="2014-09-23T23:30:47Z" changeset="25635449" version="1" visible="true"/>
+    <node lat="47.46035" lon="8.70812" id="3093311920" user="mjulius" timestamp="2014-09-23T23:30:47Z" changeset="25635449" version="1" visible="true"/>
+    <node lat="47.460354" lon="8.7080555" id="3093311921" user="mjulius" timestamp="2014-09-23T23:30:47Z" changeset="25635449" version="1" visible="true"/>
+    <node lat="47.460827" lon="8.708133" id="3093311926" user="mjulius" timestamp="2014-09-23T23:30:47Z" changeset="25635449" version="1" visible="true"/>
+    <node lat="47.46083" lon="8.708064" id="3093311927" user="mjulius" timestamp="2014-09-23T23:30:47Z" changeset="25635449" version="1" visible="true"/>
+    <way id="4248954" user="Nzara" timestamp="2013-08-25T19:55:13Z" changeset="17506311" version="17" visible="true">
+        <nd ref="25429674"/>
+        <nd ref="97819597"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="layer" v="-1"/>
+        <tag k="maxspeed" v="125"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="tunnel" v="yes"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="4249095" user="Nzara" timestamp="2013-08-26T12:38:10Z" changeset="17516346" version="24" visible="true">
+        <nd ref="904631631"/>
+        <nd ref="1095706582"/>
+        <nd ref="2431474424"/>
+        <nd ref="886973587"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="70"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="4696826" user="Nzara" timestamp="2013-08-26T16:11:58Z" changeset="17520451" version="11" visible="true">
+        <nd ref="34489423"/>
+        <nd ref="1286602683"/>
+        <nd ref="928663647"/>
+        <nd ref="34489424"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="70"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="ref" v="2"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="branch"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="11480656" user="Nzara" timestamp="2013-08-26T14:12:54Z" changeset="17518194" version="8" visible="true">
+        <nd ref="256157884"/>
+        <nd ref="102271907"/>
+        <nd ref="102271908"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="22704025" user="Nzara" timestamp="2013-08-26T12:38:08Z" changeset="17516346" version="13" visible="true">
+        <nd ref="904631460"/>
+        <nd ref="2432272559"/>
+        <nd ref="904631631"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="70"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="23692808" user="Nzara" timestamp="2013-08-25T19:55:12Z" changeset="17506311" version="9" visible="true">
+        <nd ref="97819597"/>
+        <nd ref="436954320"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="125"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="28758759" user="Nzara" timestamp="2013-08-25T19:55:20Z" changeset="17506311" version="9" visible="true">
+        <nd ref="256157049"/>
+        <nd ref="954658946"/>
+        <nd ref="886972742"/>
+        <nd ref="2065742721"/>
+        <nd ref="886973233"/>
+        <nd ref="886973032"/>
+        <nd ref="886973311"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="siding"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="28758760" user="Nzara" timestamp="2013-08-25T19:55:13Z" changeset="17506311" version="8" visible="true">
+        <nd ref="316190987"/>
+        <nd ref="316190986"/>
+        <tag k="bridge" v="yes"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="layer" v="1"/>
+        <tag k="maxspeed" v="125"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="28758761" user="Nzara" timestamp="2013-08-25T19:55:16Z" changeset="17506311" version="11" visible="true">
+        <nd ref="316190986"/>
+        <nd ref="2065742690"/>
+        <nd ref="2431474403"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="125"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="29074134" user="Nzara" timestamp="2013-08-25T12:34:51Z" changeset="17498630" version="4" visible="true">
+        <nd ref="319810146"/>
+        <nd ref="25499525"/>
+        <tag k="bridge" v="yes"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="layer" v="1"/>
+        <tag k="maxspeed" v="100"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="branch"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="29074135" user="mjulius" timestamp="2014-09-18T21:47:06Z" changeset="25530789" version="8" visible="true">
+        <nd ref="25499525"/>
+        <nd ref="521896026"/>
+        <nd ref="25499523"/>
+        <nd ref="3085310217"/>
+        <nd ref="257387183"/>
+        <nd ref="3085310218"/>
+        <nd ref="25499382"/>
+        <nd ref="521895839"/>
+        <nd ref="25499347"/>
+        <nd ref="3085310437"/>
+        <nd ref="257387184"/>
+        <nd ref="3085310443"/>
+        <nd ref="25499343"/>
+        <nd ref="3085310448"/>
+        <nd ref="257387068"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="100"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="branch"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="30137786" user="Nzara" timestamp="2013-08-25T19:55:11Z" changeset="17506311" version="8" visible="true">
+        <nd ref="334262718"/>
+        <nd ref="334262716"/>
+        <nd ref="334262713"/>
+        <nd ref="334262712"/>
+        <nd ref="334262710"/>
+        <nd ref="334262706"/>
+        <nd ref="334262701"/>
+        <nd ref="334262672"/>
+        <nd ref="334262670"/>
+        <nd ref="334262667"/>
+        <nd ref="334262664"/>
+        <nd ref="334262661"/>
+        <nd ref="334262658"/>
+        <nd ref="334262656"/>
+        <nd ref="334262653"/>
+        <nd ref="597879277"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="125"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="30440582" user="Nzara" timestamp="2013-08-26T14:13:00Z" changeset="17518194" version="9" visible="true">
+        <nd ref="256157335"/>
+        <nd ref="2431014058"/>
+        <nd ref="886972676"/>
+        <nd ref="256157336"/>
+        <nd ref="2431014052"/>
+        <nd ref="256157337"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="70"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="branch"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="30440592" user="Nzara" timestamp="2013-08-26T12:38:05Z" changeset="17516346" version="8" visible="true">
+        <nd ref="256157335"/>
+        <nd ref="886973897"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="70"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="34292708" user="Nzara" timestamp="2013-08-26T12:38:11Z" changeset="17516346" version="5" visible="true">
+        <nd ref="334262643"/>
+        <nd ref="334262633"/>
+        <nd ref="334262625"/>
+        <nd ref="886972611"/>
+        <nd ref="256157335"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="125"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="34292709" user="Nzara" timestamp="2013-08-25T19:55:13Z" changeset="17506311" version="3" visible="true">
+        <nd ref="334262644"/>
+        <nd ref="334262643"/>
+        <tag k="bridge" v="yes"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="layer" v="1"/>
+        <tag k="maxspeed" v="125"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="37405362" user="Nzara" timestamp="2013-08-25T19:55:13Z" changeset="17506311" version="8" visible="true">
+        <nd ref="436954320"/>
+        <nd ref="256156582"/>
+        <tag k="bridge" v="yes"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="layer" v="1"/>
+        <tag k="maxspeed" v="125"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="46791772" user="Nzara" timestamp="2013-08-25T19:55:13Z" changeset="17506311" version="3" visible="true">
+        <nd ref="597879285"/>
+        <nd ref="334262644"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="125"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="46791773" user="Nzara" timestamp="2013-08-25T19:55:18Z" changeset="17506311" version="5" visible="true">
+        <nd ref="597879250"/>
+        <nd ref="1317988624"/>
+        <nd ref="25428609"/>
+        <nd ref="25429674"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="125"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="46791774" user="Nzara" timestamp="2013-08-25T19:55:11Z" changeset="17506311" version="4" visible="true">
+        <nd ref="25475631"/>
+        <nd ref="25428963"/>
+        <nd ref="256156999"/>
+        <nd ref="256157000"/>
+        <nd ref="245070557"/>
+        <nd ref="256157001"/>
+        <nd ref="256157002"/>
+        <nd ref="256157003"/>
+        <nd ref="25428307"/>
+        <nd ref="623014173"/>
+        <nd ref="256156913"/>
+        <nd ref="25429029"/>
+        <nd ref="256156881"/>
+        <nd ref="334262718"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="125"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="46791775" user="Nzara" timestamp="2013-08-25T19:55:14Z" changeset="17506311" version="4" visible="true">
+        <nd ref="597879255"/>
+        <nd ref="597879250"/>
+        <tag k="bridge" v="yes"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="layer" v="1"/>
+        <tag k="maxspeed" v="125"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="46791777" user="Nzara" timestamp="2013-08-25T19:55:14Z" changeset="17506311" version="3" visible="true">
+        <nd ref="597879277"/>
+        <nd ref="597879285"/>
+        <tag k="bridge" v="yes"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="layer" v="1"/>
+        <tag k="maxspeed" v="125"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="46791778" user="Nzara" timestamp="2013-08-25T19:55:14Z" changeset="17506311" version="4" visible="true">
+        <nd ref="2431474403"/>
+        <nd ref="25475631"/>
+        <tag k="bridge" v="yes"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="layer" v="1"/>
+        <tag k="maxspeed" v="125"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="50322198" user="Nzara" timestamp="2013-08-26T12:38:02Z" changeset="17516346" version="3" visible="true">
+        <nd ref="639300826"/>
+        <nd ref="2432272528"/>
+        <nd ref="2432272542"/>
+        <nd ref="639300855"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="ref" v="P6"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="50322199" user="Nzara" timestamp="2013-08-26T12:48:11Z" changeset="17516532" version="4" visible="true">
+        <nd ref="2432272563"/>
+        <nd ref="2432272561"/>
+        <nd ref="2432272554"/>
+        <nd ref="639300858"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="ref" v="P1"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="50322200" user="Nzara" timestamp="2013-08-26T12:38:03Z" changeset="17516346" version="3" visible="true">
+        <nd ref="639300851"/>
+        <nd ref="2432272526"/>
+        <nd ref="2432272538"/>
+        <nd ref="639300857"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="ref" v="Q3"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="50322201" user="Nzara" timestamp="2013-08-26T12:38:10Z" changeset="17516346" version="4" visible="true">
+        <nd ref="639300841"/>
+        <nd ref="1075524723"/>
+        <nd ref="2432272532"/>
+        <nd ref="639300854"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="50322202" user="Nzara" timestamp="2013-08-26T12:38:03Z" changeset="17516346" version="3" visible="true">
+        <nd ref="639300852"/>
+        <nd ref="2432272534"/>
+        <nd ref="2432272540"/>
+        <nd ref="639300859"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="ref" v="Q2"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="50322227" user="Nzara" timestamp="2013-08-26T12:38:02Z" changeset="17516346" version="4" visible="true">
+        <nd ref="639300831"/>
+        <nd ref="2432272503"/>
+        <tag k="covered" v="yes"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="ref" v="Q10"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="50322228" user="Nzara" timestamp="2013-08-26T12:38:04Z" changeset="17516346" version="4" visible="true">
+        <nd ref="639300832"/>
+        <nd ref="2432272501"/>
+        <tag k="covered" v="yes"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="ref" v="Q9"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="50322229" user="Nzara" timestamp="2013-08-26T12:38:04Z" changeset="17516346" version="4" visible="true">
+        <nd ref="639300833"/>
+        <nd ref="2432272495"/>
+        <tag k="covered" v="yes"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="ref" v="Q8"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="50322230" user="Nzara" timestamp="2013-08-26T12:38:04Z" changeset="17516346" version="4" visible="true">
+        <nd ref="639300834"/>
+        <nd ref="2432272491"/>
+        <tag k="covered" v="yes"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="ref" v="Q7"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="50322231" user="Nzara" timestamp="2013-08-26T12:38:03Z" changeset="17516346" version="4" visible="true">
+        <nd ref="639300829"/>
+        <nd ref="2432272487"/>
+        <tag k="covered" v="yes"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="ref" v="Q6"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="50322232" user="Nzara" timestamp="2013-08-26T12:38:03Z" changeset="17516346" version="4" visible="true">
+        <nd ref="639300830"/>
+        <nd ref="2432272484"/>
+        <tag k="covered" v="yes"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="ref" v="Q5"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="50322235" user="Nzara" timestamp="2013-08-26T12:38:03Z" changeset="17516346" version="3" visible="true">
+        <nd ref="639300850"/>
+        <nd ref="2432272520"/>
+        <nd ref="2432272530"/>
+        <nd ref="639300854"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="ref" v="Q4"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="73930212" user="Nzara" timestamp="2013-08-25T12:34:52Z" changeset="17498630" version="10" visible="true">
+        <nd ref="257387352"/>
+        <nd ref="925542937"/>
+        <nd ref="874803143"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="spur"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="industrial"/>
+    </way>
+    <way id="75137836" user="Nzara" timestamp="2013-08-25T19:55:14Z" changeset="17506311" version="3" visible="true">
+        <nd ref="886973353"/>
+        <nd ref="886972911"/>
+        <tag k="bridge" v="yes"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="layer" v="1"/>
+        <tag k="maxspeed" v="125"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="75137837" user="Nzara" timestamp="2013-08-26T12:48:15Z" changeset="17516532" version="4" visible="true">
+        <nd ref="2432272544"/>
+        <nd ref="2432272536"/>
+        <nd ref="886973311"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="siding"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="75137842" user="Nzara" timestamp="2013-08-25T20:00:29Z" changeset="17506451" version="6" visible="true">
+        <nd ref="886972777"/>
+        <nd ref="2431474415"/>
+        <nd ref="886973335"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="siding"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="75137843" user="Nzara" timestamp="2013-08-25T19:55:17Z" changeset="17506311" version="3" visible="true">
+        <nd ref="886972642"/>
+        <nd ref="2431474402"/>
+        <nd ref="886973073"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="125"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="75137844" user="Nzara" timestamp="2013-08-25T20:00:31Z" changeset="17506451" version="5" visible="true">
+        <nd ref="904631568"/>
+        <nd ref="2431474428"/>
+        <nd ref="886973454"/>
+        <nd ref="2431480630"/>
+        <nd ref="886973862"/>
+        <nd ref="886972661"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="siding"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="75137850" user="Nzara" timestamp="2013-08-26T12:48:16Z" changeset="17516532" version="6" visible="true">
+        <nd ref="904631548"/>
+        <nd ref="2432272480"/>
+        <nd ref="2431014057"/>
+        <nd ref="886973813"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="75137854" user="Nzara" timestamp="2013-08-25T19:55:14Z" changeset="17506311" version="3" visible="true">
+        <nd ref="886973330"/>
+        <nd ref="886973873"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="125"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="75137861" user="Nzara" timestamp="2013-08-25T19:55:20Z" changeset="17506311" version="5" visible="true">
+        <nd ref="886972834"/>
+        <nd ref="2431474405"/>
+        <nd ref="1317986104"/>
+        <nd ref="886973067"/>
+        <nd ref="2431474406"/>
+        <nd ref="2431474407"/>
+        <nd ref="886973274"/>
+        <nd ref="886972836"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="siding"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="75137862" user="Nzara" timestamp="2013-08-26T12:48:15Z" changeset="17516532" version="6" visible="true">
+        <nd ref="886973343"/>
+        <nd ref="2432272456"/>
+        <nd ref="886972628"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="siding"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="75137865" user="Nzara" timestamp="2013-08-26T12:48:13Z" changeset="17516532" version="4" visible="true">
+        <nd ref="886973394"/>
+        <nd ref="904631537"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="75137877" user="Nzara" timestamp="2013-08-26T12:48:15Z" changeset="17516532" version="4" visible="true">
+        <nd ref="886973897"/>
+        <nd ref="2431014060"/>
+        <nd ref="886973587"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="siding"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="75137878" user="Nzara" timestamp="2013-08-25T20:00:30Z" changeset="17506451" version="5" visible="true">
+        <nd ref="886972805"/>
+        <nd ref="2431474421"/>
+        <nd ref="886973606"/>
+        <nd ref="2065742817"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="siding"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="75137879" user="Nzara" timestamp="2013-08-26T12:48:16Z" changeset="17516532" version="6" visible="true">
+        <nd ref="904631562"/>
+        <nd ref="2432272464"/>
+        <nd ref="2431474420"/>
+        <nd ref="886973750"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="75137883" user="Nzara" timestamp="2013-08-25T19:55:14Z" changeset="17506311" version="3" visible="true">
+        <nd ref="886973755"/>
+        <nd ref="886973330"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="layer" v="-1"/>
+        <tag k="maxspeed" v="125"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="tunnel" v="yes"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="75137887" user="Nzara" timestamp="2013-08-25T19:55:15Z" changeset="17506311" version="3" visible="true">
+        <nd ref="886972626"/>
+        <nd ref="886973101"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="125"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="75137889" user="Nzara" timestamp="2013-08-26T12:48:16Z" changeset="17516532" version="4" visible="true">
+        <nd ref="886973683"/>
+        <nd ref="2431014059"/>
+        <nd ref="886972793"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="siding"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="75137890" user="Nzara" timestamp="2013-08-26T12:48:16Z" changeset="17516532" version="4" visible="true">
+        <nd ref="886972912"/>
+        <nd ref="2431474426"/>
+        <nd ref="886973311"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="siding"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="75137893" user="Nzara" timestamp="2013-08-25T20:00:30Z" changeset="17506451" version="6" visible="true">
+        <nd ref="886973179"/>
+        <nd ref="2431474417"/>
+        <nd ref="886973046"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="siding"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="75137906" user="Luke173" timestamp="2013-11-24T18:24:49Z" changeset="19096246" version="6" visible="true">
+        <nd ref="886973390"/>
+        <nd ref="886973435"/>
+        <nd ref="886972843"/>
+        <nd ref="886973816"/>
+        <nd ref="886973416"/>
+        <nd ref="886972776"/>
+        <nd ref="886973771"/>
+        <nd ref="886973356"/>
+        <nd ref="886973081"/>
+        <nd ref="886972684"/>
+        <nd ref="623014175"/>
+        <nd ref="245070648"/>
+        <nd ref="886973686"/>
+        <nd ref="2549287453"/>
+        <nd ref="245070647"/>
+        <nd ref="886973548"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="125"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="75137908" user="Nzara" timestamp="2013-08-25T19:55:15Z" changeset="17506311" version="3" visible="true">
+        <nd ref="886973104"/>
+        <nd ref="886973073"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="125"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="75137909" user="Nzara" timestamp="2013-08-26T12:48:16Z" changeset="17516532" version="6" visible="true">
+        <nd ref="886972645"/>
+        <nd ref="2432272469"/>
+        <nd ref="2431474416"/>
+        <nd ref="886973276"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="75137910" user="Nzara" timestamp="2013-08-26T14:13:01Z" changeset="17518194" version="11" visible="true">
+        <nd ref="256157337"/>
+        <nd ref="2431014053"/>
+        <nd ref="1286028103"/>
+        <nd ref="886973008"/>
+        <nd ref="886973451"/>
+        <nd ref="886973481"/>
+        <nd ref="2431014064"/>
+        <nd ref="904631555"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="70"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="branch"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="75137911" user="Nzara" timestamp="2013-08-26T12:48:17Z" changeset="17516532" version="7" visible="true">
+        <nd ref="886972981"/>
+        <nd ref="2431474422"/>
+        <nd ref="2431474434"/>
+        <nd ref="904631508"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="75137912" user="Nzara" timestamp="2013-08-26T12:38:06Z" changeset="17516346" version="4" visible="true">
+        <nd ref="886972912"/>
+        <nd ref="904631456"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="70"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="75137916" user="Nzara" timestamp="2013-08-25T20:00:31Z" changeset="17506451" version="5" visible="true">
+        <nd ref="904631362"/>
+        <nd ref="2431474425"/>
+        <nd ref="886973369"/>
+        <nd ref="2431474413"/>
+        <nd ref="886973776"/>
+        <nd ref="886972953"/>
+        <nd ref="886973254"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="siding"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="75137917" user="Nzara" timestamp="2013-08-26T12:48:17Z" changeset="17516532" version="6" visible="true">
+        <nd ref="904631452"/>
+        <nd ref="2432272482"/>
+        <nd ref="2431014056"/>
+        <nd ref="886972527"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="75137920" user="Nzara" timestamp="2013-08-25T20:00:31Z" changeset="17506451" version="5" visible="true">
+        <nd ref="886973388"/>
+        <nd ref="886973591"/>
+        <nd ref="886973871"/>
+        <nd ref="2065742722"/>
+        <nd ref="2431474408"/>
+        <nd ref="2431474409"/>
+        <nd ref="886972836"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="siding"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="75137925" user="Nzara" timestamp="2013-08-25T20:00:30Z" changeset="17506451" version="6" visible="true">
+        <nd ref="886973482"/>
+        <nd ref="2431014054"/>
+        <nd ref="886972762"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="siding"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="75137926" user="Nzara" timestamp="2013-08-25T19:55:15Z" changeset="17506311" version="3" visible="true">
+        <nd ref="886973793"/>
+        <nd ref="886973390"/>
+        <tag k="bridge" v="yes"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="layer" v="1"/>
+        <tag k="maxspeed" v="125"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="75137927" user="Nzara" timestamp="2013-08-25T19:55:15Z" changeset="17506311" version="3" visible="true">
+        <nd ref="886973548"/>
+        <nd ref="886973104"/>
+        <tag k="bridge" v="yes"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="layer" v="1"/>
+        <tag k="maxspeed" v="125"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="75137930" user="Nzara" timestamp="2013-08-25T20:00:31Z" changeset="17506451" version="4" visible="true">
+        <nd ref="886972592"/>
+        <nd ref="2431474430"/>
+        <nd ref="886973327"/>
+        <nd ref="2431480632"/>
+        <nd ref="886972938"/>
+        <nd ref="886972661"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="siding"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="75137932" user="mjulius" timestamp="2014-09-23T23:31:00Z" changeset="25635449" version="8" visible="true">
+        <nd ref="886973461"/>
+        <nd ref="1495829767"/>
+        <nd ref="886973000"/>
+        <nd ref="886972548"/>
+        <nd ref="886973575"/>
+        <nd ref="1286018246"/>
+        <nd ref="886973141"/>
+        <nd ref="886972657"/>
+        <nd ref="886973680"/>
+        <nd ref="886973235"/>
+        <nd ref="1324454353"/>
+        <nd ref="886972664"/>
+        <nd ref="886973684"/>
+        <nd ref="3093311926"/>
+        <nd ref="886973243"/>
+        <nd ref="3093311920"/>
+        <nd ref="3093311918"/>
+        <nd ref="3093311915"/>
+        <nd ref="886973530"/>
+        <nd ref="3093311912"/>
+        <nd ref="886972505"/>
+        <nd ref="3093311910"/>
+        <nd ref="886972962"/>
+        <nd ref="886973286"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="125"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="75137939" user="Nzara" timestamp="2013-08-25T20:00:31Z" changeset="17506451" version="4" visible="true">
+        <nd ref="886972628"/>
+        <nd ref="2431474423"/>
+        <nd ref="886972545"/>
+        <nd ref="886972991"/>
+        <nd ref="2431474411"/>
+        <nd ref="102271323"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="siding"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="75137942" user="Nzara" timestamp="2013-08-26T12:48:17Z" changeset="17516532" version="6" visible="true">
+        <nd ref="886972509"/>
+        <nd ref="2431474418"/>
+        <nd ref="2432272466"/>
+        <nd ref="904631472"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="75137950" user="Nzara" timestamp="2013-08-25T19:55:15Z" changeset="17506311" version="3" visible="true">
+        <nd ref="886973101"/>
+        <nd ref="886972642"/>
+        <tag k="bridge" v="yes"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="layer" v="1"/>
+        <tag k="maxspeed" v="125"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="75137953" user="Nzara" timestamp="2013-08-25T20:00:30Z" changeset="17506451" version="6" visible="true">
+        <nd ref="886973378"/>
+        <nd ref="2431474419"/>
+        <nd ref="886972619"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="siding"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="75137957" user="Nzara" timestamp="2013-08-26T12:48:17Z" changeset="17516532" version="5" visible="true">
+        <nd ref="904631537"/>
+        <nd ref="2431474431"/>
+        <nd ref="904631351"/>
+        <nd ref="886973142"/>
+        <nd ref="886972981"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="75137960" user="Nzara" timestamp="2013-08-25T19:55:15Z" changeset="17506311" version="3" visible="true">
+        <nd ref="886973873"/>
+        <nd ref="886973461"/>
+        <tag k="bridge" v="yes"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="layer" v="1"/>
+        <tag k="maxspeed" v="125"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="75137964" user="Nzara" timestamp="2013-08-26T14:12:59Z" changeset="17518194" version="6" visible="true">
+        <nd ref="102271320"/>
+        <nd ref="2065742799"/>
+        <nd ref="2431474410"/>
+        <nd ref="2431474414"/>
+        <nd ref="886973221"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="75137973" user="Nzara" timestamp="2013-08-25T19:55:17Z" changeset="17506311" version="5" visible="true">
+        <nd ref="886972911"/>
+        <nd ref="886973264"/>
+        <nd ref="886973793"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="125"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="75137983" user="Nzara" timestamp="2013-08-25T20:00:31Z" changeset="17506451" version="6" visible="true">
+        <nd ref="102271320"/>
+        <nd ref="102271322"/>
+        <nd ref="1496804317"/>
+        <nd ref="102271323"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="siding"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="75137994" user="Nzara" timestamp="2013-08-26T12:48:17Z" changeset="17516532" version="5" visible="true">
+        <nd ref="886973828"/>
+        <nd ref="904631638"/>
+        <nd ref="2423264347"/>
+        <nd ref="904631508"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="76791073" user="Nzara" timestamp="2013-08-26T13:24:19Z" changeset="17517221" version="4" visible="true">
+        <nd ref="34490087"/>
+        <nd ref="904631564"/>
+        <nd ref="928663498"/>
+        <nd ref="1286602630"/>
+        <nd ref="928663830"/>
+        <nd ref="928663747"/>
+        <nd ref="928663495"/>
+        <nd ref="34490085"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="70"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="ref" v="8"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="branch"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="76791075" user="Nzara" timestamp="2013-08-26T12:48:13Z" changeset="17516532" version="3" visible="true">
+        <nd ref="886972645"/>
+        <nd ref="904631548"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="76791080" user="Nzara" timestamp="2013-08-26T12:48:17Z" changeset="17516532" version="4" visible="true">
+        <nd ref="904631589"/>
+        <nd ref="886973518"/>
+        <nd ref="2431474412"/>
+        <nd ref="886972483"/>
+        <nd ref="886972953"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="76791081" user="Nzara" timestamp="2013-08-26T12:59:07Z" changeset="17516708" version="3" visible="true">
+        <nd ref="904631629"/>
+        <nd ref="1286569334"/>
+        <nd ref="102271334"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="76791084" user="Nzara" timestamp="2013-08-26T12:38:06Z" changeset="17516346" version="3" visible="true">
+        <nd ref="904631505"/>
+        <nd ref="904631429"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="70"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="76791085" user="Nzara" timestamp="2013-08-26T12:48:13Z" changeset="17516532" version="4" visible="true">
+        <nd ref="886972541"/>
+        <nd ref="102271908"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="spur"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="76791089" user="Nzara" timestamp="2013-08-26T12:48:14Z" changeset="17516532" version="3" visible="true">
+        <nd ref="102271908"/>
+        <nd ref="904631614"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="76791090" user="Nzara" timestamp="2013-08-26T14:13:00Z" changeset="17518194" version="5" visible="true">
+        <nd ref="904631550"/>
+        <nd ref="904631380"/>
+        <nd ref="2432272518"/>
+        <nd ref="904631557"/>
+        <nd ref="2432272476"/>
+        <nd ref="904631440"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="76791093" user="Nzara" timestamp="2013-08-26T12:59:06Z" changeset="17516708" version="4" visible="true">
+        <nd ref="886973394"/>
+        <nd ref="904631522"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="76791095" user="Nzara" timestamp="2013-08-26T14:12:50Z" changeset="17518194" version="4" visible="true">
+        <nd ref="904631481"/>
+        <nd ref="904631631"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="siding"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="76791098" user="Nzara" timestamp="2013-08-26T12:59:07Z" changeset="17516708" version="4" visible="true">
+        <nd ref="904631383"/>
+        <nd ref="2432272462"/>
+        <nd ref="904631579"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="76791101" user="Nzara" timestamp="2013-08-25T12:34:54Z" changeset="17498630" version="5" visible="true">
+        <nd ref="256157337"/>
+        <nd ref="256157338"/>
+        <nd ref="25500242"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="70"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="branch"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="76791104" user="Nzara" timestamp="2013-08-26T12:38:11Z" changeset="17516346" version="3" visible="true">
+        <nd ref="904631503"/>
+        <nd ref="904631410"/>
+        <nd ref="2432272548"/>
+        <nd ref="904631555"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="76791107" user="Nzara" timestamp="2013-08-26T14:12:54Z" changeset="17518194" version="5" visible="true">
+        <nd ref="904631481"/>
+        <nd ref="2432272568"/>
+        <nd ref="332102801"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="siding"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="79581998" user="Nzara" timestamp="2013-08-26T13:03:25Z" changeset="17516800" version="6" visible="true">
+        <nd ref="928663643"/>
+        <nd ref="1330697098"/>
+        <nd ref="928663878"/>
+        <nd ref="928663816"/>
+        <nd ref="928663918"/>
+        <nd ref="1483901701"/>
+        <nd ref="1483901714"/>
+        <nd ref="928663710"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="siding"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="79582005" user="Nzara" timestamp="2013-08-26T12:38:09Z" changeset="17516346" version="3" visible="true">
+        <nd ref="904631643"/>
+        <nd ref="2432272576"/>
+        <nd ref="904631505"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="70"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="79582012" user="Nzara" timestamp="2013-08-26T12:38:13Z" changeset="17516346" version="3" visible="true">
+        <nd ref="34489801"/>
+        <nd ref="928663530"/>
+        <nd ref="34489802"/>
+        <nd ref="361193792"/>
+        <nd ref="1095706540"/>
+        <nd ref="34489803"/>
+        <nd ref="904631643"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="70"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="ref" v="7"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="79582017" user="Nzara" timestamp="2013-08-26T13:24:19Z" changeset="17517221" version="4" visible="true">
+        <nd ref="928663796"/>
+        <nd ref="928663570"/>
+        <nd ref="256624345"/>
+        <nd ref="1286602638"/>
+        <nd ref="256624347"/>
+        <nd ref="256624372"/>
+        <nd ref="34490087"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="70"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="ref" v="9"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="branch"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="79582026" user="Nzara" timestamp="2013-08-26T14:35:10Z" changeset="17518616" version="5" visible="true">
+        <nd ref="928663496"/>
+        <nd ref="34490074"/>
+        <nd ref="928663749"/>
+        <nd ref="34490075"/>
+        <nd ref="904631460"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="70"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="ref" v="4"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="79582029" user="Nzara" timestamp="2013-08-26T14:12:51Z" changeset="17518194" version="4" visible="true">
+        <nd ref="904631643"/>
+        <nd ref="332102802"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="70"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="branch"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="79582037" user="Nzara" timestamp="2013-08-25T12:34:49Z" changeset="17498630" version="3" visible="true">
+        <nd ref="25500242"/>
+        <nd ref="2431014050"/>
+        <nd ref="928663908"/>
+        <nd ref="1330697116"/>
+        <nd ref="928663579"/>
+        <nd ref="1330697112"/>
+        <nd ref="1330697109"/>
+        <nd ref="928663533"/>
+        <nd ref="1330697095"/>
+        <nd ref="928663803"/>
+        <nd ref="1330697094"/>
+        <nd ref="257387352"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="50"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="branch"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="79582045" user="Nzara" timestamp="2013-08-26T13:03:25Z" changeset="17516800" version="4" visible="true">
+        <nd ref="928663710"/>
+        <nd ref="2431014048"/>
+        <nd ref="2431014049"/>
+        <nd ref="928663859"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="siding"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="79582055" user="Nzara" timestamp="2013-08-26T16:11:58Z" changeset="17520451" version="4" visible="true">
+        <nd ref="928663625"/>
+        <nd ref="1286602699"/>
+        <nd ref="928663615"/>
+        <nd ref="2432320801"/>
+        <nd ref="34489424"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="70"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="ref" v="1"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="branch"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="79582058" user="Nzara" timestamp="2013-08-26T14:12:59Z" changeset="17518194" version="4" visible="true">
+        <nd ref="928663712"/>
+        <nd ref="928663725"/>
+        <nd ref="928663849"/>
+        <nd ref="928663812"/>
+        <nd ref="928663796"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="spur"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="79582073" user="Nzara" timestamp="2013-08-26T14:35:14Z" changeset="17518616" version="4" visible="true">
+        <nd ref="928663771"/>
+        <nd ref="928663910"/>
+        <nd ref="928663602"/>
+        <nd ref="928663546"/>
+        <nd ref="1286602745"/>
+        <nd ref="928663756"/>
+        <nd ref="34489731"/>
+        <nd ref="2432272578"/>
+        <nd ref="904631505"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="70"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="ref" v="5"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="79582078" user="Nzara" timestamp="2013-08-25T12:34:55Z" changeset="17498630" version="4" visible="true">
+        <nd ref="25500131"/>
+        <nd ref="2431014041"/>
+        <nd ref="1330697102"/>
+        <nd ref="928663804"/>
+        <nd ref="1483901683"/>
+        <nd ref="1483901699"/>
+        <nd ref="1330697110"/>
+        <nd ref="928663859"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="siding"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113397090" user="Nzara" timestamp="2013-08-25T19:55:16Z" changeset="17506311" version="2" visible="true">
+        <nd ref="886973073"/>
+        <nd ref="886972744"/>
+        <nd ref="886973755"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="125"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113397092" user="Nzara" timestamp="2013-08-25T19:55:12Z" changeset="17506311" version="2" visible="true">
+        <nd ref="886972626"/>
+        <nd ref="597879255"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="125"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113397101" user="Luke173" timestamp="2013-11-24T18:24:48Z" changeset="19096246" version="4" visible="true">
+        <nd ref="334262718"/>
+        <nd ref="2549287452"/>
+        <nd ref="886972626"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="125"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113481507" user="Nzara" timestamp="2013-08-26T12:48:11Z" changeset="17516532" version="3" visible="true">
+        <nd ref="904631574"/>
+        <nd ref="886973394"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113481509" user="Nzara" timestamp="2013-08-26T12:48:12Z" changeset="17516532" version="2" visible="true">
+        <nd ref="904631508"/>
+        <nd ref="904631562"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113481510" user="Nzara" timestamp="2013-08-26T12:59:07Z" changeset="17516708" version="4" visible="true">
+        <nd ref="904631383"/>
+        <nd ref="2431474435"/>
+        <nd ref="904631344"/>
+        <nd ref="2432272478"/>
+        <nd ref="904631597"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="113481511" user="Nzara" timestamp="2013-08-25T20:00:29Z" changeset="17506451" version="2" visible="true">
+        <nd ref="886972661"/>
+        <nd ref="102271323"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="siding"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="113481512" user="Nzara" timestamp="2013-08-26T12:38:04Z" changeset="17516346" version="2" visible="true">
+        <nd ref="904631429"/>
+        <nd ref="904631481"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="70"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113481517" user="Nzara" timestamp="2013-08-26T12:48:12Z" changeset="17516532" version="3" visible="true">
+        <nd ref="904631452"/>
+        <nd ref="886972541"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113481518" user="Nzara" timestamp="2013-08-25T20:00:29Z" changeset="17506451" version="2" visible="true">
+        <nd ref="886973179"/>
+        <nd ref="886972777"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="siding"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="113481521" user="Nzara" timestamp="2013-08-26T12:38:04Z" changeset="17516346" version="2" visible="true">
+        <nd ref="904631456"/>
+        <nd ref="904631506"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="70"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113481523" user="Nzara" timestamp="2013-08-26T12:48:12Z" changeset="17516532" version="2" visible="true">
+        <nd ref="904631472"/>
+        <nd ref="886972645"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113481525" user="Nzara" timestamp="2013-08-25T12:34:55Z" changeset="17498630" version="3" visible="true">
+        <nd ref="25500242"/>
+        <nd ref="2431014051"/>
+        <nd ref="257387349"/>
+        <nd ref="25500240"/>
+        <nd ref="928663915"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="50"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="branch"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113481530" user="Nzara" timestamp="2013-08-25T20:00:29Z" changeset="17506451" version="2" visible="true">
+        <nd ref="102271323"/>
+        <nd ref="886973254"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="siding"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="113481532" user="Nzara" timestamp="2013-08-25T20:00:29Z" changeset="17506451" version="2" visible="true">
+        <nd ref="886972628"/>
+        <nd ref="886972805"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="siding"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="113481535" user="Nzara" timestamp="2013-08-26T12:59:05Z" changeset="17516708" version="2" visible="true">
+        <nd ref="886973750"/>
+        <nd ref="886972509"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113481539" user="Nzara" timestamp="2013-08-26T12:48:12Z" changeset="17516532" version="3" visible="true">
+        <nd ref="904631440"/>
+        <nd ref="904631574"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113481542" user="Nzara" timestamp="2013-08-26T14:12:46Z" changeset="17518194" version="4" visible="true">
+        <nd ref="904631456"/>
+        <nd ref="904631631"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="siding"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113481544" user="Nzara" timestamp="2013-08-26T12:59:06Z" changeset="17516708" version="3" visible="true">
+        <nd ref="904631522"/>
+        <nd ref="2431474433"/>
+        <nd ref="904631383"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="113481546" user="Nzara" timestamp="2013-08-26T12:48:14Z" changeset="17516532" version="3" visible="true">
+        <nd ref="904631614"/>
+        <nd ref="2432272552"/>
+        <nd ref="904631506"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113481549" user="Nzara" timestamp="2013-08-26T12:48:12Z" changeset="17516532" version="2" visible="true">
+        <nd ref="886973394"/>
+        <nd ref="886972592"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113481550" user="Nzara" timestamp="2013-08-26T12:38:12Z" changeset="17516346" version="4" visible="true">
+        <nd ref="886973278"/>
+        <nd ref="886972877"/>
+        <nd ref="886973485"/>
+        <nd ref="886973803"/>
+        <nd ref="1286569339"/>
+        <nd ref="256157049"/>
+        <nd ref="886973353"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="125"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113481552" user="Nzara" timestamp="2013-08-26T12:59:06Z" changeset="17516708" version="2" visible="true">
+        <nd ref="904631492"/>
+        <nd ref="896349746"/>
+        <nd ref="904631386"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113481555" user="Nzara" timestamp="2013-08-26T12:38:05Z" changeset="17516346" version="2" visible="true">
+        <nd ref="639300858"/>
+        <nd ref="639300855"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="113481558" user="Nzara" timestamp="2013-08-26T12:38:05Z" changeset="17516346" version="2" visible="true">
+        <nd ref="639300854"/>
+        <nd ref="639300857"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="113481559" user="Nzara" timestamp="2013-08-26T14:12:46Z" changeset="17518194" version="3" visible="true">
+        <nd ref="904631555"/>
+        <nd ref="639300860"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="70"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="branch"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113481562" user="Nzara" timestamp="2013-08-28T06:09:23Z" changeset="17548375" version="4" visible="true">
+        <nd ref="886972836"/>
+        <nd ref="240969611"/>
+        <nd ref="1286569351"/>
+        <nd ref="1286569343"/>
+        <nd ref="102271320"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="siding"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113481564" user="Nzara" timestamp="2013-08-25T20:00:29Z" changeset="17506451" version="2" visible="true">
+        <nd ref="886973378"/>
+        <nd ref="886973179"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="siding"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="113481566" user="Nzara" timestamp="2013-08-26T12:59:05Z" changeset="17516708" version="2" visible="true">
+        <nd ref="886973276"/>
+        <nd ref="886973813"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113481574" user="Nzara" timestamp="2013-08-26T12:48:12Z" changeset="17516532" version="2" visible="true">
+        <nd ref="904631562"/>
+        <nd ref="904631472"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113481575" user="Nzara" timestamp="2013-08-26T12:38:07Z" changeset="17516346" version="2" visible="true">
+        <nd ref="886973683"/>
+        <nd ref="886973421"/>
+        <nd ref="886973278"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="125"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113481577" user="Nzara" timestamp="2013-08-26T12:48:14Z" changeset="17516532" version="3" visible="true">
+        <nd ref="904631614"/>
+        <nd ref="2432272546"/>
+        <nd ref="904631402"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="siding"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113481579" user="Nzara" timestamp="2013-08-26T12:48:12Z" changeset="17516532" version="2" visible="true">
+        <nd ref="904631568"/>
+        <nd ref="904631362"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113481581" user="Nzara" timestamp="2013-08-26T12:48:12Z" changeset="17516532" version="2" visible="true">
+        <nd ref="904631537"/>
+        <nd ref="886973343"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113481585" user="Nzara" timestamp="2013-08-26T12:59:05Z" changeset="17516708" version="2" visible="true">
+        <nd ref="886972981"/>
+        <nd ref="886973750"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113481588" user="Nzara" timestamp="2013-08-25T20:00:29Z" changeset="17506451" version="2" visible="true">
+        <nd ref="886972777"/>
+        <nd ref="886973482"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="siding"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="113481593" user="Nzara" timestamp="2013-08-26T12:59:06Z" changeset="17516708" version="2" visible="true">
+        <nd ref="102271334"/>
+        <nd ref="102271692"/>
+        <nd ref="904631579"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="113481599" user="Nzara" timestamp="2013-08-26T12:59:06Z" changeset="17516708" version="3" visible="true">
+        <nd ref="886973221"/>
+        <nd ref="886972667"/>
+        <nd ref="886972527"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113481603" user="Nzara" timestamp="2013-08-26T12:48:13Z" changeset="17516532" version="2" visible="true">
+        <nd ref="904631589"/>
+        <nd ref="904631492"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113481606" user="Nzara" timestamp="2013-08-26T12:48:11Z" changeset="17516532" version="3" visible="true">
+        <nd ref="639300859"/>
+        <nd ref="2432272550"/>
+        <nd ref="2432272557"/>
+        <nd ref="639300860"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="ref" v="P2"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113481608" user="Nzara" timestamp="2013-08-26T12:38:09Z" changeset="17516346" version="5" visible="true">
+        <nd ref="886973897"/>
+        <nd ref="2431014061"/>
+        <nd ref="2431474432"/>
+        <nd ref="904631481"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="70"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113481614" user="Nzara" timestamp="2013-08-26T12:59:05Z" changeset="17516708" version="2" visible="true">
+        <nd ref="886972509"/>
+        <nd ref="886973276"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113481617" user="Nzara" timestamp="2013-08-26T12:38:12Z" changeset="17516346" version="3" visible="true">
+        <nd ref="886972793"/>
+        <nd ref="256157183"/>
+        <nd ref="256157184"/>
+        <nd ref="886973858"/>
+        <nd ref="256157185"/>
+        <nd ref="256157186"/>
+        <nd ref="1286569355"/>
+        <nd ref="316190987"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="125"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113481620" user="Nzara" timestamp="2013-08-26T12:48:13Z" changeset="17516532" version="2" visible="true">
+        <nd ref="904631548"/>
+        <nd ref="904631452"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113481621" user="Nzara" timestamp="2013-08-26T12:38:05Z" changeset="17516346" version="3" visible="true">
+        <nd ref="886972912"/>
+        <nd ref="886973683"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="70"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113481624" user="Nzara" timestamp="2013-08-26T12:48:13Z" changeset="17516532" version="2" visible="true">
+        <nd ref="886972592"/>
+        <nd ref="904631568"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113481627" user="Nzara" timestamp="2013-08-26T12:48:13Z" changeset="17516532" version="2" visible="true">
+        <nd ref="886973587"/>
+        <nd ref="886972912"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="siding"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113481629" user="Nzara" timestamp="2013-08-26T12:38:02Z" changeset="17516346" version="2" visible="true">
+        <nd ref="639300855"/>
+        <nd ref="639300853"/>
+        <nd ref="639300839"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="ref" v="P7"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="113481636" user="Nzara" timestamp="2013-08-26T13:24:09Z" changeset="17517221" version="3" visible="true">
+        <nd ref="34490087"/>
+        <nd ref="2432272580"/>
+        <nd ref="332102802"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="70"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="branch"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113481639" user="Nzara" timestamp="2013-08-26T14:12:57Z" changeset="17518194" version="3" visible="true">
+        <nd ref="639300860"/>
+        <nd ref="2432272563"/>
+        <nd ref="332102801"/>
+        <nd ref="332102802"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="70"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="branch"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113481641" user="Nzara" timestamp="2013-08-26T12:59:05Z" changeset="17516708" version="2" visible="true">
+        <nd ref="886973813"/>
+        <nd ref="886972527"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113481644" user="Nzara" timestamp="2013-08-25T20:00:30Z" changeset="17506451" version="3" visible="true">
+        <nd ref="886973482"/>
+        <nd ref="2431014055"/>
+        <nd ref="886972665"/>
+        <nd ref="886973762"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="siding"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="113481646" user="Nzara" timestamp="2013-08-26T12:48:13Z" changeset="17516532" version="2" visible="true">
+        <nd ref="904631362"/>
+        <nd ref="904631589"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113481647" user="tf66" timestamp="2014-12-24T18:05:18Z" changeset="27677400" version="5" visible="true">
+        <nd ref="928663733"/>
+        <nd ref="1286602728"/>
+        <nd ref="2432272570"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="70"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="ref" v="3"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113481649" user="Nzara" timestamp="2013-08-25T20:00:30Z" changeset="17506451" version="2" visible="true">
+        <nd ref="886973343"/>
+        <nd ref="886973113"/>
+        <nd ref="2431480629"/>
+        <nd ref="886972661"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="siding"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="113481653" user="Nzara" timestamp="2013-08-26T12:38:05Z" changeset="17516346" version="2" visible="true">
+        <nd ref="639300857"/>
+        <nd ref="639300859"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="113481654" user="Nzara" timestamp="2013-08-26T12:48:17Z" changeset="17516532" version="3" visible="true">
+        <nd ref="886973254"/>
+        <nd ref="102271324"/>
+        <nd ref="886973076"/>
+        <nd ref="2431480631"/>
+        <nd ref="886973041"/>
+        <nd ref="904631492"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113481655" user="Nzara" timestamp="2013-08-26T12:38:05Z" changeset="17516346" version="3" visible="true">
+        <nd ref="886973587"/>
+        <nd ref="886972793"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="70"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113481660" user="Nzara" timestamp="2013-08-26T12:48:15Z" changeset="17516532" version="3" visible="true">
+        <nd ref="886972541"/>
+        <nd ref="2432272544"/>
+        <nd ref="904631456"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113481662" user="Nzara" timestamp="2013-08-26T12:48:13Z" changeset="17516532" version="3" visible="true">
+        <nd ref="102271908"/>
+        <nd ref="904631440"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113481664" user="Nzara" timestamp="2013-08-25T20:00:29Z" changeset="17506451" version="2" visible="true">
+        <nd ref="886972805"/>
+        <nd ref="886973378"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="siding"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="113481668" user="Nzara" timestamp="2013-08-26T12:59:05Z" changeset="17516708" version="3" visible="true">
+        <nd ref="904631579"/>
+        <nd ref="904631589"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="113494032" user="Nzara" timestamp="2013-08-26T14:12:47Z" changeset="17518194" version="3" visible="true">
+        <nd ref="34490085"/>
+        <nd ref="928663796"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="siding"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="113494066" user="Nzara" timestamp="2013-08-26T13:24:18Z" changeset="17517221" version="2" visible="true">
+        <nd ref="928663767"/>
+        <nd ref="34489729"/>
+        <nd ref="928663940"/>
+        <nd ref="1286602778"/>
+        <nd ref="256624408"/>
+        <nd ref="904631643"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="70"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="ref" v="6"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="118301748" user="Nzara" timestamp="2013-08-25T12:34:50Z" changeset="17498630" version="2" visible="true">
+        <nd ref="257387352"/>
+        <nd ref="243857461"/>
+        <nd ref="1330697096"/>
+        <nd ref="25500129"/>
+        <nd ref="1330697100"/>
+        <nd ref="246540643"/>
+        <nd ref="25499535"/>
+        <nd ref="246540644"/>
+        <nd ref="1330697111"/>
+        <nd ref="257387181"/>
+        <nd ref="1330697114"/>
+        <nd ref="257387182"/>
+        <nd ref="1330697118"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="60"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="branch"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="118301752" user="Nzara" timestamp="2013-08-25T12:34:51Z" changeset="17498630" version="2" visible="true">
+        <nd ref="25500131"/>
+        <nd ref="257387352"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="50"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="branch"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="118301757" user="Nzara" timestamp="2013-08-26T13:03:24Z" changeset="17516800" version="3" visible="true">
+        <nd ref="928663710"/>
+        <nd ref="928663592"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="siding"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="118301762" user="Nzara" timestamp="2013-08-25T12:34:54Z" changeset="17498630" version="2" visible="true">
+        <nd ref="928663859"/>
+        <nd ref="928663781"/>
+        <nd ref="1330697113"/>
+        <nd ref="928663915"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="siding"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="118301763" user="Nzara" timestamp="2013-08-25T12:34:55Z" changeset="17498630" version="3" visible="true">
+        <nd ref="928663915"/>
+        <nd ref="25500154"/>
+        <nd ref="1483901681"/>
+        <nd ref="1483901659"/>
+        <nd ref="257387351"/>
+        <nd ref="1330697097"/>
+        <nd ref="25500131"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="50"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="branch"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="136353509" user="mjulius" timestamp="2014-09-23T23:31:00Z" changeset="25635449" version="5" visible="true">
+        <nd ref="256156582"/>
+        <nd ref="1495829768"/>
+        <nd ref="256156584"/>
+        <nd ref="256156585"/>
+        <nd ref="256156586"/>
+        <nd ref="1286018257"/>
+        <nd ref="256156515"/>
+        <nd ref="256156516"/>
+        <nd ref="25430777"/>
+        <nd ref="256156256"/>
+        <nd ref="1324453101"/>
+        <nd ref="256156257"/>
+        <nd ref="256156259"/>
+        <nd ref="3093311927"/>
+        <nd ref="256156260"/>
+        <nd ref="3093311921"/>
+        <nd ref="3093311919"/>
+        <nd ref="3093311916"/>
+        <nd ref="25428975"/>
+        <nd ref="3093311913"/>
+        <nd ref="256156262"/>
+        <nd ref="3093311911"/>
+        <nd ref="256156263"/>
+        <nd ref="886972849"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="125"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="157944949" user="Nzara" timestamp="2013-08-26T12:59:07Z" changeset="17516708" version="3" visible="true">
+        <nd ref="1286028104"/>
+        <nd ref="2432272471"/>
+        <nd ref="904631363"/>
+        <nd ref="904631522"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="157944950" user="Nzara" timestamp="2013-08-26T12:59:07Z" changeset="17516708" version="3" visible="true">
+        <nd ref="1286028106"/>
+        <nd ref="2432272474"/>
+        <nd ref="904631640"/>
+        <nd ref="904631574"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="157944952" user="Nzara" timestamp="2013-08-26T12:59:06Z" changeset="17516708" version="3" visible="true">
+        <nd ref="102271337"/>
+        <nd ref="1701725464"/>
+        <nd ref="102271334"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="196226047" user="Nzara" timestamp="2013-08-26T12:59:07Z" changeset="17516708" version="3" visible="true">
+        <nd ref="886973221"/>
+        <nd ref="2065742822"/>
+        <nd ref="2065742810"/>
+        <nd ref="886973032"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="234990202" user="Nzara" timestamp="2013-08-25T12:34:44Z" changeset="17498630" version="1" visible="true">
+        <nd ref="1330697118"/>
+        <nd ref="25499534"/>
+        <nd ref="319810146"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="100"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="branch"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="234990203" user="Nzara" timestamp="2013-08-26T12:48:16Z" changeset="17516532" version="2" visible="true">
+        <nd ref="2431014064"/>
+        <nd ref="2431014063"/>
+        <nd ref="2431014062"/>
+        <nd ref="2431014061"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="siding"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="235044114" user="Nzara" timestamp="2013-08-26T12:48:16Z" changeset="17516532" version="2" visible="true">
+        <nd ref="2431474432"/>
+        <nd ref="2431474429"/>
+        <nd ref="2431474427"/>
+        <nd ref="2431474424"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="siding"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="235141884" user="Nzara" timestamp="2013-08-26T12:36:52Z" changeset="17516346" version="1" visible="true">
+        <nd ref="2432272507"/>
+        <nd ref="1075524706"/>
+        <nd ref="639300858"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="ref" v="P5"/>
+        <tag k="service" v="spur"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="235141886" user="Nzara" timestamp="2013-08-26T12:36:52Z" changeset="17516346" version="1" visible="true">
+        <nd ref="2432272503"/>
+        <nd ref="639300837"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="ref" v="Q10"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="235141887" user="Nzara" timestamp="2013-08-26T12:36:52Z" changeset="17516346" version="1" visible="true">
+        <nd ref="2432272484"/>
+        <nd ref="2432272489"/>
+        <nd ref="639300847"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="ref" v="Q5"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="235141888" user="Nzara" timestamp="2013-08-26T12:36:52Z" changeset="17516346" version="1" visible="true">
+        <nd ref="2432272487"/>
+        <nd ref="2432272499"/>
+        <nd ref="639300846"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="ref" v="Q6"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="235141889" user="Nzara" timestamp="2013-08-26T12:36:52Z" changeset="17516346" version="1" visible="true">
+        <nd ref="2432272491"/>
+        <nd ref="2432272493"/>
+        <nd ref="2432272512"/>
+        <nd ref="639300845"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="ref" v="Q7"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="235141890" user="Nzara" timestamp="2013-08-26T12:36:52Z" changeset="17516346" version="1" visible="true">
+        <nd ref="2432272495"/>
+        <nd ref="2432272497"/>
+        <nd ref="2432272510"/>
+        <nd ref="639300844"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="ref" v="Q8"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="235141892" user="Nzara" timestamp="2013-08-26T12:36:52Z" changeset="17516346" version="1" visible="true">
+        <nd ref="2432272501"/>
+        <nd ref="2432272505"/>
+        <nd ref="639300840"/>
+        <tag k="electrified" v="no"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="ref" v="Q9"/>
+        <tag k="service" v="yard"/>
+        <tag k="tracks" v="1"/>
+    </way>
+    <way id="235141894" user="Nzara" timestamp="2013-08-26T12:48:15Z" changeset="17516532" version="2" visible="true">
+        <nd ref="2432272570"/>
+        <nd ref="2432272574"/>
+        <nd ref="904631460"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="siding"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="235141896" user="Nzara" timestamp="2013-08-26T14:12:57Z" changeset="17518194" version="3" visible="true">
+        <nd ref="904631429"/>
+        <nd ref="2432272572"/>
+        <nd ref="2432272566"/>
+        <nd ref="2432272559"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="siding"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="248085021" user="Nzara" timestamp="2014-01-03T10:00:20Z" changeset="19783187" version="2" visible="true">
+        <nd ref="2549287452"/>
+        <nd ref="2549287453"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="service" v="siding"/>
+        <tag k="tracks" v="1"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+    <way id="318739183" user="tf66" timestamp="2014-12-24T18:04:32Z" changeset="27677400" version="1" visible="true">
+        <nd ref="2432272570"/>
+        <nd ref="904631506"/>
+        <tag k="electrified" v="contact_line"/>
+        <tag k="frequency" v="16.7"/>
+        <tag k="gauge" v="1435"/>
+        <tag k="maxspeed" v="70"/>
+        <tag k="operator" v="SBB"/>
+        <tag k="railway" v="rail"/>
+        <tag k="ref" v="3"/>
+        <tag k="tracks" v="1"/>
+        <tag k="usage" v="main"/>
+        <tag k="voltage" v="15000"/>
+    </way>
+</osm>
