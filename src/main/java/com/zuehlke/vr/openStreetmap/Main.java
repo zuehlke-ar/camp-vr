@@ -21,10 +21,10 @@ public class Main {
 
 
     public static void main(String[] args) throws IOException {
-        ExtendedOsm osm = new ExtendedOsm(new File("data/winti_big2.osm"));
+        ExtendedOsm osm = new ExtendedOsm(new File("data/map2.osm"));
         osm.removeNonSBBRails();
-        osm.write(new File("data/winti_big2_rails_only.osm"));
-        osm.writeToJson(new File("data/winti_big2_rails_only.json"));
+        osm.write(new File("data/map2_rails_only.osm"));
+        osm.writeToJson(new File("data/map2_rails_only.json"));
     }
 
     public static void main1(String[] args) throws IOException {

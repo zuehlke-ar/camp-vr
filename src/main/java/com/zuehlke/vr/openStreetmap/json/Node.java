@@ -4,6 +4,7 @@ public class Node {
     private int id;
     private double lat;
     private double lon;
+    private double ele;
 
     public Node(int id, double lat, double lon) {
         this.id = id;
@@ -33,5 +34,13 @@ public class Node {
 
     public void setLon(double lon) {
         this.lon = lon;
+    }
+
+    public double getEle() {
+        return ele;
+    }
+
+    public void setEle(double ele) {
+        this.ele = ele;
     }
 }

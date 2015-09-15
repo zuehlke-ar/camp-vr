@@ -1,5 +1,6 @@
 package com.zuehlke.vr.openStreetmap;
 
+import com.zuehlke.vr.googleMaps.Elevation;
 import com.zuehlke.vr.openStreetmap.json.*;
 import generated.osm.*;
 import generated.osm.Node;
@@ -188,6 +189,8 @@ public class ExtendedOsm {
         for (Node node : nodes) {
             json.getNodes().add(new com.zuehlke.vr.openStreetmap.json.Node(node.getId().intValue(), node.getLat(), node.getLon()));
         }
+
+        new Elevation().extendNodesWithElevation(json.getNodes());
 
         for (Way way : ways) {
             BigInteger last = null;
