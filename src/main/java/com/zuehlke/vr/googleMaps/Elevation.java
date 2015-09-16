@@ -3,11 +3,10 @@ package com.zuehlke.vr.googleMaps;
 import com.google.common.collect.Lists;
 import com.google.maps.ElevationApi;
 import com.google.maps.GeoApiContext;
-import com.google.maps.PendingResult;
 import com.google.maps.model.ElevationResult;
 import com.google.maps.model.EncodedPolyline;
 import com.google.maps.model.LatLng;
-import com.zuehlke.vr.openStreetmap.json.Node;
+import com.zuehlke.vr.domain.Node;
 
 import java.util.Iterator;
 import java.util.List;

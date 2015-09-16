@@ -15,7 +15,7 @@ public class Node
 	}
 
 	public Node(JSONObject json){
-		id = TrackGenerator.getByKey (json, "id").i;
+		id = TrackGenerator.getByKey (json, "@id").i;
 		lat = TrackGenerator.getByKey (json, "lat").n;
 		lon = TrackGenerator.getByKey (json, "lon").n;
 		ele = TrackGenerator.getByKey (json, "ele").n;
@@ -28,8 +28,14 @@ public class Track
 	public Node to;
 
 	public Track(JSONObject json, Dictionary<long, Node> nodes){
-		from = nodes[TrackGenerator.getByKey (json, "fromRef").i];
-		to = nodes[TrackGenerator.getByKey (json, "toRef").i];
+		JSONObject fromObject = TrackGenerator.getByKey (json, "from");
+		JSONObject toObject = TrackGenerator.getByKey (json, "to");
+
+		long fromRef = TrackGenerator.getByKey (fromObject, "@ref").i;
+		long toRef = TrackGenerator.getByKey (toObject, "@ref").i;
+
+		from = nodes[fromRef];
+		to = nodes[toRef];
 	}
 }
 

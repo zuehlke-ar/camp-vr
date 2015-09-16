@@ -1,7 +1,7 @@
 package com.zuehlke.vr.openStreetmap;
 
-import com.zuehlke.vr.googleMaps.Elevation;
-import com.zuehlke.vr.openStreetmap.json.*;
+import com.zuehlke.vr.domain.*;
+import com.zuehlke.vr.openStreetmap.util.CollectionUtils;
 import generated.osm.*;
 import generated.osm.Node;
 
@@ -9,14 +9,11 @@ import javax.xml.bind.JAXB;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
+import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.net.URL;
 import java.text.DecimalFormat;
 import java.util.*;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.function.Function;
-import java.util.function.Predicate;
-import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.toList;
 import static java.util.stream.Collectors.toSet;
@@ -24,12 +21,10 @@ import static java.util.stream.Collectors.toSet;
 public class ExtendedOsm {
 
     private static final String OPENSTREETMAP_API_06_URL = "http://api.openstreetmap.org/api/0.6/";
-    private static final List<Class> SORT_ORDER = Arrays.asList(Node.class, Way.class, Relation.class);
 
     private Osm osm;
     private List<Node> nodes = new ArrayList<>();
     private List<Way> ways = new ArrayList<>();
-    private List<Relation> relations = new ArrayList<>();
 
     public ExtendedOsm(File file) {
         setOsm(JAXB.unmarshal(file, Osm.class));
@@ -52,6 +47,61 @@ public class ExtendedOsm {
         }
     }
 
+    public ExtendedOsm(TrackData trackData) {
+        osm = new Osm();
+        osm.setVersion(BigDecimal.valueOf(0.6));
+        int idCounter = 1;
+
+        Map<com.zuehlke.vr.domain.Node, BigInteger> nodeMap = new HashMap<>();
+        for (com.zuehlke.vr.domain.Node domainNode : trackData.getNodes()) {
+            Node node = new Node();
+            BigInteger id = BigInteger.valueOf(idCounter++);
+            node.setId(id);
+            node.setLat((float) domainNode.getLat());
+            node.setLon((float) domainNode.getLon());
+            node.setVersion(1);
+            nodes.add(node);
+            nodeMap.put(domainNode, id);
+        }
+
+        for (Track track : trackData.getTracks()) {
+            Way way = new Way();
+            way.setId(BigInteger.valueOf(idCounter++));
+            way.setVersion(1);
+            way.setVisible(true);
+
+            Nd ndFrom = new Nd();
+            ndFrom.setRef(nodeMap.get(track.getFrom()));
+            way.getRest().add(ndFrom);
+
+            Nd ndTo = new Nd();
+            ndTo.setRef(nodeMap.get(track.getTo()));
+            way.getRest().add(ndTo);
+
+            Tag tag0 = new Tag();
+            tag0.setV("railway");
+            tag0.setK("rail");
+            way.getRest().add(tag0);
+
+            Tag tag1 = new Tag();
+            tag1.setV("operator");
+            tag1.setK("SBB");
+            way.getRest().add(tag1);
+
+            ways.add(way);
+        }
+
+        for (GpsPoint gpsPoint : trackData.getRun().getGpsPoints()) {
+            Node node = new Node();
+            BigInteger id = BigInteger.valueOf(idCounter++);
+            node.setId(id);
+            node.setLat((float) gpsPoint.getLatitude());
+            node.setLon((float) gpsPoint.getLongitude());
+            node.setVersion(1);
+            nodes.add(node);
+        }
+    }
+
     public List<Object> getObjects() {
         return osm.getBoundOrUserOrPreferences();
     }
@@ -69,61 +119,32 @@ public class ExtendedOsm {
     private void extractLists() {
         nodes.clear();
         ways.clear();
-        relations.clear();
         for (Object o : osm.getBoundOrUserOrPreferences()) {
             if (o instanceof Node) {
                 nodes.add((Node) o);
             } else if (o instanceof Way) {
                 ways.add((Way) o);
-            } else if (o instanceof Relation) {
-                relations.add((Relation) o);
             }
         }
     }
 
-//    public void clean() {
-//        List<Object> filtered = osm.getBoundOrUserOrPreferences().stream()
-//                .filter(o -> o instanceof Node || isRailRelated(o))
-//                .collect(toList());
-//
-//        final List<BigInteger> referencedIds = filtered.stream()
-//                .filter(o -> o instanceof Way)
-//                .flatMap(o -> ((Way) o).getRest().stream())
-//                .filter(o -> o instanceof Nd)
-//                .map(o -> ((Nd) o).getRef())
-//                .distinct()
-//                .collect(toList());
-//
-//        filtered = filtered.stream()
-//                .filter(o -> o instanceof Way || isReferenced(o, referencedIds))
-//                .collect(toList());
-//
-//        osm.getBoundOrUserOrPreferences().clear();
-//        osm.getBoundOrUserOrPreferences().addAll(filtered);
-//    }
-
-    public static <T> Predicate<T> distinctByKey(Function<? super T, Object> keyExtractor) {
-        Map<Object, Boolean> seen = new ConcurrentHashMap<>();
-        return t -> seen.putIfAbsent(keyExtractor.apply(t), Boolean.TRUE) == null;
+    public ExtendedOsm extractSBBTracks() {
+        CollectionUtils.filter(ways, ExtendedOsm::hasTracks);
+        CollectionUtils.filter(ways, ExtendedOsm::hasRail);
+        CollectionUtils.filter(ways, ExtendedOsm::isOperatedBySBB);
+        clean();
+        return this;
     }
 
-    public static <T> void filter(List<T> list, Predicate<T> predicate) {
-        List<T> filtered = list.stream().filter(predicate).collect(toList());
-        list.clear();
-        list.addAll(filtered);
-    }
-
-    private static boolean isRailRelated(Way way) {
-        return way.getRest().stream()
-                .flatMap(instancesOf(Tag.class))
-                .filter(t -> "railway".equals(t.getK()))
-                .findAny()
-                .isPresent();
+    public ExtendedOsm clean() {
+        removeDuplicates();
+        removeUnreferencedNodes();
+        return this;
     }
 
     private static boolean hasTracks(Way way) {
         return way.getRest().stream()
-                .flatMap(instancesOf(Tag.class))
+                .flatMap(CollectionUtils.instancesOf(Tag.class))
                 .filter(t -> "tracks".equals(t.getK()))
                 .findAny()
                 .isPresent();
@@ -131,7 +152,7 @@ public class ExtendedOsm {
 
     private static boolean hasRail(Way way) {
         return way.getRest().stream()
-                .flatMap(instancesOf(Tag.class))
+                .flatMap(CollectionUtils.instancesOf(Tag.class))
                 .filter(t -> "railway".equals(t.getK()) && "rail".equals(t.getV()))
                 .findAny()
                 .isPresent();
@@ -139,113 +160,89 @@ public class ExtendedOsm {
 
     private static boolean isOperatedBySBB(Way way) {
         return way.getRest().stream()
-                .flatMap(instancesOf(Tag.class))
+                .flatMap(CollectionUtils.instancesOf(Tag.class))
                 .filter(t -> "operator".equals(t.getK()) && "SBB".equals(t.getV()))
                 .findAny()
                 .isPresent();
     }
 
-    private boolean isReferenced(Object o, List<BigInteger> ids) {
-        return o instanceof Node && ids.contains(((Node) o).getId());
-    }
+    public ExtendedOsm normalizeIds() {
+        int idCounter = 1; // 0 is not allowed in OSM
 
-    public void removeNonSBBRails() {
-        filter(ways, ExtendedOsm::hasTracks);
-        filter(ways, ExtendedOsm::hasRail);
-        filter(ways, ExtendedOsm::isOperatedBySBB);
-        removeUnreferencedNodes();
-        relations.clear();
+        Map<BigInteger, BigInteger> ids = new TreeMap<>();
+        for (Node node : nodes) {
+            BigInteger newId = BigInteger.valueOf(idCounter++);
+            ids.put(node.getId(), newId);
+            node.setId(newId);
+        }
+        for (Way way : ways) {
+            BigInteger newId = BigInteger.valueOf(idCounter++);
+            ids.put(way.getId(), newId);
+            way.setId(newId);
+        }
+
+        ways.stream()
+                .flatMap(w -> w.getRest().stream())
+                .flatMap(CollectionUtils.instancesOf(Nd.class))
+                .forEach(nd -> nd.setRef(ids.get(nd.getRef())));
+        return this;
     }
 
     public void removeUnreferencedNodes() {
         Set<BigInteger> referencedIds =
                 ways.stream()
                         .flatMap(w -> w.getRest().stream())
-                        .flatMap(instancesOf(Nd.class))
+                        .flatMap(CollectionUtils.instancesOf(Nd.class))
                         .map(Nd::getRef)
                         .collect(toSet());
-        filter(nodes, n -> referencedIds.contains(n.getId()));
+        CollectionUtils.filter(nodes, n -> referencedIds.contains(n.getId()));
     }
 
     private void removeDuplicates() {
-        filter(nodes, distinctByKey(OsmBasicType::getId));
-        filter(ways, distinctByKey(OsmBasicType::getId));
-        filter(relations, distinctByKey(OsmBasicType::getId));
+        CollectionUtils.filter(nodes, CollectionUtils.distinctByKey(OsmBasicType::getId));
+        CollectionUtils.filter(ways, CollectionUtils.distinctByKey(OsmBasicType::getId));
     }
 
     public void write(File file) {
-        removeDuplicates();
+//        clean();
+        normalizeIds();
         osm.getBoundOrUserOrPreferences().clear();
         osm.getBoundOrUserOrPreferences().addAll(nodes);
         osm.getBoundOrUserOrPreferences().addAll(ways);
-        osm.getBoundOrUserOrPreferences().addAll(relations);
         JAXB.marshal(osm, file);
     }
 
-    public void writeToJson(File file) throws IOException {
-        removeDuplicates();
-        TrackData json = new TrackData();
+    public TrackData toDomainObject() throws IOException {
+        clean();
 
+        TrackData trackData = new TrackData();
+
+        Map<BigInteger, com.zuehlke.vr.domain.Node> nodeMap = new HashMap<>();
         for (Node node : nodes) {
-            json.getNodes().add(new com.zuehlke.vr.openStreetmap.json.Node(node.getId().intValue(), node.getLat(), node.getLon()));
+            com.zuehlke.vr.domain.Node domainNode = new com.zuehlke.vr.domain.Node(node.getLat(), node.getLon());
+            nodeMap.put(node.getId(), domainNode);
+            trackData.getNodes().add(domainNode);
         }
 
-        new Elevation().extendNodesWithElevation(json.getNodes());
+//        new Elevation().extendNodesWithElevation(json.getNodes());
 
         for (Way way : ways) {
-            BigInteger last = null;
+            com.zuehlke.vr.domain.Node last = null;
             for (BigInteger id : getRefs(way)) {
+                com.zuehlke.vr.domain.Node node = nodeMap.get(id);
                 if (last != null) {
-                    json.getTracks().add(new Track(last.intValue(), id.intValue()));
+                    trackData.getTracks().add(new Track(last, node));
                 }
-                last = id;
+                last = node;
             }
         }
-
-        json.toFile(file);
+        return trackData;
     }
 
-
-    public Optional<Node> getNodeById(String id) {
-        return getNodeById(new BigInteger(id));
-    }
-
-    public List<BigInteger> getRefs(Way way) {
+    private List<BigInteger> getRefs(Way way) {
         return way.getRest().stream()
-                .flatMap(instancesOf(Nd.class))
+                .flatMap(CollectionUtils.instancesOf(Nd.class))
                 .map(Nd::getRef)
                 .collect(toList());
-    }
-
-    public void addNode(long id, double lat, double lon) {
-        Node node = new Node();
-        node.setId(BigInteger.valueOf(id + 1));
-        node.setLat((float) lat);
-        node.setLon((float) lon);
-        node.setVersion(1);
-        osm.getBoundOrUserOrPreferences().add(0, node);
-    }
-
-    public void addNode(Node node) {
-        osm.getBoundOrUserOrPreferences().add(0, node);
-    }
-
-    public void addWay(Way way) {
-        osm.getBoundOrUserOrPreferences().add(way);
-    }
-
-    public Optional<Node> getNodeById(BigInteger id) {
-        Optional<Node> node = osm.getBoundOrUserOrPreferences().stream()
-                .filter(o -> o instanceof Node)
-                .map(o -> (Node) o)
-                .filter(n -> n.getId().equals(id))
-                .findFirst();
-        return node;
-    }
-
-    public static <E> Function<Object, Stream<E>> instancesOf(Class<E> cls) {
-        return o -> cls.isInstance(o)
-                ? Stream.of(cls.cast(o))
-                : Stream.empty();
     }
 }
