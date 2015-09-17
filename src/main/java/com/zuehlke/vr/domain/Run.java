@@ -8,7 +8,7 @@ public class Run {
     private String name;
     private long timestamp;
     private List<Point> points = new ArrayList<>();
-    private List<GpsPoint2> gpsPoints = new ArrayList<>();
+    private List<GpsPoint> gpsPoints = new ArrayList<>();
 
     public Run name(final String name) {
         this.name = name;
@@ -54,11 +54,11 @@ public class Run {
         this.points = points;
     }
 
-    public List<GpsPoint2> getGpsPoints() {
+    public List<GpsPoint> getGpsPoints() {
         return gpsPoints;
     }
 
-    public void setGpsPoints(List<GpsPoint2> gpsPoints) {
+    public void setGpsPoints(List<GpsPoint> gpsPoints) {
         this.gpsPoints = gpsPoints;
     }
 }

@@ -92,7 +92,7 @@ public class ExtendedOsm {
             ways.add(way);
         }
 
-        for (GpsPoint2 gpsPoint : trackData.getRun().getGpsPoints()) {
+        for (GpsPoint gpsPoint : trackData.getRun().getGpsPoints()) {
             Node node = new Node();
             BigInteger id = BigInteger.valueOf(idCounter++);
             node.setId(id);

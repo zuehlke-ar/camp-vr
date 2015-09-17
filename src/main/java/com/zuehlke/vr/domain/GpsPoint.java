@@ -1,10 +1,10 @@
 package com.zuehlke.vr.domain;
 
-public class GpsPoint2 extends Node{
+public class GpsPoint extends Node{
     private long timeStamp;
     private double accuracy;
 
-    public GpsPoint2(long timeStamp, double lat, double lon, double ele, double accuracy) {
+    public GpsPoint(long timeStamp, double lat, double lon, double ele, double accuracy) {
         super(lat,lon);
         setEle(ele);
         this.timeStamp = timeStamp;
