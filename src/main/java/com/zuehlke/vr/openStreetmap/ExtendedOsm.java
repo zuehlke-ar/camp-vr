@@ -1,7 +1,6 @@
 package com.zuehlke.vr.openStreetmap;
 
 import com.zuehlke.vr.domain.*;
-import com.zuehlke.vr.googleMaps.Elevation;
 import com.zuehlke.vr.openStreetmap.util.CollectionUtils;
 import generated.osm.*;
 import generated.osm.Node;
@@ -93,7 +92,7 @@ public class ExtendedOsm {
             ways.add(way);
         }
 
-        for (GpsPoint gpsPoint : trackData.getRun().getGpsPoints()) {
+        for (GpsPoint2 gpsPoint : trackData.getRun().getGpsPoints()) {
             Node node = new Node();
             BigInteger id = BigInteger.valueOf(idCounter++);
             node.setId(id);

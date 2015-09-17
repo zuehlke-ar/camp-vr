@@ -64,7 +64,7 @@ public class Main {
     }
 
     public static void calculateRun(TrackData trackData) {
-        for (GpsPoint gpsPoint : trackData.getRun().getGpsPoints()) {
+        for (GpsPoint2 gpsPoint : trackData.getRun().getGpsPoints()) {
             double minDist = Double.MAX_VALUE;
             Track nearestTrack = null;
             double[] nearestPoint = null;
@@ -103,7 +103,7 @@ public class Main {
     }
 
     public static void main1(String[] args) throws IOException {
-        List<GpsPoint> GpsPoints = Klm.getDataPointsFromKlmFile(new File("data/Winterthur - Hardbruecke.kml"));
+        List<GpsPoint2> GpsPoints = Klm.getDataPointsFromKlmFile(new File("data/Winterthur - Hardbruecke.kml"));
 
         File osmFile = new File("data/winti_hb_original.osm");
 //        ExtendedOsm osm = new ExtendedOsm(8.707025, 47.4664648879, 0.001);
@@ -120,7 +120,7 @@ public class Main {
         double lastLatitude = 0;
 
         for (int i = 0; i < GpsPoints.size(); i++) {
-            GpsPoint d = GpsPoints.get(i);
+            GpsPoint2 d = GpsPoints.get(i);
 //            osm.addNode(i, d.getLatitude(), d.getLongitude());
             double dist = 0.0;//haversine(lastLatitude, lastLongitude, d.getLatitude(), d.getLongitude());
 

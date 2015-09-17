@@ -1,6 +1,6 @@
 package com.zuehlke.vr.googleMaps;
 
-import com.zuehlke.vr.domain.GpsPoint;
+import com.zuehlke.vr.domain.GpsPoint2;
 import net.opengis.kml.DocumentType;
 import net.opengis.kml.KmlType;
 import net.opengis.kml.PlacemarkType;
@@ -18,14 +18,14 @@ import java.util.List;
 
 public class Klm {
 
-    public static List<GpsPoint> getDataPointsFromKlmFile(File file) {
+    public static List<GpsPoint2> getDataPointsFromKlmFile(File file) {
         KmlType kml = JAXB.unmarshal(file, KmlType.class);
 
         DocumentType doc = (DocumentType) kml.getAbstractFeatureGroup().getValue();
         PlacemarkType placemark = (PlacemarkType) doc.getAbstractFeatureGroup().get(1).getValue();
         MultiTrackType multiTrack = (MultiTrackType) placemark.getAbstractGeometryGroup().getValue();
 
-        List<GpsPoint> gpsPoints = new ArrayList<>();
+        List<GpsPoint2> gpsPoints = new ArrayList<>();
         for (TrackType track : multiTrack.getTrack()) {
             addDataPoints(track, gpsPoints);
         }
@@ -33,7 +33,7 @@ public class Klm {
         return gpsPoints;
     }
 
-    private static void addDataPoints(TrackType track, List<GpsPoint> gpsPoints) {
+    private static void addDataPoints(TrackType track, List<GpsPoint2> gpsPoints) {
         Iterator<String> when = track.getWhen().iterator();
         Iterator<String> coord = track.getCoord().iterator();
         Iterator<String> accuracy = ((SimpleArrayDataType) track.getExtendedData().getSchemaData().get(0).getSchemaDataExtension().get(2).getValue()).getValue().iterator();
@@ -43,7 +43,7 @@ public class Klm {
         }
     }
 
-    private static GpsPoint parseDataPoint(String when, String coord, String accuracy) {
+    private static GpsPoint2 parseDataPoint(String when, String coord, String accuracy) {
         String[] coordArray = coord.split(" ");
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'");
         long time = 0;
@@ -52,6 +52,6 @@ public class Klm {
         } catch (ParseException e) {
             e.printStackTrace();
         }
-        return new GpsPoint(time, Double.parseDouble(coordArray[1]), Double.parseDouble(coordArray[0]), Double.parseDouble(coordArray[2]), Double.parseDouble(accuracy));
+        return new GpsPoint2(time, Double.parseDouble(coordArray[1]), Double.parseDouble(coordArray[0]), Double.parseDouble(coordArray[2]), Double.parseDouble(accuracy));
     }
 }
