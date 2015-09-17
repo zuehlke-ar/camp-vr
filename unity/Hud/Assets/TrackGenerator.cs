@@ -96,7 +96,8 @@ public class TrackGenerator : MonoBehaviour
 		double distLat = approxDistance (origin.lat, origin.lon, node.lat, origin.lon);
 		double distLon = approxDistance (origin.lat, origin.lon, origin.lat, node.lon);
 		Vector3 vec = Quaternion.Euler (0, 90, 0) * (new Vector3 ((float)distLat, (float)(node.ele - origin.ele), (float)distLon));
-		vec += new Vector3 (-1376, 25, 723);
+//		vec += new Vector3 (-1376, 25, 723);
+		vec += new Vector3 (0, 25, 0);
 		return vec;
 	}
 

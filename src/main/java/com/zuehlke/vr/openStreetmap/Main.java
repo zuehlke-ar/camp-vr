@@ -1,10 +1,8 @@
 package com.zuehlke.vr.openStreetmap;
 
-import com.zuehlke.vr.domain.GpsPoint;
-import com.zuehlke.vr.domain.Point;
-import com.zuehlke.vr.domain.Run;
-import com.zuehlke.vr.domain.TrackData;
+import com.zuehlke.vr.domain.*;
 import com.zuehlke.vr.googleMaps.Klm;
+import com.zuehlke.vr.openStreetmap.util.GeoUtil;
 
 import java.io.File;
 import java.io.IOException;
@@ -13,7 +11,7 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        ExtendedOsm osm = new ExtendedOsm(new File("data/correlate/winti_big_track_only.osm"))
+        ExtendedOsm osm = new ExtendedOsm(new File("data/correlate/winti_big.osm"))
                 .extractSBBTracks();
         TrackData trackData = osm.toDomainObject();
 
@@ -26,8 +24,8 @@ public class Main {
         calculateRun(trackData);
 
         new ExtendedOsm(trackData)
-                .write(new File("data/correlate/winti_big_track_only_test.osm"));
-        trackData.toFile(new File("data/correlate/winti_big_track_only_test.json"));
+                .write(new File("data/correlate/winti_big_clean.osm"));
+        trackData.toFile(new File("data/correlate/winti_big_clean.json"));
 
 //        Map<GpsPoint, double[]> nearestNode = new HashMap<>();
 //
@@ -66,11 +64,42 @@ public class Main {
     }
 
     public static void calculateRun(TrackData trackData) {
-//        for (GpsPoint gpsPoint : trackData.getRun().getGpsPoints()) {
-//            Point point = new Point();
+        for (GpsPoint gpsPoint : trackData.getRun().getGpsPoints()) {
+            double minDist = Double.MAX_VALUE;
+            Track nearestTrack = null;
+            double[] nearestPoint = null;
+            double nearestEle = 0.0;
+            for (Track track : trackData.getTracks()) {
+                com.zuehlke.vr.domain.Node from = track.getFrom();
+                com.zuehlke.vr.domain.Node to = track.getTo();
+
+                double[] point = GeoUtil.getClosestPointOnSegment(from.getLon(), from.getLat(), to.getLon(), to.getLat(), gpsPoint.getLon(), gpsPoint.getLat());
+                double dist = GeoUtil.approxDistance(gpsPoint.getLat(), gpsPoint.getLon(), point[1], point[0]);
+
+                if (dist < minDist) {
+                    nearestTrack = track;
+                    minDist = dist;
+                    nearestPoint = point;
+                    nearestEle = (from.getEle() + to.getEle()) / 2.0;
+                }
+            }
+            if (nearestTrack != null) {
+                gpsPoint.setLat(nearestPoint[1]);
+                gpsPoint.setLon(nearestPoint[0]);
+                gpsPoint.setEle(nearestEle);
+//                Point point = new Point();
+//                point.debug = "" + gpsPoint.getLat() + " " + gpsPoint.getLon();
+//                point.setTimestamp(gpsPoint.getTimeStamp());
+//                point.setTrack(nearestTrack);
 //
-//            trackData.getRun().getPoints().add(point);
-//        }
+//                double whole = GeoUtil.approxDistance(nearestTrack.getFrom().getLat(), nearestTrack.getFrom().getLon(), nearestTrack.getTo().getLat(), nearestTrack.getTo().getLon());
+//                double fract = GeoUtil.approxDistance(nearestTrack.getFrom().getLat(), nearestTrack.getFrom().getLon(), nearestPoint[1], nearestPoint[0]);
+//                point.setPosition(fract / whole);
+//
+////                trackData.getNodes().add(gpsPoint);
+//                trackData.getRun().getPoints().add(point);
+            }
+        }
     }
 
     public static void main1(String[] args) throws IOException {
@@ -100,8 +129,8 @@ public class Main {
 //                ExtendedOsm localOsm = new ExtendedOsm(d.getLongitude(), d.getLatitude(), 0.0015);
 //                osm.append(localOsm);
 //                localOsm.write(new File("data\\temp" + i + ".osm"));
-                lastLongitude = d.getLongitude();
-                lastLatitude = d.getLatitude();
+                lastLongitude = d.getLon();
+                lastLatitude = d.getLat();
             }
         }
 

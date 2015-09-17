@@ -1,6 +1,7 @@
 package com.zuehlke.vr.openStreetmap;
 
 import com.zuehlke.vr.domain.*;
+import com.zuehlke.vr.googleMaps.Elevation;
 import com.zuehlke.vr.openStreetmap.util.CollectionUtils;
 import generated.osm.*;
 import generated.osm.Node;
@@ -79,13 +80,14 @@ public class ExtendedOsm {
             way.getRest().add(ndTo);
 
             Tag tag0 = new Tag();
-            tag0.setV("railway");
-            tag0.setK("rail");
+            tag0.setK("railway");
+            tag0.setV("rail");
             way.getRest().add(tag0);
 
             Tag tag1 = new Tag();
-            tag1.setV("operator");
-            tag1.setK("SBB");
+            tag1.setK("operator");
+            tag1.setV("SBB");
+
             way.getRest().add(tag1);
 
             ways.add(way);
@@ -95,8 +97,8 @@ public class ExtendedOsm {
             Node node = new Node();
             BigInteger id = BigInteger.valueOf(idCounter++);
             node.setId(id);
-            node.setLat((float) gpsPoint.getLatitude());
-            node.setLon((float) gpsPoint.getLongitude());
+            node.setLat((float) gpsPoint.getLat());
+            node.setLon((float) gpsPoint.getLon());
             node.setVersion(1);
             nodes.add(node);
         }
@@ -224,7 +226,7 @@ public class ExtendedOsm {
             trackData.getNodes().add(domainNode);
         }
 
-//        new Elevation().extendNodesWithElevation(json.getNodes());
+//        new Elevation().extendNodesWithElevation(new ArrayList<>(nodeMap.values()));
 
         for (Way way : ways) {
             com.zuehlke.vr.domain.Node last = null;

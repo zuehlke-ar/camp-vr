@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Map;
 
 public class Point {
+    public String debug;
     private long timestamp;
     private Track track;
     private double position;
