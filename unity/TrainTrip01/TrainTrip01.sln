@@ -1,6 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
+Project("{FA4B43A2-C558-293D-4338-E287FFB0BFBB}") = "TrainTrip01", "Assembly-CSharp-firstpass.csproj", "{C1F975EA-F08E-0B4E-5E05-3AF06D7D8547}"
+EndProject
 Project("{FA4B43A2-C558-293D-4338-E287FFB0BFBB}") = "TrainTrip01", "Assembly-CSharp.csproj", "{44613640-413C-953F-9B43-189EBBC06A1A}"
 EndProject
 Project("{FA4B43A2-C558-293D-4338-E287FFB0BFBB}") = "TrainTrip01", "Assembly-CSharp-Editor.csproj", "{5C27310C-D2C1-E00E-92D2-25A37B2833C5}"
@@ -11,6 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1F975EA-F08E-0B4E-5E05-3AF06D7D8547}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1F975EA-F08E-0B4E-5E05-3AF06D7D8547}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1F975EA-F08E-0B4E-5E05-3AF06D7D8547}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1F975EA-F08E-0B4E-5E05-3AF06D7D8547}.Release|Any CPU.Build.0 = Release|Any CPU
 		{44613640-413C-953F-9B43-189EBBC06A1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{44613640-413C-953F-9B43-189EBBC06A1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44613640-413C-953F-9B43-189EBBC06A1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -23,7 +29,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-															GlobalSection(MonoDevelopProperties) = preSolution
+																												GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

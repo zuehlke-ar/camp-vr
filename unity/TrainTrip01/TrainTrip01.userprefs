@@ -1,8 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\TrackGenerator.cs">
     <Files>
-      <File FileName="Assets\Scripts\TrackGenerator.cs" Line="30" Column="17" />
+      <File FileName="Assets\Scripts\TrackGenerator.cs" Line="142" Column="4" />
+      <File FileName="Assets\Plugins\Pixelplacement\iTween\Sample\MoveSample.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GpsPoint.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Node.cs" Line="42" Column="37" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

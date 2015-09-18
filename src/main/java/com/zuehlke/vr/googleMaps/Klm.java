@@ -30,7 +30,18 @@ public class Klm {
             addDataPoints(track, gpsPoints);
         }
 
-        return gpsPoints;
+        GpsPoint lastPoint = null;
+        List<GpsPoint> cleanedList = new ArrayList<>();
+        for (GpsPoint gpsPoint : gpsPoints) {
+            if (lastPoint != null) {
+                if (lastPoint.getLat() == gpsPoint.getLat() && lastPoint.getLon() == gpsPoint.getLon()) {
+                    continue;
+                }
+            }
+            cleanedList.add(gpsPoint);
+            lastPoint = gpsPoint;
+        }
+        return cleanedList;
     }
 
     private static void addDataPoints(TrackType track, List<GpsPoint> gpsPoints) {

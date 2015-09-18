@@ -1,6 +1,7 @@
 package com.zuehlke.vr.openStreetmap;
 
 import com.zuehlke.vr.domain.*;
+import com.zuehlke.vr.googleMaps.Elevation;
 import com.zuehlke.vr.openStreetmap.util.CollectionUtils;
 import generated.osm.*;
 import generated.osm.Node;
@@ -225,7 +226,7 @@ public class ExtendedOsm {
             trackData.getNodes().add(domainNode);
         }
 
-//        new Elevation().extendNodesWithElevation(new ArrayList<>(nodeMap.values()));
+        new Elevation().extendNodesWithElevation(new ArrayList<>(nodeMap.values()));
 
         for (Way way : ways) {
             com.zuehlke.vr.domain.Node last = null;

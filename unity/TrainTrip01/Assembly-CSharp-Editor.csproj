@@ -54,6 +54,7 @@
      <None Include="Assets\OVR\Moonlight\Shaders\Unlit Crosshair.shader" />
      <None Include="Assets\OVR\Moonlight\Resources\Unlit Transparent Color.shader" />
      <None Include="Assets\TerrainComposer\Update\WorldComposer\version.txt" />
+     <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
      <None Include="Assets\TerrainComposer\Update\WorldComposer\check.txt" />
      <None Include="Assets\TerrainComposer\Update\WorldComposer\last_checked.txt" />
      <None Include="Assets\TerrainComposer\Templates\Drawing_tc.shader" />
@@ -116,6 +117,8 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{C1F975EA-F08E-0B4E-5E05-3AF06D7D8547}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{44613640-413C-953F-9B43-189EBBC06A1A}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
